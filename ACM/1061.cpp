@@ -30,7 +30,7 @@ int main()
 	
 	gcd(L, n - m);
 	
-	if((x - y) % r) cout << -1 << endl;
+	if((x - y) % r) cout << "Impossible" << endl;
 	else
 	{
 		long long ret = yy * (x - y) / r;
