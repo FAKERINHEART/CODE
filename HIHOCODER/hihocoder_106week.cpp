@@ -5,11 +5,11 @@ using namespace std;
 
 struct node
 {
-	node* upper;
 	node* left;
 	node* right;
 	int value;
 	int num;
+	node(int v): left(NULL), right(NULL), value(v), num(1){};
 };
 
 node* root;
@@ -18,147 +18,99 @@ void show(node* now)
 {
 	if(now == NULL) return;
 	show(now->left);
-	cout << "qqqqq" << now->value << " " << now->num << endl;
+	cout << now->value << " " << now->num << endl;
 	show(now->right);
 	return;	
 } 
 
-void right_rotate(node* now)
+int size(node* &now)
+{
+	if(!now) return 0;
+	else return now->num;
+}
+
+void right_rotate(node* &now)
 {
 	node* child = now->left;
-	child->upper = now->upper;	
-	
-	if(now->upper)
-	{
-		if(now->upper->left == now) now->upper->left = child;
-		else now->upper->right = child;
-	}
 	
 	now->left = child->right;
-	if(child->right) child->right->upper = now;
-	
 	child->right = now;
-	now->upper = child;
-	
 	child->num = now->num;
-	int num_left = 0, num_right = 0;
-	if(now->left) num_left = now->left->num;
-	if(now->right) num_right = now->right->num;
-	now->num = num_left + num_right + 1;
+	now->num = size(now->left) + size(now->right) + 1;
 	
-	if(child->upper == NULL) root = child;
+	now = child;	
 	
 	return;
 }
 
-void left_rotate(node* now)
+void left_rotate(node* &now)
 {
-	node* child = now->right;	
-	child->upper = now->upper;
-	
-	if(now->upper) 
-	{
-		if(now->upper->left == now) now->upper->left = child;
-		else now->upper->right = child;
-	}
-	
+	node* child = now->right;
+		
 	now->right = child->left;
-	if(child->left) child->left->upper = now;
-	
 	child->left = now;
-	now->upper = child;
-	
 	child->num = now->num;
-	int num_left = 0, num_right = 0;
-	if(now->left) num_left = now->left->num;
-	if(now->right) num_right = now->right->num;
-	now->num = num_left + num_right + 1;
+	now->num = size(now->left) + size(now->right) + 1;
 	
-	if(child->upper == NULL) root = child;
+	now = child;
 	
 	return;
 }
 
-void maintain(node* now, bool flag)
+void maintain(node* &now, bool flag)
 {
-	if(now)
+	if(!now) return;
+	if(flag == false)
 	{
-		if(flag == false)
+		if(now->left && size(now->left->left) > size(now->right))
 		{
-			if(now->left && now->left->left && now->right && now->left->left->num > now->right->num)
-			{
-				right_rotate(now);
-				maintain(now, true);
-			}
-			else if(now->left && now->left->right && now->right && now->left->right->num > now->right->num)
-			{
-				left_rotate(now->left);
-				right_rotate(now);
-				maintain(now->upper->left, false);
-				maintain(now->upper->right, true);
-			}
-			else return;
+			right_rotate(now);
+			maintain(now->right, true);
 		}
-		else
+		else if(now->left && size(now->left->right) > size(now->right))
 		{
-			if(now->right && now->right->right && now->left && now->right->right->num > now->left->num)
-			{
-				left_rotate(now);
-				maintain(now, false);
-			}
-			else if(now->right && now->right->left && now->left && now->right->left->num > now->left->num)
-			{
-				right_rotate(now->right);
-				left_rotate(now);
-				maintain(now->upper->left, false);
-				maintain(now->upper->right, true);
-			}
-			else return;
+			left_rotate(now->left);
+			right_rotate(now);
+			maintain(now->left, false);
+			maintain(now->right, true);
 		}
-		maintain(now->upper, false);
-		maintain(now->upper, true);
+		else return;
 	}
+	else
+	{
+		if(now->right && size(now->right->right) > size(now->left))
+		{
+			left_rotate(now);
+			maintain(now->left, false);
+		}
+		else if(now->right && size(now->right->left) > size(now->left))
+		{
+			right_rotate(now->right);
+			left_rotate(now);
+			maintain(now->left, false);
+			maintain(now->right, true);
+		}
+		else return;
+	}
+	maintain(now, false);
+	maintain(now, true);
 	
 	return;
 }
-
 
 node* insert(node* &now, int v)
 {
-	if(now == NULL)
+	if(!now)
 	{
-		now = new node();
-		now->left = now->right = now->upper = NULL;
-		now->value = v;
-		now->num = 1;
+		now = new node(v);
 		return now;
 	}
 	else
 	{
-		now->num = now->num + 1;
-		node* child = NULL;
-		if(now->value > v)
-		{
-			if(now->left) child = insert(now->left, v);
-			else
-			{
-				insert(child, v);
-				child->upper = now;
-				now->left = child;
-			}
-			
-		}
-		else
-		{
-			if(now->right) child = insert(now->right, v);
-			else
-			{
-				insert(child, v);
-				child->upper = now;
-				now->right = child;
-			}
-			
-		}
+		++(now->num);
+		node* child;
+		if(now->value > v) child = insert(now->left, v);
+		else child = insert(now->right, v);
 		maintain(now, now->value <= v);
 		return child;
 	}
@@ -166,19 +118,12 @@ node* insert(node* &now, int v)
 
 void query(node* now, int order)
 {
-	if(now->left)
-	{
-		if(now->left->num == order - 1) cout << now->value << endl;
-		else if(now->left->num >= order) query(now->left, order);
-		else query(now->right, order - 1 - now->left->num);
-	}
-	else
-	{
-		if(order == 1) cout << now->value << endl;
-		else query(now->right, order - 1);
-	}
+	if(size(now->left) + 1 == order) cout << now->value << endl;
+	else if(size(now->left) + 1 > order) query(now->left, order);
+	else query(now->right, order - 1 - size(now->left));
 	return;
 }
+
 
 node* next_element(node* now)//Ñ°ÕÒnowµÄnext 
 {
@@ -222,8 +167,12 @@ bool remove(node* now, int v)
 		node* pre = previous_element(now);
 		if(pre == NULL) 
 		{
-			now->right->upper = now->upper;
-			delete now;
+			node* temp_now = now;
+			now->right = now->right->right;
+			now->left = now->right->left;
+			now->num = now->right->num;
+			now->value = now->right->value;
+			delete temp_now;
 			return true;
 		}
 		else
@@ -231,17 +180,18 @@ bool remove(node* now, int v)
 			now->value = pre->value;
 			now->num = now->num - 1;
 			
-			if(pre->upper != now) 
+			if(now->left != pre) 
 			{
-				pre->upper->right = NULL;
 				node* temp = now->left;
-				while(temp != pre)
+				while(temp->right != pre)
 				{
-					temp->num = temp->num - 1;
+					--(temp->num);
 					temp = temp->right;
 				}
+				--(temp->num);
+				temp->right = NULL;
 			}
-			else pre->upper->left = NULL;
+			else now->left = NULL;
 			
 			delete pre;
 			return true;
