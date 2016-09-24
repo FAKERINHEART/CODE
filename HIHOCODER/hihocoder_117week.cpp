@@ -1,0 +1,105 @@
+#include <iostream>
+#include <cstring>
+#include <deque>
+
+using namespace std;
+
+int T;
+int P, Q;
+int N, M;
+int capacity[500][500];
+int source, terminal;
+
+void EdmondsKarp()
+{   
+    deque<int> q;
+    int flow[M], pre[M], MaxFlow = 0;
+    while(1)
+    {
+        q.clear();
+        for(int i = 0; i < M; i++) pre[i] = -1;
+        memset(flow, 0, sizeof(flow));
+
+        pre[0] = 0;
+        flow[0] = 1 << 30;
+
+        int temp;
+        q.push_back(0);
+        while(!q.empty())
+        {
+            temp = q.front();
+
+            if(temp == terminal) break;
+            else
+            {
+                for(int i = 0; i < M; i++)
+                {
+                    if(pre[i] == -1 && capacity[temp][i])
+                    {
+                        pre[i] = temp;
+                        flow[i] = min(flow[temp], capacity[temp][i]);
+                        q.push_back(i);
+                    }
+                }
+            }
+            q.pop_front();
+        }
+
+        if(pre[terminal] == -1) break;
+        else
+        {
+            MaxFlow += flow[terminal];
+            for(int i = terminal; i != source; i = pre[i])
+            {
+                capacity[pre[i]][i] -= flow[terminal];
+                capacity[i][pre[i]] += flow[terminal];
+            }
+        }
+    }
+
+	bool flag = true;
+    for(int i = P + 1; i <= P + Q; ++i)
+    {
+    	if(capacity[i][P + Q + 1])
+    	{
+    		flag = false;
+    		break;
+		}
+	}
+	if(flag) cout << "Yes" << endl;
+	else cout << "No" << endl;
+    return;
+}
+
+int main()
+{
+	int temp, temp2;
+	cin >> T;
+	while(T--)
+	{
+		memset(capacity, 0, sizeof(capacity));
+		cin >> P >> Q;
+		for(int i = 1; i <= Q; ++i) 
+		{
+			cin >> temp;
+			capacity[P + i][P + Q + 1] = temp;
+		}
+		for(int i = 1; i <= P; ++i)
+		{
+			cin >> temp;
+			capacity[0][i] = temp;
+			cin >> temp;
+			for(int j = 1; j <= temp; j++)
+			{
+				cin >> temp2;
+				capacity[i][P + temp2] = 1;
+			}
+		}
+		M = P + Q + 2;
+		source = 0;
+		terminal = M - 1;
+		EdmondsKarp();
+	}
+    return 0;
+}
+
