@@ -6,7 +6,7 @@
 
 using namespace std;
 
-const int MAXL = 1000000;
+const int MAXL = 100000;
 string S;//字符串S 
 int n;//当前的状态序号
 int maxlen[2 * MAXL + 10];//每个状态中字符串的最大长度 
@@ -113,7 +113,7 @@ int main()
 	{
 		st = add_char(S[i], st);
 	}
-
+	
 	//拓扑排序计算每个状态的endPos的个数
 	for(int i = n - 1; i >= 0; --i)
 	{
@@ -145,35 +145,87 @@ int main()
 		}
 		dq.pop_front();
 	}
-	/* 
+	
+	/*
+	for(int i = 0; i < n; ++i)
+	{
+		for(int j = 0; j < 10; ++j)
+		{
+			cout << transition[i][j] << " ";
+		}
+		cout << endl;
+	}
+	*/
+
+	/*
 	for(int i = n - 1; i >= 0; --i)
 	{
 		cout << i << " " << numEndPos[i] << endl;
 	}
-	*/ 
-	long long ans[S.length() + 1];
-	memset(ans, 0, sizeof(ans));
-	for(int i = n - 1; i >= 0; --i)
+	*/
+
+	string T;
+	int n_T;
+	bool visited[2 * MAXL + 10];
+	long long ans;
+	int N;
+	cin >> N;
+	int u_T, l_T;
+	
+	for(int i = 0; i < N; ++i)
 	{
-		ans[maxlen[i]] = max(ans[maxlen[i]], (long long)numEndPos[i]);
+		ans = 0;
+		memset(visited, 0, sizeof(visited));
+		T = "";
+		cin >> T;
+		n_T = T.length();
+		T += T.substr(0, n_T - 1);
+		u_T = 0;
+		l_T = 0;
+		//cout << T << endl;
+		
+		//cout << n_T << endl;
+		for(int j = 0; j < T.length(); ++j)
+		{
+			//cout << j << ": "<< T[j] << u_T << " " << l_T << endl;
+			
+			while(u_T != 0 && transition[u_T][T[j] - 'a'] == -1)
+			{
+				u_T = suffixlink[u_T];
+				l_T = maxlen[u_T];
+			}
+			//cout << "sss: " << u_T << " " << l_T << endl;
+			if(transition[u_T][T[j] - 'a'] != -1)
+			{
+				u_T = transition[u_T][T[j] - 'a'];
+				++l_T;
+			}
+			else
+			{
+				u_T = 0;
+				l_T = 0; 
+			}
+			//cout << u_T << " " << l_T << endl;
+			
+			if(l_T > n_T)
+			{
+				while(maxlen[suffixlink[u_T]] >= n_T)
+				{
+					//cout << "ttt" << maxlen[suffixlink[u_T]] << endl;
+					u_T = suffixlink[u_T];
+					l_T = maxlen[u_T];
+				}
+			}
+			//cout << u_T << " " << l_T << " " << visited[u_T] << endl;
+			if(l_T >= n_T && !visited[u_T])
+			{
+				visited[u_T] = true;
+				ans += numEndPos[u_T];
+			}
+			//cout << "ans: " << ans << endl;
+		}
+		
+		cout << ans << endl;
 	}
 	
-	for(int i = S.length() - 1; i >= 1; --i)
-	{
-		ans[i] = max(ans[i], ans[i + 1]);
-	}
-	for(int i = 1; i <= S.length(); ++i)
-	{
-		cout << ans[i] << endl;
-	}
-	/*
-	long long num = 0;
-	for(int i = 1; i < n; ++i)
-	{
-		num = num + maxlen[i] - minlen[i] + 1;
-		//cout << maxlen[i] << " " << minlen[i] << endl;
-	}
-	cout << num << endl;
-	*/
-	return 0;	
 } 
