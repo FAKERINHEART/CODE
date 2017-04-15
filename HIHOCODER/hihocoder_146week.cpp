@@ -3,9 +3,6 @@
 
 using namespace std;
 
-int dx[4] = {0, -1, 0, 1};
-int dy[4] = {1, 0, -1, 0};
-
 int n, m, K;
 int need[2000000];
 int ansX, ansY;
