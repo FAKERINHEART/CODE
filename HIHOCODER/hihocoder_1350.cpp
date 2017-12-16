@@ -7,11 +7,11 @@ int count(int i)
     int cnt = 0;
     
     while(i)
-	{
+    {
         if(i & 1)
         {
-        	++cnt;
-		}
+            ++cnt;
+        }
             
         i >>= 1;
     }
@@ -21,23 +21,23 @@ int count(int i)
 int main()
 {
     int x;
-   	cin >> x;
-   	
-   	int num[60];
+       cin >> x;
+       
+       int num[60];
     
     for (int i = 0; i < 60; ++i)
     {
-    	num[i] = count(i);
-	}
+        num[i] = count(i);
+    }
         
     for (int i = 0; i < 24; ++i)
-	{
+    {
         for (int j = 0; j < 60; ++j)
-		{
+        {
             if (num[i] + num[j] == x)
             {
-            	printf("%02d:%02d\n", i, j);
-			}
+                printf("%02d:%02d\n", i, j);
+            }
         }
     }
     
