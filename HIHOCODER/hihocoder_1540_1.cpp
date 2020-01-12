@@ -1,93 +1,121 @@
 #include <iostream>
 #include <vector>
+#include <cstring>
 
 int n, A[100001][5], dp[100001][121];
-int facts[]={1 , 1, 2, 6, 24, 120, 720};
-std::vector<int> trans[121];
-std::vector<int> lis[121];
+int kangtuo_facts[] = {1, 1, 2, 6, 24, 120, 720};
+std::vector<int> kangtuo_list[121];
+std::vector<int> kangtuo_trans[121];
 
-std::vector<int> reverse_kangtuo(int n, int k)
+std::vector<int> reverse_kangtuo(int n, int k) //逆康托展开
 {
-    int t, vst[8] = {0};
-    std::vector<int> s;
     --k;
+    
+    bool visited[n + 1];
+    memset(visited, false, sizeof(visited));
+    std::vector<int> kt;
+
+    for (int i = 1; i <= n; ++i)
+    {
+        int temp_num = k / kangtuo_facts[n - i];
+
+        for (int j = 1; j <= n; ++j)
+        {
+            if (visited[j] == false)
+            {
+                if (temp_num-- == 0)
+                {
+                    kt.push_back(j);
+                    visited[j] = true;
+                    break;
+                }
+            }
+        }
+
+        k %= kangtuo_facts[n - i];
+    }
+
+    return kt;
+}
+
+int kangtuo(int n, std::vector<int> a)//康托展开
+{
+    int sum = 1;
 
     for (int i = 0; i < n; ++i)
     {
-        t = k/facts[n - i - 1];
+        int t = 0;
 
-        int j;
-
-        for (j = 1; j<=n; j++)
+        for(int j = i + 1; j < n; ++j)
         {
-            if (!vst[j])
+            if (a[i] > a[j])
             {
-                if (t == 0) break;
-                --t;
-            }
-            s.push_back(j);
-        }
-
-        vst[j] = 1;
-        k %= facts[n-i-1];
-    }
-
-    return s;
-}
-
-int kangtuo(int n, std::vector<int> a)
-{
-    int i,j,t,sum;
-    sum=0;
-    for (int i=0; i<n ;++i)
-    {
-        t=0;
-        for(j=i+1;j<n;++j)
-            if( a[i]>a[j] )
                 ++t;
-        sum+=t*facts[n-i-1];
+            }
+        }
+
+        sum += t * kangtuo_facts[n - i - 1];
     }
-    return sum+1;
+
+    return sum;
 }
 
-void prep()
+
+void prepare()
 {
-    for(int i = 1; i <= 120; ++i)
+    for (int i = 1; i <= 120; ++i)
     {
-        std::vector<int> st1 = reverse_kangtuo(5, i);
-        lis[i]=st1;
-        std::vector <int> st2(5);
-        st2.assign(st1.begin()+1,st1.begin()+5);st2.push_back(0);
-        for(int j=0;j<4;j++)
-            if(st2[j]>st1[0]) st2[j]--;
-        std::vector <int> st3;
-        for(int k=1;k<=5;k++)
+        kangtuo_list[i] = reverse_kangtuo(5, i);
+
+        std::vector<int> v(kangtuo_list[i].begin() + 1, kangtuo_list[i].end());
+
+        for (int j = 0; j < 4; ++j)
         {
-            st3=st2;
-            st3[4]=k;
-            for(int j=0;j<4;j++)
-                if(st3[j]>=k) st3[j]++;
-            trans[kangtuo(5,st3)].push_back(i);
+            if (v[j] > kangtuo_list[i][0])
+            {
+                --v[j];
+            }
+        }
+
+        for(int j = 1; j <= 5; ++j)
+        {
+            std::vector<int> temp_v(v);
+            temp_v.push_back(j);
+
+            for(int k = 0; k < 4; ++k)
+            {
+                if(temp_v[k] >= j)
+                {
+                    ++temp_v[k];
+                }
+            }
+                
+            kangtuo_trans[kangtuo(5, temp_v)].push_back(i);
+            //(1234)y->x(1234)
         }
     }
+    
+    return;
 }
 
 int main()
 {
-    prep();
-
-    for (int i = 0; i <= 120; ++i)
+    /*
+    std::vector<int> v = reverse_kangtuo(5, 107);
+    
+    for (int i = 0; i < v.size(); ++i)
     {
-        for (int j = 0; j < trans[i].size(); ++j)
-        {
-            std::cout << trans[i][j] << " ";
-        }
-        std::cout << std::endl;
+        std::cout << v[i] << std::endl;
     }
 
+    std::cout << kangtuo(5, v) << std::endl;
+    */
+    
+    prepare();
+    
     int T;
     std::cin >> T;
-/*
+
     while(T--)
     {
         int n;
@@ -95,7 +123,7 @@ int main()
 
         for (int i = 1; i <= n; ++i)
         {
-            std::cin >> z[i][0] >> z[i][1] >> z[i][2] >> z[i][3] >> z[i][4];
+            std::cin >> A[i][0] >> A[i][1] >> A[i][2] >> A[i][3] >> A[i][4];
         }
 
         int ans = 1 << 30;
@@ -108,25 +136,33 @@ int main()
             }
         }
 
-        for (int  j = 1; j <= 120; ++j)
+        for (int  i = 1; i <= 120; ++i)
         {
-            if (lis[j][3] > 3 && lis[j][4] > 3)
+            if (kangtuo_list[i][3] > 3 && kangtuo_list[i][4] > 3)
             {
-                dp[0][j]=0;
+                dp[0][i] = 0;
             }
         }
 
-        for(i=1;i<=n;++i)
-            for(j=1;j<=120;++j)
-                for(k=0;k<5;++k)
+        for(int i = 1; i <= n; ++i)
+        {
+            for(int j = 1; j <= 120; ++j)
+            {
+                for(int k = 0; k < 5; ++k)
                 {
-                    f[i][j]=min(f[i][j],f[i-1][trans[j][k]]+z[i][5-lis[j][2]]);
-                    if(i==n&&lis[j][3]<3&&lis[j][4]<3)
-                        ans=min(ans,f[i][j]);
+                    dp[i][j] = std::min(dp[i][j], dp[i - 1][kangtuo_trans[j][k]] + A[i][5 - kangtuo_list[j][2]]);
+
+                    if (i == n && kangtuo_list[j][3] < 3 && kangtuo_list[j][4] < 3)
+                    {
+                        ans=std::min(ans, dp[i][j]);
+                    }   
                 }
-        std::cout << ans << endl;
+            }
+        }
+
+        std::cout << ans << std::endl;
     }
-    */
+
     return 0;
 }
 
