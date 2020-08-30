@@ -32,6 +32,7 @@ A	HIHOCODER/hihocoder_152week.cpp	/^	int len = 0, A = 0, B = 0;$/;"	kind:l	line:
 A	HIHOCODER/hihocoder_1534.cpp	/^long long A[100001];$/;"	kind:v	line:4	typeref:typename:long long[100001]
 A	HIHOCODER/hihocoder_1540_1.cpp	/^int n, A[100001][5], dp[100001][121];$/;"	kind:v	line:5	typeref:typename:int[100001][5]
 A	HIHOCODER/hihocoder_1560.cpp	/^    Matrix A;$/;"	kind:l	line:62	function:main	typeref:typename:Matrix	file:
+A	HIHOCODER/hihocoder_1565.cpp	/^int A[100001];$/;"	kind:v	line:3	typeref:typename:int[100001]
 A	HIHOCODER/hihocoder_173week.cpp	/^	long long  A[N + 1], sum[N + 1];$/;"	kind:l	line:11	function:main	typeref:typename:long long[]	file:
 A	HIHOCODER/hihocoder_194week.cpp	/^	int A[110][110], B[110][110];$/;"	kind:l	line:128	function:main	typeref:typename:int[110][110]	file:
 A	HIHOCODER/hihocoder_200week.cpp	/^        int A;$/;"	kind:l	line:15	function:main	typeref:typename:int	file:
@@ -40,6 +41,7 @@ A	HIHOCODER/hihocoder_208week.cpp	/^int A[100000];$/;"	kind:v	line:5	typeref:typ
 A	HIHOCODER/hihocoder_224week.cpp	/^        std::vector<int> A;$/;"	kind:l	line:20	function:main	typeref:typename:std::vector<int>	file:
 A	HIHOCODER/hihocoder_239week.cpp	/^        int L = 0, A = 0;$/;"	kind:l	line:14	function:main	typeref:typename:int	file:
 A	HIHOCODER/hihocoder_287.cpp	/^    std::string A[50];$/;"	kind:l	line:9	function:main	typeref:typename:std::string[50]	file:
+A	HIHOCODER/hihocoder_322week.cpp	/^    std::string A, B;$/;"	kind:l	line:9	function:main	typeref:typename:std::string	file:
 A	HIHOCODER/hihocoder_67week.cpp	/^	int A[N + 1][147], B[N + 1][147], level[N + 1];$/;"	kind:l	line:11	function:main	typeref:typename:int[][147]	file:
 A	HIHOCODER/hihocoder_87week.cpp	/^		ans A = analysis_elements(0, elements.size());$/;"	kind:l	line:141	function:main	typeref:typename:ans	file:
 A0	HIHOCODER/hihocoder_1345.cpp	/^    long long A0 = ((Ax * ky.data[0][0] % MOD - Ay * kx.data[0][0] % MOD + MOD) % MOD) * QPOW((k/;"	kind:l	line:86	function:main	typeref:typename:long long	file:
@@ -75,6 +77,7 @@ B	HIHOCODER/hihocoder_194week.cpp	/^	int A[110][110], B[110][110];$/;"	kind:l	li
 B	HIHOCODER/hihocoder_207week.cpp	/^	int A, B, C, D;$/;"	kind:l	line:41	function:main	typeref:typename:int	file:
 B	HIHOCODER/hihocoder_208week.cpp	/^int B[100000];$/;"	kind:v	line:6	typeref:typename:int[100000]
 B	HIHOCODER/hihocoder_287.cpp	/^        std::string B[100], C[100];$/;"	kind:l	line:21	function:main	typeref:typename:std::string[100]	file:
+B	HIHOCODER/hihocoder_322week.cpp	/^    std::string A, B;$/;"	kind:l	line:9	function:main	typeref:typename:std::string	file:
 B	HIHOCODER/hihocoder_67week.cpp	/^	int A[N + 1][147], B[N + 1][147], level[N + 1];$/;"	kind:l	line:11	function:main	typeref:typename:int[][147][][147]	file:
 B	HIHOCODER/hihocoder_83week.cpp	/^	int n, nMale, nFemale, B;$/;"	kind:l	line:12	function:main	typeref:typename:int	file:
 B_P	ACM/1018.cpp	/^		double sum_P, B_P = 0;$/;"	kind:l	line:53	function:main	typeref:typename:double	file:
@@ -90,8 +93,10 @@ C	HIHOCODER/hihocoder_1525.cpp	/^        int C = get(X, Y) - 'A';$/;"	kind:l	lin
 C	HIHOCODER/hihocoder_207week.cpp	/^	int A, B, C, D;$/;"	kind:l	line:41	function:main	typeref:typename:int	file:
 C	HIHOCODER/hihocoder_234week.cpp	/^        int R, C;$/;"	kind:l	line:29	function:main	typeref:typename:int	file:
 C	HIHOCODER/hihocoder_287.cpp	/^        std::string B[100], C[100];$/;"	kind:l	line:21	function:main	typeref:typename:std::string[100][100]	file:
+C	HIHOCODER/hihocoder_316week.cpp	/^    int C[100005];$/;"	kind:l	line:19	function:main	typeref:typename:int[100005]	file:
 CASE	HIHOCODER/hihocoder_90week.cpp	/^	int CASE;$/;"	kind:l	line:28	function:main	typeref:typename:int	file:
 CODE	README.md	/^# CODE$/;"	kind:c	line:1
+CS	HIHOCODER/hihocoder_316week.cpp	/^    std::vector<int> CS[100005];$/;"	kind:l	line:20	function:main	typeref:typename:std::vector<int>[100005]	file:
 Ci	HIHOCODER/hihocoder_1494.cpp	/^        int Ci;$/;"	kind:l	line:14	function:main	typeref:typename:int	file:
 Cmp	HIHOCODER/hihocoder_1401.cpp	/^struct Cmp$/;"	kind:s	line:30	file:
 Command	HIHOCODER/hihocoder_59week.cpp	/^		string Command;$/;"	kind:m	line:21	class:Record	typeref:typename:string	file:	access:public
@@ -108,6 +113,10 @@ D	HIHOCODER/hihocoder_147week.cpp	/^bitset<30000> A[30000], B[30000], C[30000], 
 D	HIHOCODER/hihocoder_194week.cpp	/^	int H, W, D;$/;"	kind:l	line:127	function:main	typeref:typename:int	file:
 D	HIHOCODER/hihocoder_207week.cpp	/^	int A, B, C, D;$/;"	kind:l	line:41	function:main	typeref:typename:int	file:
 D	HIHOCODER/hihocoder_266week.cpp	/^            double D = dis(p[i], p[j]);$/;"	kind:l	line:59	function:main	typeref:typename:double	file:
+Data	HIHOCODER/hihocoder_321week.cpp	/^struct Data$/;"	kind:s	line:10	file:
+Data::left	HIHOCODER/hihocoder_321week.cpp	/^    int left;$/;"	kind:m	line:12	struct:Data	typeref:typename:int	file:	access:public
+Data::right	HIHOCODER/hihocoder_321week.cpp	/^    int right;$/;"	kind:m	line:13	struct:Data	typeref:typename:int	file:	access:public
+Data::value	HIHOCODER/hihocoder_321week.cpp	/^    int value;$/;"	kind:m	line:14	struct:Data	typeref:typename:int	file:	access:public
 Dot	HIHOCODER/hihocoder_51week.cpp	/^	int Dot = 1 << (num - 1);$/;"	kind:l	line:37	function:main	typeref:typename:int	file:
 E	HIHOCODER/hihocoder_112week.cpp	/^vector<edge> E[100001];$/;"	kind:v	line:15	typeref:typename:vector<edge>[100001]
 E	HIHOCODER/hihocoder_147week.cpp	/^bitset<30000> A[30000], B[30000], C[30000], D[30000], E[30000], F;$/;"	kind:v	line:8	typeref:typename:bitset<30000>[30000][30000][30000][30000][30000]
@@ -117,10 +126,13 @@ E_UNVISITED	HIHOCODER/hihocoder_1435.cpp	/^	E_UNVISITED = 0,$/;"	kind:e	line:6	e
 E_VISITED	HIHOCODER/hihocoder_1435.cpp	/^	E_VISITED = 2,$/;"	kind:e	line:8	enum:VISIT_STATUS	file:	access:public
 E_VISITING	HIHOCODER/hihocoder_1435.cpp	/^	E_VISITING = 1,$/;"	kind:e	line:7	enum:VISIT_STATUS	file:	access:public
 Edge	HIHOCODER/hihocoder_294week.cpp	/^struct Edge$/;"	kind:s	line:10	file:
+Edge	HIHOCODER/hihocoder_321week.cpp	/^struct Edge$/;"	kind:s	line:4	file:
 Edge	HIHOCODER/hihocoder_51week.cpp	/^int Edge[16384][2];$/;"	kind:v	line:5	typeref:typename:int[16384][2]
 Edge	HIHOCODER/hihocoder_55week.cpp	/^	vector<int> Edge;$/;"	kind:m	line:12	class:Node	typeref:typename:vector<int>	file:	access:public
 Edge	others/ÁÇπÁöÑÂèåËøûÈÄöÂàÜÈáèTarjan.cpp	/^	vector<int> Edge;$/;"	kind:m	line:12	class:Node	typeref:typename:vector<int>	file:	access:public
+Edge::next	HIHOCODER/hihocoder_321week.cpp	/^    int next;$/;"	kind:m	line:7	struct:Edge	typeref:typename:int	file:	access:public
 Edge::next_edge_index	HIHOCODER/hihocoder_294week.cpp	/^    int next_edge_index;$/;"	kind:m	line:13	struct:Edge	typeref:typename:int	file:	access:public
+Edge::to	HIHOCODER/hihocoder_321week.cpp	/^    int to;$/;"	kind:m	line:6	struct:Edge	typeref:typename:int	file:	access:public
 Edge::y	HIHOCODER/hihocoder_294week.cpp	/^    int y;$/;"	kind:m	line:12	struct:Edge	typeref:typename:int	file:	access:public
 EdmondsKarp	ACM/1273.cpp	/^void EdmondsKarp()$/;"	kind:f	line:11	typeref:typename:void	signature:()
 EdmondsKarp	HIHOCODER/hihocoder_115week.cpp	/^void EdmondsKarp()$/;"	kind:f	line:11	typeref:typename:void	signature:()
@@ -141,6 +153,8 @@ F	HIHOCODER/hihocoder_1500.cpp	/^long long F[2001];$/;"	kind:v	line:6	typeref:ty
 Finish	ACM/3252.cpp	/^	int Start, Finish;$/;"	kind:l	line:50	function:main	typeref:typename:int	file:
 G	HIHOCODER/hihocoder_134week.cpp	/^vector<int> G[maxn];$/;"	kind:v	line:11	typeref:typename:vector<int>[]
 G	HIHOCODER/hihocoder_1479.cpp	/^vector<int> G[100001];$/;"	kind:v	line:6	typeref:typename:vector<int>[100001]
+GX	HIHOCODER/hihocoder_1570.cpp	/^                    int GX = (X[i] + X[j] + X[k]), GY = (Y[i] + Y[j] + Y[k]);$/;"	kind:l	line:38	function:main	typeref:typename:int	file:
+GY	HIHOCODER/hihocoder_1570.cpp	/^                    int GX = (X[i] + X[j] + X[k]), GY = (Y[i] + Y[j] + Y[k]);$/;"	kind:l	line:38	function:main	typeref:typename:int	file:
 Gauss	HIHOCODER/hihocoder_194week.cpp	/^bool Gauss()  $/;"	kind:f	line:12	typeref:typename:bool	signature:()
 H	ACM/1021.cpp	/^	int t, W, H, n, x, y;$/;"	kind:l	line:7	function:main	typeref:typename:int	file:
 H	HIHOCODER/hihocoder_1273.cpp	/^	int W, H, N;$/;"	kind:l	line:33	function:main	typeref:typename:int	file:
@@ -156,6 +170,8 @@ ID	HIHOCODER/hihocoder_1559.cpp	/^    int ID = 0;$/;"	kind:l	line:13	function:ma
 IN	HIHOCODER/hihocoder_1500.cpp	/^long long IN[2001];$/;"	kind:v	line:7	typeref:typename:long long[2001]
 IP	HIHOCODER/hihocoder_1500.cpp	/^long long IP[2001];$/;"	kind:v	line:8	typeref:typename:long long[2001]
 Id	HIHOCODER/hihocoder_64week.cpp	/^	row(int Id):childId(Id), expandLength(0){}$/;"	kind:z	line:12	function:row::row	typeref:typename:int	file:
+Init	HIHOCODER/hihocoder_1566.cpp	/^    void Init()$/;"	kind:f	line:11	struct:Person	typeref:typename:void	file:	access:public	signature:()
+JARVIS	HIHOCODER/hihocoder_316week.cpp	/^    std::vector<int> JARVIS;$/;"	kind:l	line:21	function:main	typeref:typename:std::vector<int>	file:
 K	ACM/1029.cpp	/^	int status[1001], N, K, length, num_notequal_zero, sub;$/;"	kind:l	line:9	function:main	typeref:typename:int[1001]	file:
 K	HIHOCODER/hihocoder_120week.cpp	/^int N, K;$/;"	kind:v	line:10	typeref:typename:int
 K	HIHOCODER/hihocoder_121week.cpp	/^long long N, K;$/;"	kind:v	line:12	typeref:typename:long long
@@ -176,6 +192,7 @@ K	HIHOCODER/hihocoder_146week.cpp	/^int n, m, K;$/;"	kind:v	line:6	typeref:typen
 K	HIHOCODER/hihocoder_1542.cpp	/^int N, K;$/;"	kind:v	line:5	typeref:typename:int
 K	HIHOCODER/hihocoder_1558.cpp	/^int N, K;$/;"	kind:v	line:4	typeref:typename:int
 K	HIHOCODER/hihocoder_1560.cpp	/^    long long N, K;$/;"	kind:l	line:59	function:main	typeref:typename:long long	file:
+K	HIHOCODER/hihocoder_1572.cpp	/^    int N, K, X;$/;"	kind:l	line:6	function:main	typeref:typename:int	file:
 K	HIHOCODER/hihocoder_166week.cpp	/^int N, M, K, sx, sy, ex, ey;$/;"	kind:v	line:18	typeref:typename:int
 K	HIHOCODER/hihocoder_178week.cpp	/^        int K;$/;"	kind:l	line:66	function:main	typeref:typename:int	file:
 K	HIHOCODER/hihocoder_224week.cpp	/^        int N, K;$/;"	kind:l	line:17	function:main	typeref:typename:int	file:
@@ -184,6 +201,9 @@ K	HIHOCODER/hihocoder_260week.cpp	/^    int N, M, K;$/;"	kind:l	line:10	function
 K	HIHOCODER/hihocoder_281week.cpp	/^    int N, K;$/;"	kind:l	line:19	function:main	typeref:typename:int	file:
 K	HIHOCODER/hihocoder_287.cpp	/^    int N, M, K;$/;"	kind:l	line:6	function:main	typeref:typename:int	file:
 K	HIHOCODER/hihocoder_295week.cpp	/^    int N, K;$/;"	kind:l	line:27	function:main	typeref:typename:int	file:
+K	HIHOCODER/hihocoder_316week.cpp	/^    int T, N, M, K;$/;"	kind:l	line:18	function:main	typeref:typename:int	file:
+K	HIHOCODER/hihocoder_318week.cpp	/^    int Q, i, j, K;$/;"	kind:l	line:22	function:main	typeref:typename:int	file:
+K	HIHOCODER/hihocoder_319week.cpp	/^    int K;$/;"	kind:l	line:6	function:main	typeref:typename:int	file:
 K	HIHOCODER/hihocoder_48week.cpp	/^	int N, M, K; $/;"	kind:l	line:38	function:main	typeref:typename:int	file:
 K	HIHOCODER/hihocoder_71week.cpp	/^	int K;$/;"	kind:l	line:18	function:main	typeref:typename:int	file:
 K	HIHOCODER/hihocoder_76week.cpp	/^int N, K, M;$/;"	kind:v	line:7	typeref:typename:int
@@ -258,6 +278,7 @@ M	HIHOCODER/hihocoder_1519.cpp	/^int N, M;$/;"	kind:v	line:5	typeref:typename:in
 M	HIHOCODER/hihocoder_1534.cpp	/^std::map<long long, long long> M;$/;"	kind:v	line:6	typeref:typename:std::map<long long,long long>
 M	HIHOCODER/hihocoder_1544.cpp	/^int N, M, T, K1, K2;$/;"	kind:v	line:4	typeref:typename:int
 M	HIHOCODER/hihocoder_1547.cpp	/^    int N, M;$/;"	kind:l	line:16	function:main	typeref:typename:int	file:
+M	HIHOCODER/hihocoder_1563.cpp	/^    int N, M;$/;"	kind:l	line:14	function:main	typeref:typename:int	file:
 M	HIHOCODER/hihocoder_159week.cpp	/^int N, M, x, y, ans = 2;$/;"	kind:v	line:6	typeref:typename:int
 M	HIHOCODER/hihocoder_160week.cpp	/^unordered_map<string, int> M;$/;"	kind:v	line:8	typeref:typename:unordered_map<string,int>
 M	HIHOCODER/hihocoder_161week.cpp	/^int N, M;$/;"	kind:v	line:6	typeref:typename:int
@@ -269,6 +290,7 @@ M	HIHOCODER/hihocoder_253week.cpp	/^int N, M;$/;"	kind:v	line:8	typeref:typename
 M	HIHOCODER/hihocoder_260week.cpp	/^    int N, M, K;$/;"	kind:l	line:10	function:main	typeref:typename:int	file:
 M	HIHOCODER/hihocoder_264week.cpp	/^    int N, M;$/;"	kind:l	line:10	function:main	typeref:typename:int	file:
 M	HIHOCODER/hihocoder_287.cpp	/^    int N, M, K;$/;"	kind:l	line:6	function:main	typeref:typename:int	file:
+M	HIHOCODER/hihocoder_316week.cpp	/^    int T, N, M, K;$/;"	kind:l	line:18	function:main	typeref:typename:int	file:
 M	HIHOCODER/hihocoder_48week.cpp	/^	int N, M, K; $/;"	kind:l	line:38	function:main	typeref:typename:int	file:
 M	HIHOCODER/hihocoder_49week.cpp	/^	int N, M, u, v;$/;"	kind:l	line:18	function:main	typeref:typename:int	file:
 M	HIHOCODER/hihocoder_50week.cpp	/^	int N, M, v1, v2;$/;"	kind:l	line:22	function:main	typeref:typename:int	file:
@@ -309,6 +331,7 @@ MAX	HIHOCODER/hihocoder_1223beta.cpp	/^	int MAX = 0, count;$/;"	kind:l	line:14	f
 MAX	HIHOCODER/hihocoder_122week.cpp	/^	int MAX = 0;$/;"	kind:l	line:66	function:solve	typeref:typename:int	file:
 MAX	HIHOCODER/hihocoder_1400.cpp	/^        int MAX = 1;$/;"	kind:l	line:33	function:main	typeref:typename:int	file:
 MAX	HIHOCODER/hihocoder_155week.cpp	/^    int N, S, E, MAX = 0;$/;"	kind:l	line:10	function:main	typeref:typename:int	file:
+MAX	HIHOCODER/hihocoder_1570.cpp	/^        int MAX = -(1 << 30), X_MAX = 0, Y_MAX = 0;$/;"	kind:l	line:17	function:main	typeref:typename:int	file:
 MAX	HIHOCODER/hihocoder_175week.cpp	/^        int MAX = 0;$/;"	kind:l	line:18	function:main	typeref:typename:int	file:
 MAX	HIHOCODER/hihocoder_266week.cpp	/^    int MAX = 0;$/;"	kind:l	line:46	function:main	typeref:typename:int	file:
 MAX	HIHOCODER/hihocoder_54week.cpp	/^	int MAX = -1;$/;"	kind:l	line:100	function:main	typeref:typename:int	file:
@@ -338,6 +361,7 @@ MIN	HIHOCODER/hihocoder_1439.cpp	/^            int MIN = 1 << 18;$/;"	kind:l	lin
 MIN	HIHOCODER/hihocoder_1439.cpp	/^            int MIN = 1 << 18;$/;"	kind:l	line:37	function:DFS	typeref:typename:int	file:
 MIN	HIHOCODER/hihocoder_1439.cpp	/^            int MIN = 1 << 18;$/;"	kind:l	line:64	function:DFS	typeref:typename:int	file:
 MIN	HIHOCODER/hihocoder_1439.cpp	/^            int MIN = 1 << 18;$/;"	kind:l	line:90	function:DFS	typeref:typename:int	file:
+MIN	HIHOCODER/hihocoder_1570.cpp	/^        int MIN = (1 << 30), X_MIN = 1 << 30, Y_MIN = 1 << 30;$/;"	kind:l	line:18	function:main	typeref:typename:int	file:
 MIN	HIHOCODER/hihocoder_160week.cpp	/^    int len = S.length(), MIN = 1 << 30;$/;"	kind:l	line:18	function:dfs	typeref:typename:int	file:
 MIN	HIHOCODER/hihocoder_164week.cpp	/^		int MIN = S.length();$/;"	kind:l	line:18	function:main	typeref:typename:int	file:
 MIN	HIHOCODER/hihocoder_66week.cpp	/^	int MIN = 20000;$/;"	kind:l	line:77	function:main	typeref:typename:int	file:
@@ -346,6 +370,11 @@ MIN_EQUAL	HIHOCODER/hihocoder_1223alpha.cpp	/^		bool MIN_EQUAL, MAX_EQUAL;$/;"	k
 MOD	HIHOCODER/hihocoder_1345.cpp	/^const long long MOD=1e9+7;$/;"	kind:v	line:6	typeref:typename:const long long
 MOD	HIHOCODER/hihocoder_1560.cpp	/^int MOD = 1e9 + 7;$/;"	kind:v	line:4	typeref:typename:int
 MOD	HIHOCODER/hihocoder_295week.cpp	/^const int MOD = 1000000007; $/;"	kind:v	line:4	typeref:typename:const int
+MODU	HIHOCODER/hihocoder_316week.cpp	/^    MODULE MODU[100005];$/;"	kind:l	line:22	function:main	typeref:typename:MODULE[100005]	file:
+MODULE	HIHOCODER/hihocoder_316week.cpp	/^struct MODULE$/;"	kind:s	line:5	file:
+MODULE::P	HIHOCODER/hihocoder_316week.cpp	/^    int V, P, T;$/;"	kind:m	line:7	struct:MODULE	typeref:typename:int	file:	access:public
+MODULE::T	HIHOCODER/hihocoder_316week.cpp	/^    int V, P, T;$/;"	kind:m	line:7	struct:MODULE	typeref:typename:int	file:	access:public
+MODULE::V	HIHOCODER/hihocoder_316week.cpp	/^    int V, P, T;$/;"	kind:m	line:7	struct:MODULE	typeref:typename:int	file:	access:public
 M_PI	ACM/1005.cpp	/^	const double M_PI = 3.1415926535897932384626433832795;$/;"	kind:l	line:7	function:main	typeref:typename:const double	file:
 M_PI	ACM/1031.cpp	/^	const double M_PI = 3.141592654;$/;"	kind:l	line:9	function:main	typeref:typename:const double	file:
 Map	HIHOCODER/hihocoder_156week.cpp	/^    map<int, set<string> > Map;$/;"	kind:l	line:51	function:main	typeref:typename:map<int,set<string>>	file:
@@ -491,6 +520,10 @@ N	HIHOCODER/hihocoder_1558.cpp	/^int N, K;$/;"	kind:v	line:4	typeref:typename:in
 N	HIHOCODER/hihocoder_1559.cpp	/^    int N;$/;"	kind:l	line:10	function:main	typeref:typename:int	file:
 N	HIHOCODER/hihocoder_155week.cpp	/^    int N, S, E, MAX = 0;$/;"	kind:l	line:10	function:main	typeref:typename:int	file:
 N	HIHOCODER/hihocoder_1560.cpp	/^    long long N, K;$/;"	kind:l	line:59	function:main	typeref:typename:long long	file:
+N	HIHOCODER/hihocoder_1563.cpp	/^    int N, M;$/;"	kind:l	line:14	function:main	typeref:typename:int	file:
+N	HIHOCODER/hihocoder_1565.cpp	/^    int N, Q;$/;"	kind:l	line:8	function:main	typeref:typename:int	file:
+N	HIHOCODER/hihocoder_1570.cpp	/^        int N, U;$/;"	kind:l	line:13	function:main	typeref:typename:int	file:
+N	HIHOCODER/hihocoder_1572.cpp	/^    int N, K, X;$/;"	kind:l	line:6	function:main	typeref:typename:int	file:
 N	HIHOCODER/hihocoder_159week.cpp	/^int N, M, x, y, ans = 2;$/;"	kind:v	line:6	typeref:typename:int
 N	HIHOCODER/hihocoder_161week.cpp	/^int N, M;$/;"	kind:v	line:6	typeref:typename:int
 N	HIHOCODER/hihocoder_163week.cpp	/^	long long seq = 0, N;$/;"	kind:l	line:12	function:main	typeref:typename:long long	file:
@@ -528,6 +561,10 @@ N	HIHOCODER/hihocoder_285week.cpp	/^        int N, R;$/;"	kind:l	line:15	functio
 N	HIHOCODER/hihocoder_287.cpp	/^    int N, M, K;$/;"	kind:l	line:6	function:main	typeref:typename:int	file:
 N	HIHOCODER/hihocoder_295week.cpp	/^    int N, K;$/;"	kind:l	line:27	function:main	typeref:typename:int	file:
 N	HIHOCODER/hihocoder_299week.cpp	/^    int N;$/;"	kind:l	line:6	function:main	typeref:typename:int	file:
+N	HIHOCODER/hihocoder_312week.cpp	/^    int N;$/;"	kind:l	line:35	function:main	typeref:typename:int	file:
+N	HIHOCODER/hihocoder_316week.cpp	/^    int T, N, M, K;$/;"	kind:l	line:18	function:main	typeref:typename:int	file:
+N	HIHOCODER/hihocoder_318week.cpp	/^int N, g[21][401][401], a[201][201], ans;$/;"	kind:v	line:3	typeref:typename:int
+N	HIHOCODER/hihocoder_321week.cpp	/^    int N;$/;"	kind:l	line:114	function:main	typeref:typename:int	file:
 N	HIHOCODER/hihocoder_48week.cpp	/^	int N, M, K; $/;"	kind:l	line:38	function:main	typeref:typename:int	file:
 N	HIHOCODER/hihocoder_49week.cpp	/^	int N, M, u, v;$/;"	kind:l	line:18	function:main	typeref:typename:int	file:
 N	HIHOCODER/hihocoder_50week.cpp	/^	int N, M, v1, v2;$/;"	kind:l	line:22	function:main	typeref:typename:int	file:
@@ -646,9 +683,18 @@ P	HIHOCODER/hihocoder_1439.cpp	/^        int P;$/;"	kind:l	line:152	function:mai
 P	HIHOCODER/hihocoder_1548.cpp	/^bool ok(std::pair<int,int> P)$/;"	kind:z	line:15	function:ok	typeref:typename:std::pair<int,int>	file:
 P	HIHOCODER/hihocoder_1548.cpp	/^int dis(std::pair<int,int> P)$/;"	kind:z	line:10	function:dis	typeref:typename:std::pair<int,int>	file:
 P	HIHOCODER/hihocoder_248week.cpp	/^        int S = i, P = i - 1;$/;"	kind:l	line:68	function:main	typeref:typename:int	file:
+P	HIHOCODER/hihocoder_316week.cpp	/^    int V, P, T;$/;"	kind:m	line:7	struct:MODULE	typeref:typename:int	file:	access:public
+P	HIHOCODER/hihocoder_321week.cpp	/^        int P;$/;"	kind:l	line:127	function:main	typeref:typename:int	file:
 P	HIHOCODER/hihocoder_88week.cpp	/^	int P, Q;$/;"	kind:l	line:8	function:main	typeref:typename:int	file:
 PI	HIHOCODER/hihocoder_126week.cpp	/^double const PI = 3.14159265;\/\/PI $/;"	kind:v	line:11	typeref:typename:double const
 PRECISION	HIHOCODER/hihocoder_126week.cpp	/^int const PRECISION = 6;$/;"	kind:v	line:12	typeref:typename:int const
+Person	HIHOCODER/hihocoder_1566.cpp	/^struct Person$/;"	kind:s	line:6	file:
+Person::Init	HIHOCODER/hihocoder_1566.cpp	/^    void Init()$/;"	kind:f	line:11	struct:Person	typeref:typename:void	file:	access:public	signature:()
+Person::cost	HIHOCODER/hihocoder_1566.cpp	/^    static std::map<char, int> cost;$/;"	kind:m	line:30	struct:Person	typeref:typename:std::map<char,int>	file:	access:public
+Person::cost	HIHOCODER/hihocoder_1566.cpp	/^std::map<char, int> Person::cost = {{'I', 1}, {'V', 5}, {'X', 10}, {'L', 50}, {'C', 100}, {'D', /;"	kind:m	line:34	class:Person	typeref:typename:std::map<char,int>
+Person::name	HIHOCODER/hihocoder_1566.cpp	/^    std::string name, number;$/;"	kind:m	line:8	struct:Person	typeref:typename:std::string	file:	access:public
+Person::number	HIHOCODER/hihocoder_1566.cpp	/^    std::string name, number;$/;"	kind:m	line:8	struct:Person	typeref:typename:std::string	file:	access:public
+Person::value	HIHOCODER/hihocoder_1566.cpp	/^    int value;$/;"	kind:m	line:9	struct:Person	typeref:typename:int	file:	access:public
 Point	HIHOCODER/hihocoder_1442.cpp	/^struct Point$/;"	kind:s	line:6	file:
 Point	HIHOCODER/hihocoder_225week.cpp	/^struct Point$/;"	kind:s	line:3	file:
 Point	HIHOCODER/hihocoder_234week.cpp	/^struct Point$/;"	kind:s	line:8	file:
@@ -671,8 +717,11 @@ Q	HIHOCODER/hihocoder_142week.cpp	/^	int Q, i, j, n, m, ans;$/;"	kind:l	line:9	f
 Q	HIHOCODER/hihocoder_146week.cpp	/^	int Q; $/;"	kind:l	line:62	function:main	typeref:typename:int	file:
 Q	HIHOCODER/hihocoder_1498.cpp	/^    long long N, Q;$/;"	kind:l	line:7	function:main	typeref:typename:long long	file:
 Q	HIHOCODER/hihocoder_1548.cpp	/^std::pair<int,int> Q[10], S, T;$/;"	kind:v	line:7	typeref:typename:std::pair<int,int>[10]
+Q	HIHOCODER/hihocoder_1565.cpp	/^    int N, Q;$/;"	kind:l	line:8	function:main	typeref:typename:int	file:
 Q	HIHOCODER/hihocoder_16week.cpp	/^	int Q, one, two, len;$/;"	kind:l	line:19	function:main	typeref:typename:int	file:
 Q	HIHOCODER/hihocoder_294week.cpp	/^    int Q, n;$/;"	kind:l	line:49	function:main	typeref:typename:int	file:
+Q	HIHOCODER/hihocoder_318week.cpp	/^    int Q, i, j, K;$/;"	kind:l	line:22	function:main	typeref:typename:int	file:
+Q	HIHOCODER/hihocoder_321week.cpp	/^    int Q;$/;"	kind:l	line:140	function:main	typeref:typename:int	file:
 Q	HIHOCODER/hihocoder_88week.cpp	/^	int P, Q;$/;"	kind:l	line:8	function:main	typeref:typename:int	file:
 Q	HIHOCODER/hihocoder_90week.cpp	/^		int T, L, R, N, Q;$/;"	kind:l	line:32	function:main	typeref:typename:int	file:
 QuadtreeNode	HIHOCODER/hihocoder_124week.cpp	/^struct QuadtreeNode$/;"	kind:s	line:13	file:
@@ -847,6 +896,8 @@ T	HIHOCODER/hihocoder_1548.cpp	/^std::pair<int,int> Q[10], S, T;$/;"	kind:v	line
 T	HIHOCODER/hihocoder_1549.cpp	/^    int T;$/;"	kind:l	line:66	function:main	typeref:typename:int	file:
 T	HIHOCODER/hihocoder_154week.cpp	/^	int T, W, H, N;$/;"	kind:l	line:30	function:main	typeref:typename:int	file:
 T	HIHOCODER/hihocoder_1553.cpp	/^    int T;$/;"	kind:l	line:74	function:main	typeref:typename:int	file:
+T	HIHOCODER/hihocoder_1562.cpp	/^    int T, h, m, s, t;$/;"	kind:l	line:6	function:main	typeref:typename:int	file:
+T	HIHOCODER/hihocoder_1570.cpp	/^    int T;$/;"	kind:l	line:8	function:main	typeref:typename:int	file:
 T	HIHOCODER/hihocoder_157week.cpp	/^    int T;$/;"	kind:l	line:8	function:main	typeref:typename:int	file:
 T	HIHOCODER/hihocoder_160week.cpp	/^    int T;$/;"	kind:l	line:55	function:main	typeref:typename:int	file:
 T	HIHOCODER/hihocoder_161week.cpp	/^	int T;$/;"	kind:l	line:27	function:main	typeref:typename:int	file:
@@ -858,6 +909,8 @@ T	HIHOCODER/hihocoder_239week.cpp	/^    int T;$/;"	kind:l	line:6	function:main	t
 T	HIHOCODER/hihocoder_244week.cpp	/^    int T;$/;"	kind:l	line:12	function:main	typeref:typename:int	file:
 T	HIHOCODER/hihocoder_254week.cpp	/^int T, n, a[100001];$/;"	kind:v	line:7	typeref:typename:int
 T	HIHOCODER/hihocoder_285week.cpp	/^    int T;$/;"	kind:l	line:10	function:main	typeref:typename:int	file:
+T	HIHOCODER/hihocoder_316week.cpp	/^    int T, N, M, K;$/;"	kind:l	line:18	function:main	typeref:typename:int	file:
+T	HIHOCODER/hihocoder_316week.cpp	/^    int V, P, T;$/;"	kind:m	line:7	struct:MODULE	typeref:typename:int	file:	access:public
 T	HIHOCODER/hihocoder_77week.cpp	/^	int T;$/;"	kind:l	line:8	function:main	typeref:typename:int	file:
 T	HIHOCODER/hihocoder_90week.cpp	/^		int T, L, R, N, Q;$/;"	kind:l	line:32	function:main	typeref:typename:int	file:
 TASKS	HIHOCODER/hihocoder_148week.cpp	/^    int TASKS;$/;"	kind:l	line:7	function:main	typeref:typename:int	file:
@@ -877,9 +930,12 @@ TrieNode::~TrieNode	HIHOCODER/hihocoder_1366.cpp	/^	~TrieNode()$/;"	kind:f	line:
 Tzolkin_day	ACM/1008.cpp	/^		 int Tzolkin_day, Tzolkin_month, Tzolkin_year;$/;"	kind:l	line:39	function:main	typeref:typename:int	file:
 Tzolkin_month	ACM/1008.cpp	/^		 int Tzolkin_day, Tzolkin_month, Tzolkin_year;$/;"	kind:l	line:39	function:main	typeref:typename:int	file:
 Tzolkin_year	ACM/1008.cpp	/^		 int Tzolkin_day, Tzolkin_month, Tzolkin_year;$/;"	kind:l	line:39	function:main	typeref:typename:int	file:
+U	HIHOCODER/hihocoder_1570.cpp	/^        int N, U;$/;"	kind:l	line:13	function:main	typeref:typename:int	file:
 V	ACM/1018.cpp	/^class V$/;"	kind:c	line:8	file:
 V	ACM/1157.cpp	/^	int F, V;$/;"	kind:l	line:11	function:main	typeref:typename:int	file:
 V	HIHOCODER/hihocoder_1051.cpp	/^	int V[103];$/;"	kind:l	line:10	function:main	typeref:typename:int[103]	file:
+V	HIHOCODER/hihocoder_316week.cpp	/^    int V, P, T;$/;"	kind:m	line:7	struct:MODULE	typeref:typename:int	file:	access:public
+V	HIHOCODER/hihocoder_321week.cpp	/^int V[100005], head[100005], total_edge_num;$/;"	kind:v	line:17	typeref:typename:int[100005]
 V::B	ACM/1018.cpp	/^	int B;$/;"	kind:m	line:11	class:V	typeref:typename:int	file:	access:public
 V::P	ACM/1018.cpp	/^	int P;$/;"	kind:m	line:12	class:V	typeref:typename:int	file:	access:public
 V::order	ACM/1018.cpp	/^	int order;	$/;"	kind:m	line:13	class:V	typeref:typename:int	file:	access:public
@@ -894,9 +950,17 @@ W	HIHOCODER/hihocoder_287.cpp	/^        int H, W;$/;"	kind:l	line:18	function:ma
 W	HIHOCODER/hihocoder_71week.cpp	/^	int W;	$/;"	kind:m	line:13	class:points	typeref:typename:int	file:	access:public
 X	HIHOCODER/hihocoder_1353.cpp	/^	int N, X;$/;"	kind:l	line:7	function:main	typeref:typename:int	file:
 X	HIHOCODER/hihocoder_1525.cpp	/^    int N, X, Y;$/;"	kind:l	line:105	function:main	typeref:typename:int	file:
+X	HIHOCODER/hihocoder_1570.cpp	/^        int X[N + 1], Y[N + 1];$/;"	kind:l	line:16	function:main	typeref:typename:int[]	file:
+X	HIHOCODER/hihocoder_1572.cpp	/^    int N, K, X;$/;"	kind:l	line:6	function:main	typeref:typename:int	file:
 X	HIHOCODER/hihocoder_68week.cpp	/^int X, Y;$/;"	kind:v	line:9	typeref:typename:int
+X_MAX	HIHOCODER/hihocoder_1570.cpp	/^        int MAX = -(1 << 30), X_MAX = 0, Y_MAX = 0;$/;"	kind:l	line:17	function:main	typeref:typename:int	file:
+X_MIN	HIHOCODER/hihocoder_1570.cpp	/^        int MIN = (1 << 30), X_MIN = 1 << 30, Y_MIN = 1 << 30;$/;"	kind:l	line:18	function:main	typeref:typename:int	file:
 Y	HIHOCODER/hihocoder_1525.cpp	/^    int N, X, Y;$/;"	kind:l	line:105	function:main	typeref:typename:int	file:
+Y	HIHOCODER/hihocoder_1565.cpp	/^    int op, Y, u, v;$/;"	kind:l	line:24	function:main	typeref:typename:int	file:
+Y	HIHOCODER/hihocoder_1570.cpp	/^        int X[N + 1], Y[N + 1];$/;"	kind:l	line:16	function:main	typeref:typename:int[][]	file:
 Y	HIHOCODER/hihocoder_68week.cpp	/^int X, Y;$/;"	kind:v	line:9	typeref:typename:int
+Y_MAX	HIHOCODER/hihocoder_1570.cpp	/^        int MAX = -(1 << 30), X_MAX = 0, Y_MAX = 0;$/;"	kind:l	line:17	function:main	typeref:typename:int	file:
+Y_MIN	HIHOCODER/hihocoder_1570.cpp	/^        int MIN = (1 << 30), X_MIN = 1 << 30, Y_MIN = 1 << 30;$/;"	kind:l	line:18	function:main	typeref:typename:int	file:
 _ENTRY	ACM/1025.cpp	/^	_ENTRY,  \/\/µ»¥˝Ω¯»Î¥Û¬• $/;"	kind:e	line:14	enum:STATUS_EVENT	file:	access:public
 _EXIT	ACM/1025.cpp	/^	_EXIT, \/\/µ»¥˝¿Îø™¥Û¬• $/;"	kind:e	line:15	enum:STATUS_EVENT	file:	access:public
 _Order	HIHOCODER/hihocoder_59week.cpp	/^	Order _Order[n];$/;"	kind:l	line:78	function:main	typeref:typename:Order[]	file:
@@ -997,6 +1061,9 @@ a	HIHOCODER/hihocoder_1549.cpp	/^int a[100005];$/;"	kind:v	line:5	typeref:typena
 a	HIHOCODER/hihocoder_1553.cpp	/^int a[100010], anss[100010];$/;"	kind:v	line:9	typeref:typename:int[100010]
 a	HIHOCODER/hihocoder_1560.cpp	/^    long long a[10][10];$/;"	kind:m	line:8	struct:Matrix	typeref:typename:long long[10][10]	file:	access:public
 a	HIHOCODER/hihocoder_1560.cpp	/^Matrix mod_pow(Matrix a, long long b)$/;"	kind:z	line:34	function:mod_pow	typeref:typename:Matrix	file:
+a	HIHOCODER/hihocoder_1563.cpp	/^int a[300010];$/;"	kind:v	line:3	typeref:typename:int[300010]
+a	HIHOCODER/hihocoder_1564.cpp	/^        int a, b;$/;"	kind:l	line:39	function:main	typeref:typename:int	file:
+a	HIHOCODER/hihocoder_1564.cpp	/^int n, a[100001], parent[100001];$/;"	kind:v	line:4	typeref:typename:int[100001]
 a	HIHOCODER/hihocoder_167week.cpp	/^int gcd(int a, int b)$/;"	kind:z	line:5	function:gcd	typeref:typename:int	file:
 a	HIHOCODER/hihocoder_194week.cpp	/^double a[5000][5000], b[5000], ans[5000];$/;"	kind:v	line:8	typeref:typename:double[5000][5000]
 a	HIHOCODER/hihocoder_207week.cpp	/^	int a;$/;"	kind:m	line:6	struct:node	typeref:typename:int	file:	access:public
@@ -1009,6 +1076,8 @@ a	HIHOCODER/hihocoder_266week.cpp	/^    double friend dis(const point &a, const 
 a	HIHOCODER/hihocoder_276week.cpp	/^int a[100005];$/;"	kind:v	line:3	typeref:typename:int[100005]
 a	HIHOCODER/hihocoder_281week.cpp	/^int sol(int a, int b, int c)$/;"	kind:z	line:8	function:sol	typeref:typename:int	file:
 a	HIHOCODER/hihocoder_295week.cpp	/^long long fast_mode(long long a, long long b)$/;"	kind:z	line:7	function:fast_mode	typeref:typename:long long	file:
+a	HIHOCODER/hihocoder_318week.cpp	/^int N, g[21][401][401], a[201][201], ans;$/;"	kind:v	line:3	typeref:typename:int[21][401][401][201][201]
+a	HIHOCODER/hihocoder_319week.cpp	/^    double a;$/;"	kind:l	line:10	function:main	typeref:typename:double	file:
 a	HIHOCODER/hihocoder_41week.cpp	/^int a = 1, b = 2;$/;"	kind:v	line:5	typeref:typename:int
 a	HIHOCODER/hihocoder_56week.cpp	/^double a[1010][510], b[1010], ans[510];$/;"	kind:v	line:7	typeref:typename:double[1010][510]
 a	HIHOCODER/hihocoder_57week.cpp	/^int a[30][30], b[30], ans[30];$/;"	kind:v	line:5	typeref:typename:int[30][30]
@@ -1082,6 +1151,9 @@ ans	HIHOCODER/hihocoder_1549.cpp	/^        long long ans = 0;$/;"	kind:l	line:78
 ans	HIHOCODER/hihocoder_1553.cpp	/^            long long ans = 0;$/;"	kind:l	line:127	function:main	typeref:typename:long long	file:
 ans	HIHOCODER/hihocoder_1560.cpp	/^    Matrix ans;$/;"	kind:l	line:36	function:mod_pow	typeref:typename:Matrix	file:
 ans	HIHOCODER/hihocoder_1560.cpp	/^    long long ans = 0;$/;"	kind:l	line:77	function:main	typeref:typename:long long	file:
+ans	HIHOCODER/hihocoder_1563.cpp	/^    long long ans = 1LL << 60;$/;"	kind:l	line:37	function:main	typeref:typename:long long	file:
+ans	HIHOCODER/hihocoder_1564.cpp	/^long long p[100001], ans;$/;"	kind:v	line:6	typeref:typename:long long[100001]
+ans	HIHOCODER/hihocoder_1565.cpp	/^int ans[100001];$/;"	kind:v	line:4	typeref:typename:int[100001]
 ans	HIHOCODER/hihocoder_158week.cpp	/^	long long dp[101][2], ans;$/;"	kind:l	line:5	function:main	typeref:typename:long long[101][2]	file:
 ans	HIHOCODER/hihocoder_159week.cpp	/^int N, M, x, y, ans = 2;$/;"	kind:v	line:6	typeref:typename:int
 ans	HIHOCODER/hihocoder_167week.cpp	/^	long long ans = 1;$/;"	kind:l	line:26	function:main	typeref:typename:long long	file:
@@ -1099,6 +1171,11 @@ ans	HIHOCODER/hihocoder_247.cpp	/^    double ans = 0;$/;"	kind:l	line:32	functio
 ans	HIHOCODER/hihocoder_260week.cpp	/^    int ans = -1;$/;"	kind:l	line:22	function:main	typeref:typename:int	file:
 ans	HIHOCODER/hihocoder_295week.cpp	/^    long long ans = 0;$/;"	kind:l	line:28	function:main	typeref:typename:long long	file:
 ans	HIHOCODER/hihocoder_295week.cpp	/^    long long ans = 1;$/;"	kind:l	line:9	function:fast_mode	typeref:typename:long long	file:
+ans	HIHOCODER/hihocoder_306week.cpp	/^std::pair<int, int> ans[400002];$/;"	kind:v	line:9	typeref:typename:std::pair<int,int>[400002]
+ans	HIHOCODER/hihocoder_312week.cpp	/^int ans;$/;"	kind:v	line:5	typeref:typename:int
+ans	HIHOCODER/hihocoder_316week.cpp	/^        long long ans = 0;$/;"	kind:l	line:43	function:main	typeref:typename:long long	file:
+ans	HIHOCODER/hihocoder_318week.cpp	/^int N, g[21][401][401], a[201][201], ans;$/;"	kind:v	line:3	typeref:typename:int[21][401][401][201][201]
+ans	HIHOCODER/hihocoder_319week.cpp	/^    double ans = 0;$/;"	kind:l	line:21	function:main	typeref:typename:double	file:
 ans	HIHOCODER/hihocoder_56week.cpp	/^double a[1010][510], b[1010], ans[510];$/;"	kind:v	line:7	typeref:typename:double[1010][510][1010][510]
 ans	HIHOCODER/hihocoder_57week.cpp	/^int a[30][30], b[30], ans[30];$/;"	kind:v	line:5	typeref:typename:int[30][30][30][30]
 ans	HIHOCODER/hihocoder_65week.cpp	/^	double ans;$/;"	kind:m	line:13	struct:point	typeref:typename:double	file:	access:public
@@ -1125,6 +1202,7 @@ area	HIHOCODER/hihocoder_1442.cpp	/^                    long long area = std::ab
 area	HIHOCODER/hihocoder_1525.cpp	/^    long long area = (2 * q + 1) * (2 * q + 1);\/\/ø¥ø¥…œ“ª»¶“ªπ≤’º¡À∂‡…Ÿ∏ˆµ„$/;"	kind:l	line:18	function:get	typeref:typename:long long	file:
 area	HIHOCODER/hihocoder_156week.cpp	/^                int area = 1;$/;"	kind:l	line:60	function:main	typeref:typename:int	file:
 area	HIHOCODER/hihocoder_156week.cpp	/^void dfs(int x, int y, int& area, string& shape)$/;"	kind:z	line:14	function:dfs	typeref:typename:int &	file:
+area	HIHOCODER/hihocoder_1570.cpp	/^                    int area = abs((X[j] - X[i]) * (Y[k] - Y[i]) - (X[k] - X[i]) * (Y[j] - Y[i])/;"	kind:l	line:31	function:main	typeref:typename:int	file:
 area_count	HIHOCODER/hihocoder_156week.cpp	/^    int count = 0, area_count = 0, shape_count = 0;$/;"	kind:l	line:50	function:main	typeref:typename:int	file:
 area_max	ACM/1027.cpp	/^	int area_max = 0, area;$/;"	kind:l	line:27	function:Search_Max_Area_Sub	typeref:typename:int	file:
 area_max	ACM/1027.cpp	/^	int area_max = 1;$/;"	kind:l	line:15	function:dfs	typeref:typename:int	file:
@@ -1197,6 +1275,7 @@ b	HIHOCODER/hihocoder_1535.cpp	/^    int b[30];$/;"	kind:l	line:16	function:exch
 b	HIHOCODER/hihocoder_1542.cpp	/^        int a, b;$/;"	kind:l	line:33	function:main	typeref:typename:int	file:
 b	HIHOCODER/hihocoder_1547.cpp	/^        int a, b, c;$/;"	kind:l	line:33	function:main	typeref:typename:int	file:
 b	HIHOCODER/hihocoder_1560.cpp	/^Matrix mod_pow(Matrix a, long long b)$/;"	kind:z	line:34	function:mod_pow	typeref:typename:long long	file:
+b	HIHOCODER/hihocoder_1564.cpp	/^        int a, b;$/;"	kind:l	line:39	function:main	typeref:typename:int	file:
 b	HIHOCODER/hihocoder_167week.cpp	/^int gcd(int a, int b)$/;"	kind:z	line:5	function:gcd	typeref:typename:int	file:
 b	HIHOCODER/hihocoder_194week.cpp	/^double a[5000][5000], b[5000], ans[5000];$/;"	kind:v	line:8	typeref:typename:double[5000][5000][5000]
 b	HIHOCODER/hihocoder_207week.cpp	/^	int b;$/;"	kind:m	line:7	struct:node	typeref:typename:int	file:	access:public
@@ -1357,6 +1436,7 @@ cnt	HIHOCODER/hihocoder_165week.cpp	/^int cnt[26] = {0};$/;"	kind:v	line:6	typer
 cnt	HIHOCODER/hihocoder_167week.cpp	/^		int cnt = 1;$/;"	kind:l	line:30	function:main	typeref:typename:int	file:
 cnt	HIHOCODER/hihocoder_254week.cpp	/^int g[(1 << 20) + 1][3], cnt[(1<<20) + 1];$/;"	kind:v	line:8	typeref:typename:int[][3][]
 cnt	HIHOCODER/hihocoder_261.cpp	/^int cnt[3][10];$/;"	kind:v	line:4	typeref:typename:int[3][10]
+cnt	HIHOCODER/hihocoder_316week.cpp	/^        for (int i = JARVIS.size() - 1, cnt = 0; i >= 0 && cnt < K; --i, ++cnt)$/;"	kind:l	line:82	function:main	typeref:typename:int	file:
 cnt	HIHOCODER/hihocoder_70week.cpp	/^long long cnt = 0;$/;"	kind:v	line:6	typeref:typename:long long
 cnt	HIHOCODER/hihocoder_71week.cpp	/^	int cnt;$/;"	kind:m	line:10	class:points	typeref:typename:int	file:	access:public
 cntA	HIHOCODER/hihocoder_120week.cpp	/^	int cntA[20001], cntB[20001];\/\/±Ì æ√ø∏ˆ ˝◊÷µƒº∆ ˝, “‘Ω‚æˆ»Áπ˚”–œ‡Õ¨ ˝◊÷µƒ≈≈√˚Œ Ã‚$/;"	kind:l	line:16	function:solve	typeref:typename:int[20001]	file:
@@ -1386,6 +1466,8 @@ construct	HIHOCODER/hihocoder_102week.cpp	/^bool construct()$/;"	kind:f	line:51	
 coordinate	ACM/1022.cpp	/^	int coordinate[4];$/;"	kind:m	line:10	class:Cube	typeref:typename:int[4]	file:	access:public
 coordination	ACM/1654.cpp	/^int coordination[10][2]={{0, 0}, {-1, -1}, {0, -1}, {1, -1}, {-1, 0}, {0, 0}, {1, 0}, {-1, 1}, {/;"	kind:v	line:7	typeref:typename:int[10][2]
 cord	HIHOCODER/hihocoder_82week.cpp	/^	int cord;	$/;"	kind:m	line:18	struct:node	typeref:typename:int	file:	access:public
+cost	HIHOCODER/hihocoder_1566.cpp	/^    static std::map<char, int> cost;$/;"	kind:m	line:30	struct:Person	typeref:typename:std::map<char,int>	file:	access:public
+cost	HIHOCODER/hihocoder_1566.cpp	/^std::map<char, int> Person::cost = {{'I', 1}, {'V', 5}, {'X', 10}, {'L', 50}, {'C', 100}, {'D', /;"	kind:m	line:34	class:Person	typeref:typename:std::map<char,int>
 cost	HIHOCODER/hihocoder_249week.cpp	/^            int cost = 0;$/;"	kind:l	line:113	function:search	typeref:typename:int	file:
 cost	HIHOCODER/hihocoder_249week.cpp	/^    int cost[6];$/;"	kind:m	line:19	struct:Monster	typeref:typename:int[6]	file:	access:public
 cost2	HIHOCODER/hihocoder_249week.cpp	/^            int cost2 = search(((curmask | tempmask) << 3) | tempbuff);$/;"	kind:l	line:122	function:search	typeref:typename:int	file:
@@ -1459,6 +1541,7 @@ d	HIHOCODER/hihocoder_147week.cpp	/^int a[30000], b[30000], c[30000], d[30000], 
 d	HIHOCODER/hihocoder_1530.cpp	/^    long long d = extend_gcd(b, a % b, y, x);$/;"	kind:l	line:13	function:extend_gcd	typeref:typename:long long	file:
 d	HIHOCODER/hihocoder_1547.cpp	/^        char d;$/;"	kind:l	line:34	function:main	typeref:typename:char	file:
 d	HIHOCODER/hihocoder_1548.cpp	/^int d[8][2]={{0, 1}, {1, 0}, {0, -1}, {-1, 0}, {1, 1}, {-1, 1}, {1, -1}, {-1, -1}};$/;"	kind:v	line:8	typeref:typename:int[8][2]
+d	HIHOCODER/hihocoder_1563.cpp	/^int check(int p, int d)$/;"	kind:z	line:7	function:check	typeref:typename:int	file:
 d	HIHOCODER/hihocoder_207week.cpp	/^void init(int a, int b, int c, int d)$/;"	kind:z	line:27	function:init	typeref:typename:int	file:
 d	HIHOCODER/hihocoder_90week.cpp	/^		int t, l, n, d;$/;"	kind:l	line:36	function:main	typeref:typename:int	file:
 d	HIHOCODER/hihocoder_92week_Montgomery_algorithm.cpp	/^long long exp_mod(long long d, long long m, long long p) \/\/ (d ^ m) % p$/;"	kind:z	line:22	function:exp_mod	typeref:typename:long long	file:
@@ -1484,6 +1567,7 @@ data	HIHOCODER/hihocoder_151week.cpp	/^int data[100005][3];$/;"	kind:v	line:9	ty
 data	HIHOCODER/hihocoder_18week.cpp	/^int data[1000000];$/;"	kind:v	line:8	typeref:typename:int[1000000]
 data	HIHOCODER/hihocoder_19week.cpp	/^int data[1000000];$/;"	kind:v	line:8	typeref:typename:int[1000000]
 data	HIHOCODER/hihocoder_20week.cpp	/^int data[100000];$/;"	kind:v	line:8	typeref:typename:int[100000]
+data	HIHOCODER/hihocoder_321week.cpp	/^Data data[400020];$/;"	kind:v	line:20	typeref:typename:Data[400020]
 data	HIHOCODER/hihocoder_61week.cpp	/^char data[50001];$/;"	kind:v	line:7	typeref:typename:char[50001]
 date	HIHOCODER/hihocoder_1351.cpp	/^			std::string id, date, price;$/;"	kind:l	line:19	function:main	typeref:typename:std::string	file:
 day	ACM/1008.cpp	/^		int day, month, year;$/;"	kind:l	line:14	function:main	typeref:typename:int	file:
@@ -1536,6 +1620,7 @@ direction	HIHOCODER/hihocoder_1519.cpp	/^int direction[4][2] = {{-1, 0}, {0, -1}
 direction	HIHOCODER/hihocoder_156week.cpp	/^int direction[4][2]={{0, 1}, {1, 0}, {-1, 0}, {0, -1}};$/;"	kind:v	line:12	typeref:typename:int[4][2]
 direction	HIHOCODER/hihocoder_166week.cpp	/^int direction[4][2]={-1,0,0,-1,1,0,0,1};$/;"	kind:v	line:17	typeref:typename:int[4][2]
 direction	HIHOCODER/hihocoder_90week.cpp	/^		int time = T, direction = 0, sub[2] = {0};$/;"	kind:l	line:80	function:main	typeref:typename:int	file:
+dis	HIHOCODER/hihocoder_1563.cpp	/^long long dis[300010];$/;"	kind:v	line:5	typeref:typename:long long[300010]
 dis	HIHOCODER/hihocoder_66week.cpp	/^	int dis[N][M];$/;"	kind:l	line:17	function:main	typeref:typename:int[][]	file:
 dist	HIHOCODER/hihocoder_110week.cpp	/^long long dist[101];$/;"	kind:v	line:8	typeref:typename:long long[101]
 dist	HIHOCODER/hihocoder_1354.cpp	/^int A[501], B[501], dist[501][501];$/;"	kind:v	line:8	typeref:typename:int[501][501][501][501]
@@ -1591,6 +1676,7 @@ dp	HIHOCODER/hihocoder_1500.cpp	/^    long long dp[20001];$/;"	kind:l	line:13	fu
 dp	HIHOCODER/hihocoder_1520.cpp	/^int dp[201][200000];\/\/µ⁄i∏ˆµÕŒªÃÓµƒdp[i][j]”‡ ˝Œ™j$/;"	kind:v	line:11	typeref:typename:int[201][200000]
 dp	HIHOCODER/hihocoder_1540.cpp	/^int dp[100001][6][6][2];\/\/dp[n][i][j][k], ∂‘”⁄«∞n∏ˆ»À, µ±n-1¥¶”⁄i√˚, n¥¶”⁄j√˚, kŒ™i «∑Ò–°”⁄j ±µ/;"	kind:v	line:3	typeref:typename:int[100001][6][6][2]
 dp	HIHOCODER/hihocoder_1540_1.cpp	/^int n, A[100001][5], dp[100001][121];$/;"	kind:v	line:5	typeref:typename:int[100001][5][100001][121]
+dp	HIHOCODER/hihocoder_1568.cpp	/^int dp[605][305][305];\/\/Âà∞i‰ΩçÁΩÆ‰∏∫Ê≠¢, ‰∏ÄÂÖ±Êúâj‰∏™Â∑¶Êã¨Âè∑, bad‰∏∫l$/;"	kind:v	line:3	typeref:typename:int[605][305][305]
 dp	HIHOCODER/hihocoder_158week.cpp	/^	long long dp[101][2], ans;$/;"	kind:l	line:5	function:main	typeref:typename:long long[101][2]	file:
 dp	HIHOCODER/hihocoder_162week.cpp	/^	int dp[100][100];$/;"	kind:l	line:10	function:main	typeref:typename:int[100][100]	file:
 dp	HIHOCODER/hihocoder_16week.cpp	/^int dp[20][1000000];$/;"	kind:v	line:8	typeref:typename:int[20][1000000]
@@ -1635,6 +1721,7 @@ dx	HIHOCODER/hihocoder_1504.cpp	/^           for (int dx = -2; dx <= 2; ++dx)$/;
 dx	HIHOCODER/hihocoder_151week.cpp	/^const int dx[] = {0, 0, 1,-1, 0, 0};$/;"	kind:v	line:11	typeref:typename:const int[]
 dx	HIHOCODER/hihocoder_1547.cpp	/^int dx[4] = {-1, 0, 1, 0};$/;"	kind:v	line:5	typeref:typename:int[4]
 dx	HIHOCODER/hihocoder_154week.cpp	/^				long long dx = x[i] - x[j], dy = y[i] - y[j], sr = r[i] + r[j];$/;"	kind:l	line:49	function:main	typeref:typename:long long	file:
+dx	HIHOCODER/hihocoder_1570.cpp	/^        double dx = (X_MAX - X_MIN) \/ 3.0, dy = (Y_MAX - Y_MIN) \/ 3.0;$/;"	kind:l	line:57	function:main	typeref:typename:double	file:
 dx	HIHOCODER/hihocoder_245week.cpp	/^            int dx = x + dir[j][0], dy = y + dir[j][1];$/;"	kind:l	line:47	function:main	typeref:typename:int	file:
 dy	HIHOCODER/hihocoder_1352.cpp	/^int dy[] = {1, -1, 0, 0};$/;"	kind:v	line:9	typeref:typename:int[]
 dy	HIHOCODER/hihocoder_1354.cpp	/^int dy[4] = {1, -1, 0, 0};$/;"	kind:v	line:11	typeref:typename:int[4]
@@ -1644,6 +1731,7 @@ dy	HIHOCODER/hihocoder_1504.cpp	/^               int dy = 3 - abs(dx);$/;"	kind:
 dy	HIHOCODER/hihocoder_151week.cpp	/^const int dy[] = {0, 0, 0, 0, 1,-1};$/;"	kind:v	line:12	typeref:typename:const int[]
 dy	HIHOCODER/hihocoder_1547.cpp	/^int dy[4] = {0, 1, 0, -1};$/;"	kind:v	line:6	typeref:typename:int[4]
 dy	HIHOCODER/hihocoder_154week.cpp	/^				long long dx = x[i] - x[j], dy = y[i] - y[j], sr = r[i] + r[j];$/;"	kind:l	line:49	function:main	typeref:typename:long long	file:
+dy	HIHOCODER/hihocoder_1570.cpp	/^        double dx = (X_MAX - X_MIN) \/ 3.0, dy = (Y_MAX - Y_MIN) \/ 3.0;$/;"	kind:l	line:57	function:main	typeref:typename:double	file:
 dy	HIHOCODER/hihocoder_245week.cpp	/^            int dx = x + dir[j][0], dy = y + dir[j][1];$/;"	kind:l	line:47	function:main	typeref:typename:int	file:
 dz	HIHOCODER/hihocoder_151week.cpp	/^const int dz[] = {1,-1, 0, 0, 0, 0};$/;"	kind:v	line:13	typeref:typename:const int[]
 e	ACM/1006.cpp	/^	int p, e, i, d, n = 0;$/;"	kind:l	line:7	function:main	typeref:typename:int	file:
@@ -1652,6 +1740,7 @@ e	ACM/2299.cpp	/^int MergeSort(int b, int e)$/;"	kind:z	line:35	function:MergeSo
 e	HIHOCODER/hihocoder_1401.cpp	/^        Event e = pq.top();$/;"	kind:l	line:60	function:Solve	typeref:typename:Event	file:
 e	HIHOCODER/hihocoder_1406.cpp	/^int solve(int s,int e)$/;"	kind:z	line:8	function:solve	typeref:typename:int	file:
 e	HIHOCODER/hihocoder_147week.cpp	/^int a[30000], b[30000], c[30000], d[30000], e[30000];\/\/√ø“ª∏ˆø∆ƒø“ª∏ˆ≈≈√˚Œª÷√…œµƒ»Àµƒ–Ú∫≈ $/;"	kind:v	line:7	typeref:typename:int[30000][30000][30000][30000][30000]
+e	HIHOCODER/hihocoder_306week.cpp	/^node e[400002];$/;"	kind:v	line:20	typeref:typename:node[400002]
 e	HIHOCODER/hihocoder_76week.cpp	/^vector<int> e[101];$/;"	kind:v	line:10	typeref:typename:vector<int>[101]
 e	HIHOCODER/hihocoder_90week.cpp	/^		event e[2][2 * Q];$/;"	kind:l	line:35	function:main	typeref:typename:event[2][]	file:
 e	others/MergeSort.cpp	/^int MergeSort(int b, int e)$/;"	kind:z	line:10	function:MergeSort	typeref:typename:int	file:
@@ -1663,6 +1752,7 @@ edge	HIHOCODER/hihocoder_110week.cpp	/^long long edge[40][101][101];$/;"	kind:v	
 edge	HIHOCODER/hihocoder_112week.cpp	/^class edge$/;"	kind:c	line:7	file:
 edge	HIHOCODER/hihocoder_133week_Beta.cpp	/^class edge$/;"	kind:c	line:28	file:
 edge	HIHOCODER/hihocoder_294week.cpp	/^Edge edge[100005];$/;"	kind:v	line:16	typeref:typename:Edge[100005]
+edge	HIHOCODER/hihocoder_321week.cpp	/^Edge edge[100005];$/;"	kind:v	line:18	typeref:typename:Edge[100005]
 edge	HIHOCODER/hihocoder_47week.cpp	/^class edge$/;"	kind:c	line:14	file:
 edge	HIHOCODER/hihocoder_48week.cpp	/^class edge$/;"	kind:c	line:15	file:
 edge	HIHOCODER/hihocoder_50week.cpp	/^	int** edge = new int*[N];$/;"	kind:l	line:24	function:main	typeref:typename:int **	file:
@@ -1820,8 +1910,10 @@ g	HIHOCODER/hihocoder_105week.cpp	/^	node* g;$/;"	kind:l	line:288	function:splay
 g	HIHOCODER/hihocoder_1284.cpp	/^	long long g = gcd(numN * numM, num);$/;"	kind:l	line:80	function:main	typeref:typename:long long	file:
 g	HIHOCODER/hihocoder_144week.cpp	/^	long long g = gcd(numN * numM, num);$/;"	kind:l	line:80	function:main	typeref:typename:long long	file:
 g	HIHOCODER/hihocoder_1542.cpp	/^bool g[1001][1001];$/;"	kind:v	line:4	typeref:typename:bool[1001][1001]
+g	HIHOCODER/hihocoder_1564.cpp	/^std::vector<int> g[100001];$/;"	kind:v	line:5	typeref:typename:std::vector<int>[100001]
 g	HIHOCODER/hihocoder_253week.cpp	/^char g[100][100];$/;"	kind:v	line:4	typeref:typename:char[100][100]
 g	HIHOCODER/hihocoder_254week.cpp	/^int g[(1 << 20) + 1][3], cnt[(1<<20) + 1];$/;"	kind:v	line:8	typeref:typename:int[][3]
+g	HIHOCODER/hihocoder_318week.cpp	/^int N, g[21][401][401], a[201][201], ans;$/;"	kind:v	line:3	typeref:typename:int[21][401][401]
 g	HIHOCODER/hihocoder_97week.cpp	/^long long xx, yy, g;$/;"	kind:v	line:5	typeref:typename:long long
 gendle	HIHOCODER/hihocoder_83week.cpp	/^	char gendle;$/;"	kind:l	line:21	function:main	typeref:typename:char	file:
 generator	HIHOCODER/hihocoder_103week.cpp	/^default_random_engine generator;$/;"	kind:v	line:17	typeref:typename:default_random_engine
@@ -1849,6 +1941,7 @@ h	HIHOCODER/hihocoder_1365.cpp	/^int M, N, w[100001], h[100001], first_h[100001]
 h	HIHOCODER/hihocoder_1402.cpp	/^int h, w;$/;"	kind:v	line:41	typeref:typename:int
 h	HIHOCODER/hihocoder_148week.cpp	/^	int n, w, h, p;  $/;"	kind:l	line:9	function:main	typeref:typename:int	file:
 h	HIHOCODER/hihocoder_1497.cpp	/^std::map<long long, long long> v, h, d1, d2;$/;"	kind:v	line:4	typeref:typename:std::map<long long,long long>
+h	HIHOCODER/hihocoder_1562.cpp	/^    int T, h, m, s, t;$/;"	kind:l	line:6	function:main	typeref:typename:int	file:
 h	HIHOCODER/hihocoder_243week.cpp	/^    int l = 0, ans = str.length() + 1, h = 0,i = 0, o = 0;$/;"	kind:l	line:17	function:main	typeref:typename:int	file:
 h	HIHOCODER/hihocoder_249week.cpp	/^    void set(int h, int a, char t)$/;"	kind:z	line:22	function:Monster::set	typeref:typename:int	file:
 h	HIHOCODER/hihocoder_59week.cpp	/^	int h, m, s;$/;"	kind:l	line:36	function:SecondsToTime	typeref:typename:int	file:
@@ -1866,6 +1959,7 @@ head	HIHOCODER/hihocoder_1343.cpp	/^        int head = q.front();$/;"	kind:l	lin
 head	HIHOCODER/hihocoder_1402.cpp	/^point bfs(point head, int& min_x, int& min_y, int& max_x, int& max_y)$/;"	kind:z	line:50	function:bfs	typeref:typename:point	file:
 head	HIHOCODER/hihocoder_1541.cpp	/^std::vector<int> head[100007];$/;"	kind:v	line:6	typeref:typename:std::vector<int>[100007]
 head	HIHOCODER/hihocoder_178week.cpp	/^        int head = q.front();$/;"	kind:l	line:32	function:topo	typeref:typename:int	file:
+head	HIHOCODER/hihocoder_321week.cpp	/^int V[100005], head[100005], total_edge_num;$/;"	kind:v	line:17	typeref:typename:int[100005][100005]
 head	HIHOCODER/hihocoder_47week.cpp	/^	q_node* head;$/;"	kind:m	line:31	class:q	typeref:typename:q_node *	file:	access:public
 head	HIHOCODER/hihocoder_48week.cpp	/^	q_node* head;$/;"	kind:m	line:32	class:q	typeref:typename:q_node *	file:	access:public
 height	ACM/1009.cpp	/^int width, height;\/\/ÕºœÒøÌ∂»,∏ﬂ∂» $/;"	kind:v	line:6	typeref:typename:int
@@ -2566,9 +2660,29 @@ i	HIHOCODER/hihocoder_155week.cpp	/^    for(int i = 0; i< t.size(); ++i)$/;"	kin
 i	HIHOCODER/hihocoder_1560.cpp	/^    for (int i = 0; i < 10; ++i)$/;"	kind:l	line:38	function:mod_pow	typeref:typename:int	file:
 i	HIHOCODER/hihocoder_1560.cpp	/^    for (int i = 0; i <= 9 && i <= K; ++i)$/;"	kind:l	line:64	function:main	typeref:typename:int	file:
 i	HIHOCODER/hihocoder_1560.cpp	/^    for (int i = 0; i <= 9 && i <= K; ++i)$/;"	kind:l	line:79	function:main	typeref:typename:int	file:
+i	HIHOCODER/hihocoder_1563.cpp	/^    for (int i = 1; i <= 3 * N; ++i)$/;"	kind:l	line:24	function:main	typeref:typename:int	file:
+i	HIHOCODER/hihocoder_1563.cpp	/^    for (int i = 1; i <= N; ++i)$/;"	kind:l	line:17	function:main	typeref:typename:int	file:
+i	HIHOCODER/hihocoder_1563.cpp	/^    for (int i = N + 1; i <= 2 * N; ++i)$/;"	kind:l	line:39	function:main	typeref:typename:int	file:
+i	HIHOCODER/hihocoder_1564.cpp	/^    for (int i = 0; i < (int)g[x].size(); ++i)$/;"	kind:l	line:10	function:dfs	typeref:typename:int	file:
+i	HIHOCODER/hihocoder_1564.cpp	/^    for (int i = 0; i < (int)g[x].size(); ++i)$/;"	kind:l	line:17	function:dfs	typeref:typename:int	file:
+i	HIHOCODER/hihocoder_1564.cpp	/^    for (int i = 1; i < n; ++i)$/;"	kind:l	line:37	function:main	typeref:typename:int	file:
+i	HIHOCODER/hihocoder_1564.cpp	/^    for (int i = 1; i <= n; ++i)$/;"	kind:l	line:32	function:main	typeref:typename:int	file:
+i	HIHOCODER/hihocoder_1564.cpp	/^    for (int i = 1; i <= n; ++i)$/;"	kind:l	line:47	function:main	typeref:typename:int	file:
+i	HIHOCODER/hihocoder_1565.cpp	/^                for (int i = N; i >= 1; i--)$/;"	kind:l	line:36	function:main	typeref:typename:int	file:
+i	HIHOCODER/hihocoder_1565.cpp	/^            for (int i = 1; i <= 6; i++)$/;"	kind:l	line:57	function:main	typeref:typename:int	file:
+i	HIHOCODER/hihocoder_1565.cpp	/^    for (int i = 1; i <= 6; ++i)$/;"	kind:l	line:19	function:main	typeref:typename:int	file:
+i	HIHOCODER/hihocoder_1565.cpp	/^    for (int i = 1; i <= N; ++i)$/;"	kind:l	line:12	function:main	typeref:typename:int	file:
+i	HIHOCODER/hihocoder_1566.cpp	/^        for (int i = 0; i < (int)number.size(); i++)$/;"	kind:l	line:15	function:Person::Init	typeref:typename:int	file:
+i	HIHOCODER/hihocoder_1566.cpp	/^    for (int i = 0; i < n; i++)$/;"	kind:l	line:38	function:Solve	typeref:typename:int	file:
+i	HIHOCODER/hihocoder_1566.cpp	/^    for (int i = 0; i < n; i++)$/;"	kind:l	line:51	function:main	typeref:typename:int	file:
+i	HIHOCODER/hihocoder_1566.cpp	/^    for (int i = 0; i < n; i++)$/;"	kind:l	line:58	function:main	typeref:typename:int	file:
+i	HIHOCODER/hihocoder_1568.cpp	/^    for (int i = 0; i <= 2 * n; ++i)$/;"	kind:l	line:12	function:main	typeref:typename:int	file:
 i	HIHOCODER/hihocoder_156week.cpp	/^    for(int i = 0; i < 4; ++i)$/;"	kind:l	line:16	function:dfs	typeref:typename:int	file:
 i	HIHOCODER/hihocoder_156week.cpp	/^    for(int i = 0; i < n; ++i)$/;"	kind:l	line:43	function:main	typeref:typename:int	file:
 i	HIHOCODER/hihocoder_156week.cpp	/^    for(int i = 0; i < n; ++i)$/;"	kind:l	line:53	function:main	typeref:typename:int	file:
+i	HIHOCODER/hihocoder_1570.cpp	/^        for (int i = 1; i <= N; ++i)$/;"	kind:l	line:20	function:main	typeref:typename:int	file:
+i	HIHOCODER/hihocoder_1570.cpp	/^        for (int i = 1; i <= N; ++i)$/;"	kind:l	line:25	function:main	typeref:typename:int	file:
+i	HIHOCODER/hihocoder_1572.cpp	/^    for (int i = 0; i < N; ++i)$/;"	kind:l	line:11	function:main	typeref:typename:int	file:
 i	HIHOCODER/hihocoder_157week.cpp	/^            for(int i = len - 1; i >= 0; --i)$/;"	kind:l	line:27	function:main	typeref:typename:int	file:
 i	HIHOCODER/hihocoder_158week.cpp	/^        for(int i = 1; i <= n; ++i)$/;"	kind:l	line:20	function:main	typeref:typename:int	file:
 i	HIHOCODER/hihocoder_158week.cpp	/^        for(int i = 1;i < n; ++i)$/;"	kind:l	line:12	function:main	typeref:typename:int	file:
@@ -2721,6 +2835,27 @@ i	HIHOCODER/hihocoder_295week.cpp	/^    for (int i = 0, j = N -1; i < N && 2 * n
 i	HIHOCODER/hihocoder_295week.cpp	/^    for (int i = 0; i < N; ++i)$/;"	kind:l	line:32	function:main	typeref:typename:int	file:
 i	HIHOCODER/hihocoder_299week.cpp	/^    for (int i = 0; i < N; ++i)$/;"	kind:l	line:21	function:main	typeref:typename:int	file:
 i	HIHOCODER/hihocoder_299week.cpp	/^    for (int i = 0; i < v.size(); ++i)$/;"	kind:l	line:41	function:main	typeref:typename:int	file:
+i	HIHOCODER/hihocoder_306week.cpp	/^    for (int i = 1; i <= m; ++i)$/;"	kind:l	line:105	function:main	typeref:typename:int	file:
+i	HIHOCODER/hihocoder_306week.cpp	/^    for (int i = 1; i <= m; ++i)$/;"	kind:l	line:67	function:main	typeref:typename:int	file:
+i	HIHOCODER/hihocoder_306week.cpp	/^    for (int i = 1; i <= m; ++i)$/;"	kind:l	line:75	function:main	typeref:typename:int	file:
+i	HIHOCODER/hihocoder_306week.cpp	/^    for (int i = 1; i <= n; ++i)$/;"	kind:l	line:61	function:main	typeref:typename:int	file:
+i	HIHOCODER/hihocoder_306week.cpp	/^void update(int i, int x, int y)$/;"	kind:z	line:27	function:update	typeref:typename:int	file:
+i	HIHOCODER/hihocoder_312week.cpp	/^    for (int i = 0; i < (int)ve[x].size(); ++i)$/;"	kind:l	line:11	function:dfs	typeref:typename:int	file:
+i	HIHOCODER/hihocoder_312week.cpp	/^    for (int i = 1; i < N; ++i)$/;"	kind:l	line:40	function:main	typeref:typename:int	file:
+i	HIHOCODER/hihocoder_316week.cpp	/^        for (int i = 0; i < N; ++i)$/;"	kind:l	line:45	function:main	typeref:typename:int	file:
+i	HIHOCODER/hihocoder_316week.cpp	/^        for (int i = 0; i < N; ++i)$/;"	kind:l	line:61	function:main	typeref:typename:int	file:
+i	HIHOCODER/hihocoder_316week.cpp	/^        for (int i = 1; i <= M; ++i)$/;"	kind:l	line:36	function:main	typeref:typename:int	file:
+i	HIHOCODER/hihocoder_316week.cpp	/^        for (int i = 1; i <= N; ++i)$/;"	kind:l	line:30	function:main	typeref:typename:int	file:
+i	HIHOCODER/hihocoder_316week.cpp	/^        for (int i = JARVIS.size() - 1, cnt = 0; i >= 0 && cnt < K; --i, ++cnt)$/;"	kind:l	line:82	function:main	typeref:typename:int	file:
+i	HIHOCODER/hihocoder_318week.cpp	/^    int Q, i, j, K;$/;"	kind:l	line:22	function:main	typeref:typename:int	file:
+i	HIHOCODER/hihocoder_319week.cpp	/^    for (int i = 0; i < K; ++i)$/;"	kind:l	line:15	function:main	typeref:typename:int	file:
+i	HIHOCODER/hihocoder_319week.cpp	/^    for (int i = 0; i < K; ++i)$/;"	kind:l	line:23	function:main	typeref:typename:int	file:
+i	HIHOCODER/hihocoder_319week.cpp	/^    for (int i = 0; i < K; ++i)$/;"	kind:l	line:31	function:main	typeref:typename:int	file:
+i	HIHOCODER/hihocoder_321week.cpp	/^    for (int i = 1; i <= N; ++i)$/;"	kind:l	line:120	function:main	typeref:typename:int	file:
+i	HIHOCODER/hihocoder_321week.cpp	/^    for (int i = 2; i <= N; ++i)$/;"	kind:l	line:125	function:main	typeref:typename:int	file:
+i	HIHOCODER/hihocoder_321week.cpp	/^    for (int i = head[x]; i != -1; i = edge[i].next)$/;"	kind:l	line:28	function:dfs	typeref:typename:int	file:
+i	HIHOCODER/hihocoder_322week.cpp	/^    for (int i = 0; i < m; ++i)$/;"	kind:l	line:16	function:main	typeref:typename:int	file:
+i	HIHOCODER/hihocoder_322week.cpp	/^    int i = 0, j = -1;$/;"	kind:l	line:21	function:main	typeref:typename:int	file:
 i	HIHOCODER/hihocoder_41week.cpp	/^		for(int i = 1; i <= (n - 1) \/ 2; i++)$/;"	kind:l	line:17	function:main	typeref:typename:int	file:
 i	HIHOCODER/hihocoder_42week.cpp	/^	for(int i = 1; i <= n \/ 2; i++)$/;"	kind:l	line:16	function:main	typeref:typename:int	file:
 i	HIHOCODER/hihocoder_44week.cpp	/^	for(int i = 0; i < num; i++)$/;"	kind:l	line:9	function:main	typeref:typename:int	file:
@@ -2890,6 +3025,7 @@ id	HIHOCODER/hihocoder_102week.cpp	/^	int id = (x - 1) * 9 + y;$/;"	kind:l	line:
 id	HIHOCODER/hihocoder_1351.cpp	/^			std::string id, date, price;$/;"	kind:l	line:19	function:main	typeref:typename:std::string	file:
 id	HIHOCODER/hihocoder_1401.cpp	/^    int id;$/;"	kind:m	line:12	struct:Student	typeref:typename:int	file:	access:public
 id	HIHOCODER/hihocoder_1541.cpp	/^int GetDepParent(int id, int dep)$/;"	kind:z	line:45	function:GetDepParent	typeref:typename:int	file:
+id	HIHOCODER/hihocoder_306week.cpp	/^    int x, y, z, id;$/;"	kind:m	line:13	struct:node	typeref:typename:int	file:	access:public
 id	HIHOCODER/hihocoder_64week.cpp	/^	int numOfIds, id;$/;"	kind:l	line:94	function:main	typeref:typename:int	file:
 id_Room	ACM/1025.cpp	/^		int id_Room;$/;"	kind:m	line:76	class:Room	typeref:typename:int	file:	access:public
 id_r	ACM/1025.cpp	/^		void Init(int id_r)$/;"	kind:z	line:78	function:Room::Init	typeref:typename:int	file:
@@ -2927,6 +3063,11 @@ index	HIHOCODER/hihocoder_149week.cpp	/^	int now = 1, index = -1, flag;$/;"	kind
 index	HIHOCODER/hihocoder_149week.cpp	/^void add(long long ip, int mask, int flag, int index)$/;"	kind:z	line:23	function:add	typeref:typename:int	file:
 index	HIHOCODER/hihocoder_176week.cpp	/^	int index = constrain.find_first_of('<', last);$/;"	kind:l	line:35	function:Check	typeref:typename:int	file:
 index	HIHOCODER/hihocoder_178week.cpp	/^void topo(int index)$/;"	kind:z	line:19	function:topo	typeref:typename:int	file:
+index	HIHOCODER/hihocoder_321week.cpp	/^    int index = 0;$/;"	kind:l	line:135	function:main	typeref:typename:int	file:
+index	HIHOCODER/hihocoder_321week.cpp	/^int find(int left, int right, int index)$/;"	kind:z	line:89	function:find	typeref:typename:int	file:
+index	HIHOCODER/hihocoder_321week.cpp	/^void build(int left, int right, int index)$/;"	kind:z	line:39	function:build	typeref:typename:int	file:
+index	HIHOCODER/hihocoder_321week.cpp	/^void dfs(int x, int &index)$/;"	kind:z	line:23	function:dfs	typeref:typename:int &	file:
+index	HIHOCODER/hihocoder_321week.cpp	/^void update(int left, int right, int index, int value)$/;"	kind:z	line:60	function:update	typeref:typename:int	file:
 index	HIHOCODER/hihocoder_87week.cpp	/^	int index;$/;"	kind:m	line:13	struct:ans	typeref:typename:int	file:	access:public
 index	HIHOCODER/hihocoder_99week.cpp	/^void bfs(int index, int x0, int y0)$/;"	kind:z	line:20	function:bfs	typeref:typename:int	file:
 indexBase32	HIHOCODER/hihocoder_125week.cpp	/^map<char, int> indexBase32 {$/;"	kind:v	line:14	typeref:typename:map<char,int>
@@ -2958,6 +3099,7 @@ isprime	HIHOCODER/hihocoder_92week_Montgomery_algorithm.cpp	/^bool isprime()$/;"
 it	HIHOCODER/hihocoder_116week.cpp	/^    set<int>::iterator it = v.begin();$/;"	kind:l	line:77	function:EdmondsKarp	typeref:typename:set<int>::iterator	file:
 it	HIHOCODER/hihocoder_127week.cpp	/^			map<string, set<int> >::iterator it = m.find(temp);$/;"	kind:l	line:56	function:main	typeref:typename:map<string,set<int>>::iterator	file:
 it	HIHOCODER/hihocoder_155week.cpp	/^        multiset<int>::iterator it = st.begin();$/;"	kind:l	line:26	function:main	typeref:typename:multiset<int>::iterator	file:
+it	HIHOCODER/hihocoder_306week.cpp	/^    std::set<int>::iterator it = s[x].lower_bound(ny);$/;"	kind:l	line:36	function:update	typeref:typename:std::set<int>::iterator	file:
 it1	HIHOCODER/hihocoder_127week.cpp	/^	for(set<int>::iterator it1 = one.begin(), it2 = two.begin(); it1 != one.end() && it2 != two.end/;"	kind:l	line:29	function:EQUAL	typeref:typename:set<int>::iterator	file:
 it2	HIHOCODER/hihocoder_127week.cpp	/^	for(set<int>::iterator it1 = one.begin(), it2 = two.begin(); it1 != one.end() && it2 != two.end/;"	kind:l	line:29	function:EQUAL	typeref:typename:set<int>::iterator	file:
 item	ACM/1025.cpp	/^class item$/;"	kind:c	line:20	file:
@@ -2982,8 +3124,10 @@ iter	HIHOCODER/hihocoder_1356.cpp	/^    for (map<int, int>::iterator iter = coun
 iter	HIHOCODER/hihocoder_1494.cpp	/^    for (std::map<int, int>::iterator iter = m.begin(); iter != m.end(); ++iter)$/;"	kind:l	line:34	function:main	typeref:typename:std::map<int,int>::iterator	file:
 iter	HIHOCODER/hihocoder_1552.cpp	/^    for (std::map<std::pair<int, int>, int>::iterator iter = m.begin(); iter != m.end(); ++iter)$/;"	kind:l	line:26	function:main	typeref:typename:std::map<std::pair<int,int>,int>::iterator	file:
 iter	HIHOCODER/hihocoder_1553.cpp	/^            for (std::multiset<int>::iterator iter = ss.begin(); iter != ss.end(); ++iter)$/;"	kind:l	line:135	function:main	typeref:typename:std::multiset<int>::iterator	file:
+iter	HIHOCODER/hihocoder_1572.cpp	/^        std::set<int>::iterator iter = s.find(X);$/;"	kind:l	line:16	function:main	typeref:typename:std::set<int>::iterator	file:
 iter	HIHOCODER/hihocoder_171week.cpp	/^	for(map<int, vector<int> >::iterator iter = sons.begin(); iter != sons.end(); ++iter)$/;"	kind:l	line:80	function:main	typeref:typename:map<int,vector<int>>::iterator	file:
 iter	HIHOCODER/hihocoder_213week.cpp	/^	for (std::map<std::string, NODE>::iterator iter = m.begin(); iter != m.end(); ++iter)$/;"	kind:l	line:36	function:main	typeref:typename:std::map<std::string,NODE>::iterator	file:
+iter	HIHOCODER/hihocoder_306week.cpp	/^        for (std::set<int>::iterator iter = s[pb].begin(); iter != s[pb].end(); ++iter)$/;"	kind:l	line:95	function:main	typeref:typename:std::set<int>::iterator	file:
 iter	HIHOCODER/hihocoder_52week.cpp	/^		set<int>::const_iterator iter = tarjanNode.begin();$/;"	kind:l	line:78	function:main	typeref:typename:set<int>::const_iterator	file:
 iter	HIHOCODER/hihocoder_54week.cpp	/^		list<int>::iterator iter = node[front].begin();$/;"	kind:l	line:106	function:main	typeref:typename:list<int>::iterator	file:
 iter	HIHOCODER/hihocoder_54week.cpp	/^		list<int>::iterator iter = node[i].begin();$/;"	kind:l	line:73	function:main	typeref:typename:list<int>::iterator	file:
@@ -3287,7 +3431,9 @@ j	HIHOCODER/hihocoder_1559.cpp	/^        for (int j = 1; j < str[i].size(); ++j)
 j	HIHOCODER/hihocoder_1559.cpp	/^        for (int j = res.size() - 1; j >= 0; --j)$/;"	kind:l	line:92	function:main	typeref:typename:int	file:
 j	HIHOCODER/hihocoder_1560.cpp	/^        for (int j = 0; j <= 9 && j <= K; ++j)$/;"	kind:l	line:66	function:main	typeref:typename:int	file:
 j	HIHOCODER/hihocoder_1560.cpp	/^        for (int j = 1; j <= 9 && j <= K; ++j)$/;"	kind:l	line:81	function:main	typeref:typename:int	file:
+j	HIHOCODER/hihocoder_1568.cpp	/^        for (int j = 0; j <= std::min(n, i); ++j)$/;"	kind:l	line:14	function:main	typeref:typename:int	file:
 j	HIHOCODER/hihocoder_156week.cpp	/^        for(int j = 0; j < m; ++j)$/;"	kind:l	line:55	function:main	typeref:typename:int	file:
+j	HIHOCODER/hihocoder_1570.cpp	/^            for (int j = i + 1; j <= N; ++j)$/;"	kind:l	line:27	function:main	typeref:typename:int	file:
 j	HIHOCODER/hihocoder_159week.cpp	/^    	for(int j =0; j < M; ++j)$/;"	kind:l	line:43	function:main	typeref:typename:int	file:
 j	HIHOCODER/hihocoder_160week.cpp	/^        int j;$/;"	kind:l	line:25	function:dfs	typeref:typename:int	file:
 j	HIHOCODER/hihocoder_162week.cpp	/^		for(int j = i - 1; j >= 0; --j)$/;"	kind:l	line:21	function:main	typeref:typename:int	file:
@@ -3356,6 +3502,8 @@ j	HIHOCODER/hihocoder_287.cpp	/^            for (int j = 0; j < H; ++j)$/;"	kind
 j	HIHOCODER/hihocoder_287.cpp	/^            for (int j = 0; j < N; ++j)$/;"	kind:l	line:32	function:main	typeref:typename:int	file:
 j	HIHOCODER/hihocoder_287.cpp	/^        for(int j = 0; j < H; ++j)$/;"	kind:l	line:23	function:main	typeref:typename:int	file:
 j	HIHOCODER/hihocoder_295week.cpp	/^    for (int i = 0, j = N -1; i < N && 2 * num[i] <= K; ++i)$/;"	kind:l	line:39	function:main	typeref:typename:int	file:
+j	HIHOCODER/hihocoder_318week.cpp	/^    int Q, i, j, K;$/;"	kind:l	line:22	function:main	typeref:typename:int	file:
+j	HIHOCODER/hihocoder_322week.cpp	/^    int i = 0, j = -1;$/;"	kind:l	line:21	function:main	typeref:typename:int	file:
 j	HIHOCODER/hihocoder_47week.cpp	/^		for(int j = 0; j < num_edge; j++)$/;"	kind:l	line:51	function:main	typeref:typename:int	file:
 j	HIHOCODER/hihocoder_47week.cpp	/^		for(int j = 0; j < num_node; j++)$/;"	kind:l	line:108	function:main	typeref:typename:int	file:
 j	HIHOCODER/hihocoder_47week.cpp	/^		for(int j = 0; j < num_node; j++)$/;"	kind:l	line:44	function:main	typeref:typename:int	file:
@@ -3526,6 +3674,8 @@ k	HIHOCODER/hihocoder_154week.cpp	/^	for (int k = 0; graph[i][k] != -1; ++k) $/;
 k	HIHOCODER/hihocoder_1553.cpp	/^        int l, r, k;$/;"	kind:l	line:99	function:main	typeref:typename:int	file:
 k	HIHOCODER/hihocoder_1553.cpp	/^    Query(int l, int r, int k, int ID):L(l), R(r), k(k), ID(ID)$/;"	kind:z	line:18	function:Query::Query	typeref:typename:int	file:
 k	HIHOCODER/hihocoder_1553.cpp	/^    int L, R, k, ID, block;$/;"	kind:m	line:14	struct:Query	typeref:typename:int	file:	access:public
+k	HIHOCODER/hihocoder_1568.cpp	/^    int n, k;$/;"	kind:l	line:7	function:main	typeref:typename:int	file:
+k	HIHOCODER/hihocoder_1570.cpp	/^                for (int k = j + 1; k <= N; ++k)$/;"	kind:l	line:29	function:main	typeref:typename:int	file:
 k	HIHOCODER/hihocoder_171week.cpp	/^			for(int k = 0; k < len; ++k)$/;"	kind:l	line:66	function:main	typeref:typename:int	file:
 k	HIHOCODER/hihocoder_173week.cpp	/^	for(int k = 1; k <= N; ++k)$/;"	kind:l	line:24	function:main	typeref:typename:int	file:
 k	HIHOCODER/hihocoder_174week.cpp	/^		    	for(int k = i - 1; k < j; ++k)$/;"	kind:l	line:27	function:main	typeref:typename:int	file:
@@ -3544,6 +3694,7 @@ k	HIHOCODER/hihocoder_281week.cpp	/^            for (int k = 0; k <= K; ++k)$/;"
 k	HIHOCODER/hihocoder_281week.cpp	/^            for(int k = 0; k <= K; k++)$/;"	kind:l	line:57	function:main	typeref:typename:int	file:
 k	HIHOCODER/hihocoder_285week.cpp	/^                int k = std::max(i - j - R - 1, 0);\/\/µ⁄i-1∏ˆ”≤±“ ±, ±ª—°≥ˆ¿¥k∏ˆ”≤±“$/;"	kind:l	line:43	function:main	typeref:typename:int	file:
 k	HIHOCODER/hihocoder_287.cpp	/^            int k = 0;$/;"	kind:l	line:49	function:main	typeref:typename:int	file:
+k	HIHOCODER/hihocoder_322week.cpp	/^    long long k = (long long)(n + 1) * (long long)n \/ 2;$/;"	kind:l	line:62	function:main	typeref:typename:long long	file:
 k	HIHOCODER/hihocoder_56week.cpp	/^				for(int k = i; k <= n; k++) swap(a[j][k], a[i][k]);$/;"	kind:l	line:19	function:solve	typeref:typename:int	file:
 k	HIHOCODER/hihocoder_56week.cpp	/^			for(int k = i; k <= n; k++) a[j][k] -= a[i][k] * (tt \/ a[i][i]);$/;"	kind:l	line:35	function:solve	typeref:typename:int	file:
 k	HIHOCODER/hihocoder_57week.cpp	/^				for(int k = i; k < 30; k++) swap(a[j][k], a[i][k]);$/;"	kind:l	line:15	function:Solve	typeref:typename:int	file:
@@ -3628,6 +3779,8 @@ l	HIHOCODER/hihocoder_1524.cpp	/^void Merge_Sort(int l, int r)$/;"	kind:z	line:6
 l	HIHOCODER/hihocoder_1544.cpp	/^int l[1000001], r[1000001];$/;"	kind:v	line:5	typeref:typename:int[1000001]
 l	HIHOCODER/hihocoder_1553.cpp	/^        int l, r, k;$/;"	kind:l	line:99	function:main	typeref:typename:int	file:
 l	HIHOCODER/hihocoder_1553.cpp	/^    Query(int l, int r, int k, int ID):L(l), R(r), k(k), ID(ID)$/;"	kind:z	line:18	function:Query::Query	typeref:typename:int	file:
+l	HIHOCODER/hihocoder_1563.cpp	/^        int l = 0;$/;"	kind:l	line:41	function:main	typeref:typename:int	file:
+l	HIHOCODER/hihocoder_1568.cpp	/^            for (int l = 0; l <= j; ++l)$/;"	kind:l	line:16	function:main	typeref:typename:int	file:
 l	HIHOCODER/hihocoder_172week.cpp	/^long long sum(int l, int r)$/;"	kind:z	line:24	function:sum	typeref:typename:int	file:
 l	HIHOCODER/hihocoder_18week.cpp	/^	int l;$/;"	kind:m	line:13	class:Segment_Tree	typeref:typename:int	file:	access:public
 l	HIHOCODER/hihocoder_18week.cpp	/^int QUERY(int l, int r, Segment_Tree* ST)$/;"	kind:z	line:57	function:QUERY	typeref:typename:int	file:
@@ -3641,6 +3794,9 @@ l	HIHOCODER/hihocoder_20week.cpp	/^long long QUERY(int l, int r, Segment_Tree* S
 l	HIHOCODER/hihocoder_20week.cpp	/^void Build(int l, int r, Segment_Tree* &ST)$/;"	kind:z	line:23	function:Build	typeref:typename:int	file:
 l	HIHOCODER/hihocoder_20week.cpp	/^void UPDATE(int l, int r, int value, Segment_Tree* ST)$/;"	kind:z	line:78	function:UPDATE	typeref:typename:int	file:
 l	HIHOCODER/hihocoder_243week.cpp	/^    int l = 0, ans = str.length() + 1, h = 0,i = 0, o = 0;$/;"	kind:l	line:17	function:main	typeref:typename:int	file:
+l	HIHOCODER/hihocoder_318week.cpp	/^        for (int l = 1; l <= 20; ++l)$/;"	kind:l	line:66	function:main	typeref:typename:int	file:
+l	HIHOCODER/hihocoder_318week.cpp	/^    for (int l = 1; l <= 20; ++l)$/;"	kind:l	line:34	function:main	typeref:typename:int	file:
+l	HIHOCODER/hihocoder_318week.cpp	/^    for (int l = 1; l <= N; ++l)$/;"	kind:l	line:26	function:main	typeref:typename:int	file:
 l	HIHOCODER/hihocoder_61week.cpp	/^	int l;$/;"	kind:m	line:13	class:Segment_Tree	typeref:typename:int	file:	access:public
 l	HIHOCODER/hihocoder_61week.cpp	/^void Build(int l, int r, int now)$/;"	kind:z	line:22	function:Build	typeref:typename:int	file:
 l	HIHOCODER/hihocoder_61week.cpp	/^void UPDATE(int l, int r, int type, int add, int inc, int now)$/;"	kind:z	line:72	function:UPDATE	typeref:typename:int	file:
@@ -3688,6 +3844,10 @@ left	HIHOCODER/hihocoder_1438.cpp	/^    double left = 0, right = M;$/;"	kind:l	l
 left	HIHOCODER/hihocoder_160week.cpp	/^        string left = S.substr(0, i), right = S.substr(i);$/;"	kind:l	line:41	function:dfs	typeref:typename:string	file:
 left	HIHOCODER/hihocoder_18week.cpp	/^	Segment_Tree(int left, int right):l(left), r(right), LSON(NULL), RSON(NULL){}	$/;"	kind:z	line:18	function:Segment_Tree::Segment_Tree	typeref:typename:int	file:
 left	HIHOCODER/hihocoder_20week.cpp	/^	Segment_Tree(int left, int right):l(left), r(right), LSON(NULL), RSON(NULL), lazy_tag(-1), leng/;"	kind:z	line:20	function:Segment_Tree::Segment_Tree	typeref:typename:int	file:
+left	HIHOCODER/hihocoder_321week.cpp	/^    int left;$/;"	kind:m	line:12	struct:Data	typeref:typename:int	file:	access:public
+left	HIHOCODER/hihocoder_321week.cpp	/^int find(int left, int right, int index)$/;"	kind:z	line:89	function:find	typeref:typename:int	file:
+left	HIHOCODER/hihocoder_321week.cpp	/^void build(int left, int right, int index)$/;"	kind:z	line:39	function:build	typeref:typename:int	file:
+left	HIHOCODER/hihocoder_321week.cpp	/^void update(int left, int right, int index, int value)$/;"	kind:z	line:60	function:update	typeref:typename:int	file:
 left	HIHOCODER/hihocoder_87week.cpp	/^int find_right_bracket(int left) \/\/—∞’“◊Û¿®∫≈∂‘”¶µƒ”“¿®∫≈ $/;"	kind:z	line:43	function:find_right_bracket	typeref:typename:int	file:
 left_	HIHOCODER/hihocoder_222week.cpp	/^int up_[500][500], down_[500][500], left_[500][500], right_[500][500];$/;"	kind:v	line:7	typeref:typename:int[500][500][500][500][500][500]
 left_count	HIHOCODER/hihocoder_1367.cpp	/^int left_count[2][50][500];\/\/left_count[0][x][y], x∏ˆ ˝◊÷(»°0~9),À¸√«µƒ∫ÕŒ™y ±µƒ◊‹π≤«Èøˆ ˝ƒø;l/;"	kind:v	line:10	typeref:typename:int[2][50][500]
@@ -3831,6 +3991,7 @@ m	HIHOCODER/hihocoder_1547.cpp	/^    std::map<char, int> m;$/;"	kind:l	line:10	f
 m	HIHOCODER/hihocoder_1548.cpp	/^int n, m, k, q;$/;"	kind:v	line:6	typeref:typename:int
 m	HIHOCODER/hihocoder_1552.cpp	/^    std::map<std::pair<int, int>, int> m;$/;"	kind:l	line:12	function:main	typeref:typename:std::map<std::pair<int,int>,int>	file:
 m	HIHOCODER/hihocoder_1553.cpp	/^        int n, m;$/;"	kind:l	line:89	function:main	typeref:typename:int	file:
+m	HIHOCODER/hihocoder_1562.cpp	/^    int T, h, m, s, t;$/;"	kind:l	line:6	function:main	typeref:typename:int	file:
 m	HIHOCODER/hihocoder_156week.cpp	/^int n, m;$/;"	kind:v	line:9	typeref:typename:int
 m	HIHOCODER/hihocoder_170week.cpp	/^int dfs(int now, int m)$/;"	kind:z	line:10	function:dfs	typeref:typename:int	file:
 m	HIHOCODER/hihocoder_171week.cpp	/^		int m = findMother(i);$/;"	kind:l	line:76	function:main	typeref:typename:int	file:
@@ -3841,6 +4002,11 @@ m	HIHOCODER/hihocoder_238week.cpp	/^int n,m;$/;"	kind:v	line:11	typeref:typename
 m	HIHOCODER/hihocoder_244week.cpp	/^        int n, m;$/;"	kind:l	line:18	function:main	typeref:typename:int	file:
 m	HIHOCODER/hihocoder_248week.cpp	/^int n, m, k;$/;"	kind:v	line:6	typeref:typename:int
 m	HIHOCODER/hihocoder_249week.cpp	/^int n, m;$/;"	kind:v	line:6	typeref:typename:int
+m	HIHOCODER/hihocoder_306week.cpp	/^int n, m;$/;"	kind:v	line:8	typeref:typename:int
+m	HIHOCODER/hihocoder_318week.cpp	/^        for (int m = 1; m <= 2 * N - 1; ++m)$/;"	kind:l	line:47	function:main	typeref:typename:int	file:
+m	HIHOCODER/hihocoder_318week.cpp	/^        for (int m = 1; m <= N; ++m)$/;"	kind:l	line:28	function:main	typeref:typename:int	file:
+m	HIHOCODER/hihocoder_318week.cpp	/^        for (int m = 1; m <= N; ++m)$/;"	kind:l	line:36	function:main	typeref:typename:int	file:
+m	HIHOCODER/hihocoder_322week.cpp	/^    int n, m;$/;"	kind:l	line:7	function:main	typeref:typename:int	file:
 m	HIHOCODER/hihocoder_56week.cpp	/^int n, m;$/;"	kind:v	line:9	typeref:typename:int
 m	HIHOCODER/hihocoder_59week.cpp	/^	int h, m, s;$/;"	kind:l	line:36	function:SecondsToTime	typeref:typename:int	file:
 m	HIHOCODER/hihocoder_60week.cpp	/^	int n = str1.size(), m = str2.size();$/;"	kind:l	line:12	function:main	typeref:typename:int	file:
@@ -4086,7 +4252,15 @@ main	HIHOCODER/hihocoder_1558.cpp	/^int main()$/;"	kind:f	line:25	typeref:typena
 main	HIHOCODER/hihocoder_1559.cpp	/^int main()$/;"	kind:f	line:8	typeref:typename:int	signature:()
 main	HIHOCODER/hihocoder_155week.cpp	/^int main()$/;"	kind:f	line:8	typeref:typename:int	signature:()
 main	HIHOCODER/hihocoder_1560.cpp	/^int main(void)$/;"	kind:f	line:57	typeref:typename:int	signature:(void)
+main	HIHOCODER/hihocoder_1562.cpp	/^int main()$/;"	kind:f	line:3	typeref:typename:int	signature:()
+main	HIHOCODER/hihocoder_1563.cpp	/^int main()$/;"	kind:f	line:12	typeref:typename:int	signature:()
+main	HIHOCODER/hihocoder_1564.cpp	/^int main()$/;"	kind:f	line:28	typeref:typename:int	signature:()
+main	HIHOCODER/hihocoder_1565.cpp	/^int main()$/;"	kind:f	line:6	typeref:typename:int	signature:()
+main	HIHOCODER/hihocoder_1566.cpp	/^int main()$/;"	kind:f	line:46	typeref:typename:int	signature:()
+main	HIHOCODER/hihocoder_1568.cpp	/^int main()$/;"	kind:f	line:5	typeref:typename:int	signature:()
 main	HIHOCODER/hihocoder_156week.cpp	/^int main()$/;"	kind:f	line:39	typeref:typename:int	signature:()
+main	HIHOCODER/hihocoder_1570.cpp	/^int main()$/;"	kind:f	line:5	typeref:typename:int	signature:()
+main	HIHOCODER/hihocoder_1572.cpp	/^int main()$/;"	kind:f	line:4	typeref:typename:int	signature:()
 main	HIHOCODER/hihocoder_157week.cpp	/^int main()$/;"	kind:f	line:6	typeref:typename:int	signature:()
 main	HIHOCODER/hihocoder_158week.cpp	/^int main()$/;"	kind:f	line:3	typeref:typename:int	signature:()
 main	HIHOCODER/hihocoder_159week.cpp	/^int main()$/;"	kind:f	line:34	typeref:typename:int	signature:()
@@ -4151,6 +4325,13 @@ main	HIHOCODER/hihocoder_287.cpp	/^int main()$/;"	kind:f	line:4	typeref:typename
 main	HIHOCODER/hihocoder_294week.cpp	/^int main()$/;"	kind:f	line:47	typeref:typename:int	signature:()
 main	HIHOCODER/hihocoder_295week.cpp	/^int main()$/;"	kind:f	line:25	typeref:typename:int	signature:()
 main	HIHOCODER/hihocoder_299week.cpp	/^int main()$/;"	kind:f	line:4	typeref:typename:int	signature:()
+main	HIHOCODER/hihocoder_306week.cpp	/^int main()$/;"	kind:f	line:57	typeref:typename:int	signature:()
+main	HIHOCODER/hihocoder_312week.cpp	/^int main()$/;"	kind:f	line:33	typeref:typename:int	signature:()
+main	HIHOCODER/hihocoder_316week.cpp	/^int main()$/;"	kind:f	line:16	typeref:typename:int	signature:()
+main	HIHOCODER/hihocoder_318week.cpp	/^int main()$/;"	kind:f	line:20	typeref:typename:int	signature:()
+main	HIHOCODER/hihocoder_319week.cpp	/^int main()$/;"	kind:f	line:4	typeref:typename:int	signature:()
+main	HIHOCODER/hihocoder_321week.cpp	/^int main(void)$/;"	kind:f	line:112	typeref:typename:int	signature:(void)
+main	HIHOCODER/hihocoder_322week.cpp	/^int main()$/;"	kind:f	line:5	typeref:typename:int	signature:()
 main	HIHOCODER/hihocoder_41week.cpp	/^int main()$/;"	kind:f	line:8	typeref:typename:int	signature:()
 main	HIHOCODER/hihocoder_42week.cpp	/^int main()$/;"	kind:f	line:5	typeref:typename:int	signature:()
 main	HIHOCODER/hihocoder_44week.cpp	/^int main()$/;"	kind:f	line:5	typeref:typename:int	signature:()
@@ -4284,12 +4465,16 @@ mid	HIHOCODER/hihocoder_1459.cpp	/^            int mid = (l + r) >> 1;$/;"	kind:
 mid	HIHOCODER/hihocoder_1524.cpp	/^    int mid = l + (r - l) \/ 2;$/;"	kind:l	line:49	function:Merge	typeref:typename:int	file:
 mid	HIHOCODER/hihocoder_1524.cpp	/^    int mid = l + (r - l)\/2;$/;"	kind:l	line:8	function:Merge_Sort	typeref:typename:int	file:
 mid	HIHOCODER/hihocoder_1541.cpp	/^        int mid = (low + high) \/ 2;$/;"	kind:l	line:71	function:GetParent	typeref:typename:int	file:
+mid	HIHOCODER/hihocoder_1563.cpp	/^            int mid = (l + r) \/ 2;$/;"	kind:l	line:47	function:main	typeref:typename:int	file:
 mid	HIHOCODER/hihocoder_18week.cpp	/^		int mid = (ST->l + ST->r) \/ 2;$/;"	kind:l	line:62	function:QUERY	typeref:typename:int	file:
 mid	HIHOCODER/hihocoder_18week.cpp	/^		int mid = (ST->l + ST->r) \/ 2;$/;"	kind:l	line:78	function:UPDATE	typeref:typename:int	file:
 mid	HIHOCODER/hihocoder_19week.cpp	/^		int mid = (ST[now].l + ST[now].r) \/ 2;$/;"	kind:l	line:49	function:QUERY	typeref:typename:int	file:
 mid	HIHOCODER/hihocoder_19week.cpp	/^		int mid = (ST[now].l + ST[now].r) \/ 2;$/;"	kind:l	line:65	function:UPDATE	typeref:typename:int	file:
 mid	HIHOCODER/hihocoder_20week.cpp	/^		int mid = (ST->l + ST->r) \/ 2;$/;"	kind:l	line:71	function:QUERY	typeref:typename:int	file:
 mid	HIHOCODER/hihocoder_20week.cpp	/^		int mid = (ST->l + ST->r) \/ 2;$/;"	kind:l	line:96	function:UPDATE	typeref:typename:int	file:
+mid	HIHOCODER/hihocoder_321week.cpp	/^    int mid = (data[index].left + data[index].right) \/ 2;$/;"	kind:l	line:68	function:update	typeref:typename:int	file:
+mid	HIHOCODER/hihocoder_321week.cpp	/^    int mid = (data[index].left + data[index].right) \/ 2;$/;"	kind:l	line:96	function:find	typeref:typename:int	file:
+mid	HIHOCODER/hihocoder_321week.cpp	/^    int mid = (left + right) \/ 2;$/;"	kind:l	line:51	function:build	typeref:typename:int	file:
 mid	HIHOCODER/hihocoder_61week.cpp	/^			int mid = (ST[now].l + ST[now].r) \/ 2;$/;"	kind:l	line:92	function:UPDATE	typeref:typename:int	file:
 mid	HIHOCODER/hihocoder_61week.cpp	/^	int mid = (ST[now].l + ST[now].r) \/ 2;$/;"	kind:l	line:63	function:QUERY	typeref:typename:int	file:
 mid_left_right	HIHOCODER/hihocoder_124week.cpp	/^				double mid_left_right = (this->left + this->right) \/ 2;$/;"	kind:l	line:50	function:QuadtreeNode::Insert	typeref:typename:double	file:
@@ -4422,6 +4607,10 @@ n	HIHOCODER/hihocoder_1549.cpp	/^long long slove(int x, int n)$/;"	kind:z	line:5
 n	HIHOCODER/hihocoder_1553.cpp	/^        int n, m;$/;"	kind:l	line:89	function:main	typeref:typename:int	file:
 n	HIHOCODER/hihocoder_1553.cpp	/^void erase(int n)$/;"	kind:z	line:54	function:erase	typeref:typename:int	file:
 n	HIHOCODER/hihocoder_1553.cpp	/^void insert(int n)$/;"	kind:z	line:36	function:insert	typeref:typename:int	file:
+n	HIHOCODER/hihocoder_1564.cpp	/^int n, a[100001], parent[100001];$/;"	kind:v	line:4	typeref:typename:int
+n	HIHOCODER/hihocoder_1566.cpp	/^    int n;$/;"	kind:l	line:48	function:main	typeref:typename:int	file:
+n	HIHOCODER/hihocoder_1566.cpp	/^void Solve(int n)$/;"	kind:z	line:36	function:Solve	typeref:typename:int	file:
+n	HIHOCODER/hihocoder_1568.cpp	/^    int n, k;$/;"	kind:l	line:7	function:main	typeref:typename:int	file:
 n	HIHOCODER/hihocoder_156week.cpp	/^int n, m;$/;"	kind:v	line:9	typeref:typename:int
 n	HIHOCODER/hihocoder_158week.cpp	/^    int n;$/;"	kind:l	line:6	function:main	typeref:typename:int	file:
 n	HIHOCODER/hihocoder_163week.cpp	/^	int n, x, y;$/;"	kind:l	line:8	function:main	typeref:typename:int	file:
@@ -4444,6 +4633,10 @@ n	HIHOCODER/hihocoder_249week.cpp	/^int n, m;$/;"	kind:v	line:6	typeref:typename
 n	HIHOCODER/hihocoder_254week.cpp	/^int T, n, a[100001];$/;"	kind:v	line:7	typeref:typename:int
 n	HIHOCODER/hihocoder_261.cpp	/^    int n;$/;"	kind:l	line:141	function:main	typeref:typename:int	file:
 n	HIHOCODER/hihocoder_294week.cpp	/^    int Q, n;$/;"	kind:l	line:49	function:main	typeref:typename:int	file:
+n	HIHOCODER/hihocoder_306week.cpp	/^int n, m;$/;"	kind:v	line:8	typeref:typename:int
+n	HIHOCODER/hihocoder_318week.cpp	/^            for (int n = 1; n <= 2 * N - 1; ++n)$/;"	kind:l	line:49	function:main	typeref:typename:int	file:
+n	HIHOCODER/hihocoder_318week.cpp	/^            for (int n = 1; n <= N; ++n)$/;"	kind:l	line:38	function:main	typeref:typename:int	file:
+n	HIHOCODER/hihocoder_322week.cpp	/^    int n, m;$/;"	kind:l	line:7	function:main	typeref:typename:int	file:
 n	HIHOCODER/hihocoder_41week.cpp	/^	int n;$/;"	kind:l	line:10	function:main	typeref:typename:int	file:
 n	HIHOCODER/hihocoder_42week.cpp	/^	int n;$/;"	kind:l	line:7	function:main	typeref:typename:int	file:
 n	HIHOCODER/hihocoder_45week.cpp	/^	int n, r = 0;$/;"	kind:l	line:7	function:main	typeref:typename:int	file:
@@ -4487,6 +4680,7 @@ nNodeSub	ACM/1095.cpp	/^		int nNodeSub;$/;"	kind:l	line:28	function:visit	typere
 nStart	HIHOCODER/hihocoder_81week.cpp	/^int nStart[100001];$/;"	kind:v	line:9	typeref:typename:int[100001]
 n_T	HIHOCODER/hihocoder_131week.cpp	/^	int n_T;$/;"	kind:l	line:168	function:main	typeref:typename:int	file:
 name	ACM/1057.cpp	/^		string name;$/;"	kind:m	line:10	class:fs	typeref:typename:string	file:	access:public
+name	HIHOCODER/hihocoder_1566.cpp	/^    std::string name, number;$/;"	kind:m	line:8	struct:Person	typeref:typename:std::string	file:	access:public
 names	HIHOCODER/hihocoder_171week.cpp	/^string names[10000];$/;"	kind:v	line:11	typeref:typename:string[10000]
 need	HIHOCODER/hihocoder_1038.cpp	/^	int dp[M], need[N + 1], value[N + 1];$/;"	kind:l	line:10	function:main	typeref:typename:int[][]	file:
 need	HIHOCODER/hihocoder_1043.cpp	/^	int dp[M], need[N + 1], value[N + 1];$/;"	kind:l	line:10	function:main	typeref:typename:int[][]	file:
@@ -4528,6 +4722,9 @@ next	HIHOCODER/hihocoder_1366.cpp	/^	TrieNode *next[26];$/;"	kind:m	line:11	stru
 next	HIHOCODER/hihocoder_1440.cpp	/^    Node *fail, *next[k_sub_node_num];$/;"	kind:m	line:11	struct:Node	typeref:typename:Node ** []	file:	access:public
 next	HIHOCODER/hihocoder_149week.cpp	/^	int next[2];$/;"	kind:m	line:9	struct:trie	typeref:typename:int[2]	file:	access:public
 next	HIHOCODER/hihocoder_1548.cpp	/^            std::pair<int, int> next = std::make_pair(tm.second.first + d[i][0], tm.second.secon/;"	kind:l	line:68	function:bfs	typeref:typename:std::pair<int,int>	file:
+next	HIHOCODER/hihocoder_321week.cpp	/^        int next = edge[i].to;$/;"	kind:l	line:30	function:dfs	typeref:typename:int	file:
+next	HIHOCODER/hihocoder_321week.cpp	/^    int next;$/;"	kind:m	line:7	struct:Edge	typeref:typename:int	file:	access:public
+next	HIHOCODER/hihocoder_322week.cpp	/^    int next[1001000];$/;"	kind:l	line:12	function:main	typeref:typename:int[1001000]	file:
 next	HIHOCODER/hihocoder_47week.cpp	/^	edge* next;$/;"	kind:m	line:18	class:edge	typeref:typename:edge *	file:	access:public
 next	HIHOCODER/hihocoder_47week.cpp	/^	q_node* next;	$/;"	kind:m	line:25	class:q_node	typeref:typename:q_node *	file:	access:public
 next	HIHOCODER/hihocoder_48week.cpp	/^	edge* next;$/;"	kind:m	line:19	class:edge	typeref:typename:edge *	file:	access:public
@@ -4568,6 +4765,7 @@ node	HIHOCODER/hihocoder_166week.cpp	/^struct node$/;"	kind:s	line:7	file:
 node	HIHOCODER/hihocoder_207week.cpp	/^struct node$/;"	kind:s	line:4	file:
 node	HIHOCODER/hihocoder_248week.cpp	/^void update(int node)$/;"	kind:z	line:16	function:update	typeref:typename:int	file:
 node	HIHOCODER/hihocoder_294week.cpp	/^Node node[100005];$/;"	kind:v	line:17	typeref:typename:Node[100005]
+node	HIHOCODER/hihocoder_306week.cpp	/^struct node$/;"	kind:s	line:11	file:
 node	HIHOCODER/hihocoder_47week.cpp	/^class node$/;"	kind:c	line:7	file:
 node	HIHOCODER/hihocoder_48week.cpp	/^class node$/;"	kind:c	line:7	file:
 node	HIHOCODER/hihocoder_49week.cpp	/^		node()$/;"	kind:f	line:8	class:node	file:	access:public	signature:()
@@ -4600,6 +4798,7 @@ node::down	HIHOCODER/hihocoder_102week.cpp	/^	int down;$/;"	kind:m	line:11	struc
 node::first	HIHOCODER/hihocoder_133week_Beta.cpp	/^	edge* first;$/;"	kind:m	line:19	class:node	typeref:typename:edge *	file:	access:public
 node::first	HIHOCODER/hihocoder_47week.cpp	/^	edge* first;     $/;"	kind:m	line:11	class:node	typeref:typename:edge *	file:	access:public
 node::first	HIHOCODER/hihocoder_48week.cpp	/^	edge* first;     $/;"	kind:m	line:12	class:node	typeref:typename:edge *	file:	access:public
+node::id	HIHOCODER/hihocoder_306week.cpp	/^    int x, y, z, id;$/;"	kind:m	line:13	struct:node	typeref:typename:int	file:	access:public
 node::in_degree	HIHOCODER/hihocoder_47week.cpp	/^	int in_degree;$/;"	kind:m	line:10	class:node	typeref:typename:int	file:	access:public
 node::in_degree	HIHOCODER/hihocoder_48week.cpp	/^	int in_degree;$/;"	kind:m	line:10	class:node	typeref:typename:int	file:	access:public
 node::in_stack	HIHOCODER/hihocoder_133week_Beta.cpp	/^	bool in_stack;$/;"	kind:m	line:18	class:node	typeref:typename:bool	file:	access:public
@@ -4640,9 +4839,12 @@ node::value	HIHOCODER/hihocoder_105week.cpp	/^	long long value;\/\/ID $/;"	kind:
 node::value	HIHOCODER/hihocoder_106week.cpp	/^	int value;$/;"	kind:m	line:10	struct:node	typeref:typename:int	file:	access:public
 node::weight	HIHOCODER/hihocoder_103week.cpp	/^	int weight;	$/;"	kind:m	line:12	struct:node	typeref:typename:int	file:	access:public
 node::x	HIHOCODER/hihocoder_166week.cpp	/^	int x;$/;"	kind:m	line:10	struct:node	typeref:typename:int	file:	access:public
+node::x	HIHOCODER/hihocoder_306week.cpp	/^    int x, y, z, id;$/;"	kind:m	line:13	struct:node	typeref:typename:int	file:	access:public
 node::x	HIHOCODER/hihocoder_99week.cpp	/^	int x;$/;"	kind:m	line:12	class:node	typeref:typename:int	file:	access:public
 node::y	HIHOCODER/hihocoder_166week.cpp	/^	int y;$/;"	kind:m	line:11	struct:node	typeref:typename:int	file:	access:public
+node::y	HIHOCODER/hihocoder_306week.cpp	/^    int x, y, z, id;$/;"	kind:m	line:13	struct:node	typeref:typename:int	file:	access:public
 node::y	HIHOCODER/hihocoder_99week.cpp	/^	int y;$/;"	kind:m	line:13	class:node	typeref:typename:int	file:	access:public
+node::z	HIHOCODER/hihocoder_306week.cpp	/^    int x, y, z, id;$/;"	kind:m	line:13	struct:node	typeref:typename:int	file:	access:public
 node_k	HIHOCODER/hihocoder_104week.cpp	/^			node* node_k = find(head, k);$/;"	kind:l	line:271	function:main	typeref:typename:node *	file:
 node_k	HIHOCODER/hihocoder_105week.cpp	/^	node* node_k = previous_element(now);$/;"	kind:l	line:335	function:remove	typeref:typename:node *	file:
 node_l	HIHOCODER/hihocoder_104week.cpp	/^			node* node_l = find(head, l);$/;"	kind:l	line:276	function:main	typeref:typename:node *	file:
@@ -4718,6 +4920,7 @@ now	HIHOCODER/hihocoder_151week.cpp	/^        State now = que.front(); que.pop()
 now	HIHOCODER/hihocoder_1535.cpp	/^        int now = i, cnt = 0;$/;"	kind:l	line:32	function:exchange	typeref:typename:int	file:
 now	HIHOCODER/hihocoder_1539.cpp	/^        int now = p.front();$/;"	kind:l	line:21	function:bfs	typeref:typename:int	file:
 now	HIHOCODER/hihocoder_1542.cpp	/^void dfs(int now)$/;"	kind:z	line:8	function:dfs	typeref:typename:int	file:
+now	HIHOCODER/hihocoder_1563.cpp	/^        long long now = (i * (sum[i] - sum[i - l - 1]) - (dis[i] - dis[i - l - 1])) + ((dis[i + /;"	kind:l	line:60	function:main	typeref:typename:long long	file:
 now	HIHOCODER/hihocoder_161week.cpp	/^void dfs(int now)$/;"	kind:z	line:10	function:dfs	typeref:typename:int	file:
 now	HIHOCODER/hihocoder_166week.cpp	/^        node now = dq.front();$/;"	kind:l	line:28	function:bfs	typeref:typename:node	file:
 now	HIHOCODER/hihocoder_170week.cpp	/^int dfs(int now, int m)$/;"	kind:z	line:10	function:dfs	typeref:typename:int	file:
@@ -4725,6 +4928,8 @@ now	HIHOCODER/hihocoder_19week.cpp	/^int QUERY(int l, int r, int now)$/;"	kind:z
 now	HIHOCODER/hihocoder_19week.cpp	/^void Build(int l, int r, int now)$/;"	kind:z	line:21	function:Build	typeref:typename:int	file:
 now	HIHOCODER/hihocoder_19week.cpp	/^void UPDATE(int sub, int value, int now)$/;"	kind:z	line:56	function:UPDATE	typeref:typename:int	file:
 now	HIHOCODER/hihocoder_234week.cpp	/^            int now = 0;$/;"	kind:l	line:44	function:main	typeref:typename:int	file:
+now	HIHOCODER/hihocoder_318week.cpp	/^int check(int now, int x, int y)$/;"	kind:z	line:5	function:check	typeref:typename:int	file:
+now	HIHOCODER/hihocoder_318week.cpp	/^int solve(int now, int xl, int yl, int xr, int yr)$/;"	kind:z	line:15	function:solve	typeref:typename:int	file:
 now	HIHOCODER/hihocoder_50week.cpp	/^void DFS(int** edge, int now, int N)$/;"	kind:z	line:5	function:DFS	typeref:typename:int	file:
 now	HIHOCODER/hihocoder_52week.cpp	/^void dfs(int now)$/;"	kind:z	line:21	function:dfs	typeref:typename:int	file:
 now	HIHOCODER/hihocoder_53week.cpp	/^void dfs(int now)$/;"	kind:z	line:19	function:dfs	typeref:typename:int	file:
@@ -4810,6 +5015,7 @@ num	HIHOCODER/hihocoder_1524.cpp	/^int  num[100000], tmp[100000];$/;"	kind:v	lin
 num	HIHOCODER/hihocoder_1531.cpp	/^int cnt[7], num[10], cnt_person[10][7];$/;"	kind:v	line:5	typeref:typename:int[7][10]
 num	HIHOCODER/hihocoder_1535.cpp	/^        int num = 0;$/;"	kind:l	line:70	function:main	typeref:typename:int	file:
 num	HIHOCODER/hihocoder_1558.cpp	/^void dfs(int num_base, int num)$/;"	kind:z	line:6	function:dfs	typeref:typename:int	file:
+num	HIHOCODER/hihocoder_1563.cpp	/^        long long num  = sum[i + l] - sum[i - l - 1];$/;"	kind:l	line:59	function:main	typeref:typename:long long	file:
 num	HIHOCODER/hihocoder_172week.cpp	/^void add(int xx , int yy, int num)$/;"	kind:z	line:11	function:add	typeref:typename:int	file:
 num	HIHOCODER/hihocoder_175week.cpp	/^    int num = 0;$/;"	kind:l	line:14	function:main	typeref:typename:int	file:
 num	HIHOCODER/hihocoder_176week.cpp	/^        int num;$/;"	kind:l	line:24	function:GetValue	typeref:typename:int	file:
@@ -4820,6 +5026,8 @@ num	HIHOCODER/hihocoder_261.cpp	/^    int num[3];$/;"	kind:l	line:119	function:o
 num	HIHOCODER/hihocoder_281week.cpp	/^int num[3005];$/;"	kind:v	line:4	typeref:typename:int[3005]
 num	HIHOCODER/hihocoder_295week.cpp	/^int num[100000];$/;"	kind:v	line:5	typeref:typename:int[100000]
 num	HIHOCODER/hihocoder_299week.cpp	/^    struct num$/;"	kind:s	line:9	function:main	file:
+num	HIHOCODER/hihocoder_312week.cpp	/^    int num = 1;$/;"	kind:l	line:9	function:dfs	typeref:typename:int	file:
+num	HIHOCODER/hihocoder_319week.cpp	/^    double num[K], val[K];$/;"	kind:l	line:9	function:main	typeref:typename:double[]	file:
 num	HIHOCODER/hihocoder_44week.cpp	/^	int num, Nim, result = 0;$/;"	kind:l	line:7	function:main	typeref:typename:int	file:
 num	HIHOCODER/hihocoder_46week.cpp	/^	int num, result = 0, temp;$/;"	kind:l	line:7	function:main	typeref:typename:int	file:
 num	HIHOCODER/hihocoder_49week.cpp	/^	int num = 0;$/;"	kind:l	line:27	function:main	typeref:typename:int	file:
@@ -4898,6 +5106,7 @@ num_set	HIHOCODER/hihocoder_47week.cpp	/^	int num_set;$/;"	kind:l	line:37	functi
 num_string	ACM/1226.cpp	/^	int num_case, num_string;$/;"	kind:l	line:43	function:main	typeref:typename:int	file:
 num_test	ACM/1018.cpp	/^	int num_test, num_requirement, num_manufacture, num;$/;"	kind:l	line:30	function:main	typeref:typename:int	file:
 num_virus	HIHOCODER/hihocoder_48week.cpp	/^	int num_virus; $/;"	kind:m	line:11	class:node	typeref:typename:int	file:	access:public
+number	HIHOCODER/hihocoder_1566.cpp	/^    std::string name, number;$/;"	kind:m	line:8	struct:Person	typeref:typename:std::string	file:	access:public
 numdir	HIHOCODER/hihocoder_130week.cpp	/^int numdir[2 * MAXL + 10];$/;"	kind:v	line:21	typeref:typename:int[]
 nums	HIHOCODER/hihocoder_136week.cpp	/^int nums[MA];$/;"	kind:v	line:12	typeref:typename:int[]
 nums	HIHOCODER/hihocoder_220week.cpp	/^void dfs(int nums, int len, int n)$/;"	kind:z	line:10	function:dfs	typeref:typename:int	file:
@@ -4912,6 +5121,7 @@ ny	HIHOCODER/hihocoder_1354.cpp	/^                int ny = temp.second + dy[i];$
 ny	HIHOCODER/hihocoder_1474.cpp	/^        int ny = y + dy[i];$/;"	kind:l	line:26	function:dfs	typeref:typename:int	file:
 ny	HIHOCODER/hihocoder_1504.cpp	/^               int nx = i + dx, ny = j - dy;$/;"	kind:l	line:91	function:main	typeref:typename:int	file:
 ny	HIHOCODER/hihocoder_1525.cpp	/^        int nx = nvex.first, ny = nvex.second;$/;"	kind:l	line:80	function:BFS	typeref:typename:int	file:
+ny	HIHOCODER/hihocoder_306week.cpp	/^    int ny = *--s[y].end();$/;"	kind:l	line:35	function:update	typeref:typename:int	file:
 o	HIHOCODER/hihocoder_1401.cpp	/^            int o, w;$/;"	kind:l	line:97	function:main	typeref:typename:int	file:
 o	HIHOCODER/hihocoder_1401.cpp	/^    Event(int s, int o, int b, int d): student_idx(s), office(o), begin(b), duration(d){}; $/;"	kind:z	line:25	function:Event::Event	typeref:typename:int	file:
 o	HIHOCODER/hihocoder_243week.cpp	/^    int l = 0, ans = str.length() + 1, h = 0,i = 0, o = 0;$/;"	kind:l	line:17	function:main	typeref:typename:int	file:
@@ -4951,6 +5161,8 @@ one	HIHOCODER/hihocoder_98week.cpp	/^double cal(double one, double two, int op)$
 one	HIHOCODER/hihocoder_99week.cpp	/^	node(int one, int two){x = one; y = two;}$/;"	kind:z	line:14	function:node::node	typeref:typename:int	file:
 one_	HIHOCODER/hihocoder_299week.cpp	/^        int one_;$/;"	kind:m	line:11	struct:main::num	typeref:typename:int	file:	access:public
 one_num	HIHOCODER/hihocoder_299week.cpp	/^    int one_num = 0;$/;"	kind:l	line:17	function:main	typeref:typename:int	file:
+op	HIHOCODER/hihocoder_1565.cpp	/^    int op, Y, u, v;$/;"	kind:l	line:24	function:main	typeref:typename:int	file:
+op	HIHOCODER/hihocoder_321week.cpp	/^        int op, x, u;$/;"	kind:l	line:145	function:main	typeref:typename:int	file:
 op	HIHOCODER/hihocoder_98week.cpp	/^double cal(double one, double two, int op)$/;"	kind:z	line:13	function:cal	typeref:typename:int	file:
 opType	HIHOCODER/hihocoder_98week.cpp	/^int opType[6] = {0, 1, 2, 3, 4, 5};$/;"	kind:v	line:10	typeref:typename:int[6]
 operOr	HIHOCODER/hihocoder_169week.cpp	/^char operOr[7] = {'+', '-', '*', '\/', '(', ')', '#'};$/;"	kind:v	line:9	typeref:typename:char[7]
@@ -4997,12 +5209,16 @@ p	HIHOCODER/hihocoder_152week.cpp	/^	point p[400010];$/;"	kind:l	line:21	functio
 p	HIHOCODER/hihocoder_1530.cpp	/^    int a, b, p;$/;"	kind:l	line:22	function:main	typeref:typename:int	file:
 p	HIHOCODER/hihocoder_1539.cpp	/^    std::queue<int>p;$/;"	kind:l	line:16	function:bfs	typeref:typename:std::queue<int>	file:
 p	HIHOCODER/hihocoder_1541.cpp	/^void dfs(int u, int p,int dep)$/;"	kind:z	line:9	function:dfs	typeref:typename:int	file:
+p	HIHOCODER/hihocoder_1563.cpp	/^int check(int p, int d)$/;"	kind:z	line:7	function:check	typeref:typename:int	file:
+p	HIHOCODER/hihocoder_1564.cpp	/^long long p[100001], ans;$/;"	kind:v	line:6	typeref:typename:long long[100001]
+p	HIHOCODER/hihocoder_1566.cpp	/^Person p[100000];$/;"	kind:v	line:33	typeref:typename:Person[100000]
 p	HIHOCODER/hihocoder_167week.cpp	/^		int p = array[i];$/;"	kind:l	line:31	function:main	typeref:typename:int	file:
 p	HIHOCODER/hihocoder_234week.cpp	/^                Point p = Point(i, 0);$/;"	kind:l	line:50	function:main	typeref:typename:Point	file:
 p	HIHOCODER/hihocoder_247.cpp	/^    int p, q, n;$/;"	kind:l	line:10	function:main	typeref:typename:int	file:
 p	HIHOCODER/hihocoder_248week.cpp	/^    int p = parent[node];$/;"	kind:l	line:18	function:update	typeref:typename:int	file:
 p	HIHOCODER/hihocoder_264week.cpp	/^        double p;$/;"	kind:l	line:19	function:main	typeref:typename:double	file:
 p	HIHOCODER/hihocoder_266week.cpp	/^point p[2010];$/;"	kind:v	line:33	typeref:typename:point[2010]
+p	HIHOCODER/hihocoder_312week.cpp	/^int dfs(int x, int p)$/;"	kind:z	line:7	function:dfs	typeref:typename:int	file:
 p	HIHOCODER/hihocoder_47week.cpp	/^		int p;$/;"	kind:l	line:103	function:main	typeref:typename:int	file:
 p	HIHOCODER/hihocoder_61week.cpp	/^int p = 0;$/;"	kind:v	line:8	typeref:typename:int
 p	HIHOCODER/hihocoder_63week.cpp	/^int p[1 << 13];$/;"	kind:v	line:6	typeref:typename:int[]
@@ -5033,6 +5249,7 @@ p2	HIHOCODER/hihocoder_152week.cpp	/^bool cmp(point p1, point p2)$/;"	kind:z	lin
 p2	HIHOCODER/hihocoder_1541.cpp	/^            int p2 = GetParent(y1, y2);$/;"	kind:l	line:119	function:main	typeref:typename:int	file:
 p2	HIHOCODER/hihocoder_260week.cpp	/^            int p1 = 1, p2 = 1;$/;"	kind:l	line:36	function:main	typeref:typename:int	file:
 p3	HIHOCODER/hihocoder_141week.cpp	/^                        for(int p3 = 1; p3 < 4; ++p3) $/;"	kind:l	line:31	function:main	typeref:typename:int	file:
+pa	HIHOCODER/hihocoder_306week.cpp	/^        int pa = getparent(x);$/;"	kind:l	line:78	function:main	typeref:typename:int	file:
 pair_num	ACM/1009.cpp	/^	int pair_value, pair_num;\/\/ ˝æ›$/;"	kind:l	line:38	function:main	typeref:typename:int	file:
 pair_value	ACM/1009.cpp	/^	int pair_value, pair_num;\/\/ ˝æ›$/;"	kind:l	line:38	function:main	typeref:typename:int	file:
 pairs	ACM/1009.cpp	/^int pairs[1001][2];\/\/ ˝æ› ˝◊È$/;"	kind:v	line:7	typeref:typename:int[1001][2]
@@ -5047,9 +5264,11 @@ parent	HIHOCODER/hihocoder_1343.cpp	/^        int parent;$/;"	kind:l	line:69	fun
 parent	HIHOCODER/hihocoder_1507.cpp	/^std::vector<int> parent[100001];$/;"	kind:v	line:6	typeref:typename:std::vector<int>[100001]
 parent	HIHOCODER/hihocoder_1541.cpp	/^int parent[100001], depth[100001];$/;"	kind:v	line:7	typeref:typename:int[100001]
 parent	HIHOCODER/hihocoder_1542.cpp	/^int parent[1001];$/;"	kind:v	line:6	typeref:typename:int[1001]
+parent	HIHOCODER/hihocoder_1564.cpp	/^int n, a[100001], parent[100001];$/;"	kind:v	line:4	typeref:typename:int[100001][100001]
 parent	HIHOCODER/hihocoder_178week.cpp	/^        int parent;$/;"	kind:l	line:69	function:main	typeref:typename:int	file:
 parent	HIHOCODER/hihocoder_245week.cpp	/^int parent[1000000];$/;"	kind:v	line:8	typeref:typename:int[1000000]
 parent	HIHOCODER/hihocoder_248week.cpp	/^int parent[101];$/;"	kind:v	line:14	typeref:typename:int[101]
+parent	HIHOCODER/hihocoder_306week.cpp	/^int parent[200001], sz[200001];$/;"	kind:v	line:6	typeref:typename:int[200001]
 parent	HIHOCODER/hihocoder_52week.cpp	/^int parent[20001];\/\/dfsƒ∏«◊Ω⁄µ„ $/;"	kind:v	line:14	typeref:typename:int[20001]
 parent	HIHOCODER/hihocoder_53week.cpp	/^int parent[20001];$/;"	kind:v	line:11	typeref:typename:int[20001]
 parent	HIHOCODER/hihocoder_55week.cpp	/^	int parent;$/;"	kind:m	line:17	class:Node	typeref:typename:int	file:	access:public
@@ -5070,6 +5289,7 @@ pattern	ACM/2406.cpp	/^char pattern[1000010];$/;"	kind:v	line:7	typeref:typename
 pattern	ACM/2752.cpp	/^string pattern;$/;"	kind:v	line:6	typeref:typename:string
 pattern	ACM/3461.cpp	/^char object[1000010], pattern[10010];$/;"	kind:v	line:7	typeref:typename:char[1000010][10010]
 pattern	HIHOCODER/hihocoder_03week.cpp	/^string object, pattern;$/;"	kind:v	line:6	typeref:typename:string
+pb	HIHOCODER/hihocoder_306week.cpp	/^        int pb = getparent(y);$/;"	kind:l	line:79	function:main	typeref:typename:int	file:
 pd	ACM/1015Alpha.cpp	/^int pd[200];$/;"	kind:v	line:8	typeref:typename:int[200]
 pd	ACM/1015Beta.cpp	/^int pd[200];$/;"	kind:v	line:9	typeref:typename:int[200]
 percent	HIHOCODER/hihocoder_247.cpp	/^        double percent = 1;$/;"	kind:l	line:16	function:main	typeref:typename:double	file:
@@ -5124,6 +5344,7 @@ pos_x	HIHOCODER/hihocoder_1547.cpp	/^    int pos_x = 1, pos_y = 1, dir = 2;$/;"	
 pos_y	HIHOCODER/hihocoder_1547.cpp	/^    int pos_x = 1, pos_y = 1, dir = 2;$/;"	kind:l	line:29	function:main	typeref:typename:int	file:
 position	ACM/1178.cpp	/^	int position[64], sub_position = 0;$/;"	kind:l	line:12	function:main	typeref:typename:int[64]	file:
 position	HIHOCODER/hihocoder_108week.cpp	/^block* position[5000];$/;"	kind:v	line:17	typeref:typename:block * [5000]
+post	HIHOCODER/hihocoder_1572.cpp	/^        int pre, post;$/;"	kind:l	line:18	function:main	typeref:typename:int	file:
 pq	HIHOCODER/hihocoder_1401.cpp	/^priority_queue<Event, vector<Event>, Cmp> pq;$/;"	kind:v	line:44	typeref:typename:priority_queue<Event,vector<Event>,Cmp>
 pre	ACM/1273.cpp	/^	int flow[M], pre[M], MaxFlow = 0;$/;"	kind:l	line:14	function:EdmondsKarp	typeref:typename:int[][]	file:
 pre	HIHOCODER/hihocoder_101week.cpp	/^		int pre = 0;$/;"	kind:l	line:29	function:construct	typeref:typename:int	file:
@@ -5136,6 +5357,7 @@ pre	HIHOCODER/hihocoder_117week.cpp	/^    int flow[M], pre[M], MaxFlow = 0;$/;"	
 pre	HIHOCODER/hihocoder_118week.cpp	/^    int flow[terminal + 1], pre[terminal + 1], MaxFlow = 0;$/;"	kind:l	line:16	function:EdmondsKarp	typeref:typename:int[][]	file:
 pre	HIHOCODER/hihocoder_119week.cpp	/^    int flow[M], pre[M], MaxFlow = 0;$/;"	kind:l	line:17	function:EdmondsKarp	typeref:typename:int[][]	file:
 pre	HIHOCODER/hihocoder_1401.cpp	/^int pre[101];\/\/√ø∏ˆofficeœ¬“ª¥Œø…“‘ø™ ºπ§◊˜µƒ ±º‰ $/;"	kind:v	line:45	typeref:typename:int[101]
+pre	HIHOCODER/hihocoder_1572.cpp	/^        int pre, post;$/;"	kind:l	line:18	function:main	typeref:typename:int	file:
 pre	HIHOCODER/hihocoder_165week.cpp	/^		int pre = -1;$/;"	kind:l	line:39	function:main	typeref:typename:int	file:
 pre	HIHOCODER/hihocoder_84week.cpp	/^	int pre_pre = 0, pre = 1, now = pre_pre + pre;$/;"	kind:l	line:25	function:main	typeref:typename:int	file:
 pre	others/MaxFlow_EdmondsKarp.cpp	/^	int flow[M], pre[M], MaxFlow = 0;$/;"	kind:l	line:14	function:EdmondsKarp	typeref:typename:int[][]	file:
@@ -5171,6 +5393,8 @@ primes_now_max_num	HIHOCODER/hihocoder_89week.cpp	/^void dfs(int primes_now_inde
 product	HIHOCODER/hihocoder_1420.cpp	/^int product[210];$/;"	kind:v	line:5	typeref:typename:int[210]
 ps	HIHOCODER/hihocoder_65week.cpp	/^	point ps[N];$/;"	kind:l	line:25	function:main	typeref:typename:point[]	file:
 pt	HIHOCODER/hihocoder_109week.cpp	/^	int pt;$/;"	kind:m	line:11	struct:NODE	typeref:typename:int	file:	access:public
+px	HIHOCODER/hihocoder_306week.cpp	/^    int px = *--it;$/;"	kind:l	line:45	function:update	typeref:typename:int	file:
+py	HIHOCODER/hihocoder_306week.cpp	/^    int py = *s[y].lower_bound(px);$/;"	kind:l	line:47	function:update	typeref:typename:int	file:
 q	ACM/1025.cpp	/^priority_queue<event> q;$/;"	kind:v	line:106	typeref:typename:priority_queue<event>
 q	ACM/1273.cpp	/^	deque<int> q;$/;"	kind:l	line:13	function:EdmondsKarp	typeref:typename:deque<int>	file:
 q	HIHOCODER/hihocoder_100week.cpp	/^deque<node> q;$/;"	kind:v	line:20	typeref:typename:deque<node>
@@ -5220,6 +5444,9 @@ que	HIHOCODER/hihocoder_136week.cpp	/^    priority_queue<int> que;$/;"	kind:l	li
 que	HIHOCODER/hihocoder_151week.cpp	/^    queue<State> que;$/;"	kind:l	line:44	function:bfs	typeref:typename:queue<State>	file:
 que	HIHOCODER/hihocoder_1548.cpp	/^    std::priority_queue<std::pair<int, std::pair<int, int> > > que;$/;"	kind:l	line:35	function:bfs	typeref:typename:std::priority_queue<std::pair<int,std::pair<int,int>>>	file:
 queries	HIHOCODER/hihocoder_1553.cpp	/^Query queries[100010];$/;"	kind:v	line:34	typeref:typename:Query[100010]
+query_in	HIHOCODER/hihocoder_321week.cpp	/^int query_in[100005], query_out[100005], query_value[100005];$/;"	kind:v	line:19	typeref:typename:int[100005]
+query_out	HIHOCODER/hihocoder_321week.cpp	/^int query_in[100005], query_out[100005], query_value[100005];$/;"	kind:v	line:19	typeref:typename:int[100005][100005]
+query_value	HIHOCODER/hihocoder_321week.cpp	/^int query_in[100005], query_out[100005], query_value[100005];$/;"	kind:v	line:19	typeref:typename:int[100005][100005][100005]
 queue	HIHOCODER/hihocoder_54week.cpp	/^	deque<int> queue;$/;"	kind:l	line:101	function:main	typeref:typename:deque<int>	file:
 queue	others/ËæπÁöÑÂº∫ËøûÈÄöÂàÜÈáèTarjan.cpp	/^	deque<int> queue;$/;"	kind:l	line:102	function:main	typeref:typename:deque<int>	file:
 r	ACM/1025.cpp	/^		event(Agent* a, Room* r, int tstart, STATUS_EVENT S)$/;"	kind:z	line:97	function:event::event	typeref:typename:Room *	file:
@@ -5246,6 +5473,7 @@ r	HIHOCODER/hihocoder_1544.cpp	/^int l[1000001], r[1000001];$/;"	kind:v	line:5	t
 r	HIHOCODER/hihocoder_154week.cpp	/^int x[1024], y[1024], r[1024];$/;"	kind:v	line:7	typeref:typename:int[1024][1024][1024]
 r	HIHOCODER/hihocoder_1553.cpp	/^        int l, r, k;$/;"	kind:l	line:99	function:main	typeref:typename:int	file:
 r	HIHOCODER/hihocoder_1553.cpp	/^    Query(int l, int r, int k, int ID):L(l), R(r), k(k), ID(ID)$/;"	kind:z	line:18	function:Query::Query	typeref:typename:int	file:
+r	HIHOCODER/hihocoder_1563.cpp	/^        int r = N \/ 2;$/;"	kind:l	line:42	function:main	typeref:typename:int	file:
 r	HIHOCODER/hihocoder_172week.cpp	/^long long sum(int l, int r)$/;"	kind:z	line:24	function:sum	typeref:typename:int	file:
 r	HIHOCODER/hihocoder_18week.cpp	/^	int r;$/;"	kind:m	line:14	class:Segment_Tree	typeref:typename:int	file:	access:public
 r	HIHOCODER/hihocoder_18week.cpp	/^int QUERY(int l, int r, Segment_Tree* ST)$/;"	kind:z	line:57	function:QUERY	typeref:typename:int	file:
@@ -5317,6 +5545,7 @@ res	HIHOCODER/hihocoder_1549.cpp	/^    long long res = 1;$/;"	kind:l	line:9	func
 res	HIHOCODER/hihocoder_1559.cpp	/^        std::string res = "";$/;"	kind:l	line:54	function:main	typeref:typename:std::string	file:
 res	HIHOCODER/hihocoder_235week.cpp	/^    int res = 0;$/;"	kind:l	line:62	function:secondsBefore	typeref:typename:int	file:
 res	HIHOCODER/hihocoder_281week.cpp	/^    int res = 0;$/;"	kind:l	line:10	function:sol	typeref:typename:int	file:
+res	HIHOCODER/hihocoder_322week.cpp	/^    long long res = 0;$/;"	kind:l	line:38	function:main	typeref:typename:long long	file:
 res	HIHOCODER/hihocoder_85week.cpp	/^string str, res;$/;"	kind:v	line:20	typeref:typename:string
 res	HIHOCODER/hihocoder_94week.cpp	/^		long long res = 0;$/;"	kind:l	line:10	function:Josephus	typeref:typename:long long	file:
 res	HIHOCODER/hihocoder_94week.cpp	/^	long long res = Josephus(n - n \/ k, k);$/;"	kind:l	line:14	function:Josephus	typeref:typename:long long	file:
@@ -5389,6 +5618,10 @@ right	HIHOCODER/hihocoder_1438.cpp	/^    double left = 0, right = M;$/;"	kind:l	
 right	HIHOCODER/hihocoder_160week.cpp	/^        string left = S.substr(0, i), right = S.substr(i);$/;"	kind:l	line:41	function:dfs	typeref:typename:string	file:
 right	HIHOCODER/hihocoder_18week.cpp	/^	Segment_Tree(int left, int right):l(left), r(right), LSON(NULL), RSON(NULL){}	$/;"	kind:z	line:18	function:Segment_Tree::Segment_Tree	typeref:typename:int	file:
 right	HIHOCODER/hihocoder_20week.cpp	/^	Segment_Tree(int left, int right):l(left), r(right), LSON(NULL), RSON(NULL), lazy_tag(-1), leng/;"	kind:z	line:20	function:Segment_Tree::Segment_Tree	typeref:typename:int	file:
+right	HIHOCODER/hihocoder_321week.cpp	/^    int right;$/;"	kind:m	line:13	struct:Data	typeref:typename:int	file:	access:public
+right	HIHOCODER/hihocoder_321week.cpp	/^int find(int left, int right, int index)$/;"	kind:z	line:89	function:find	typeref:typename:int	file:
+right	HIHOCODER/hihocoder_321week.cpp	/^void build(int left, int right, int index)$/;"	kind:z	line:39	function:build	typeref:typename:int	file:
+right	HIHOCODER/hihocoder_321week.cpp	/^void update(int left, int right, int index, int value)$/;"	kind:z	line:60	function:update	typeref:typename:int	file:
 right	others/counting_m(1~9)_from_0_to_n.cpp	/^	long long n, count, right, now, sub_now;$/;"	kind:l	line:9	function:main	typeref:typename:long long	file:
 right_	HIHOCODER/hihocoder_222week.cpp	/^int up_[500][500], down_[500][500], left_[500][500], right_[500][500];$/;"	kind:v	line:7	typeref:typename:int[500][500][500][500][500][500][500][500]
 right_sum	ACM/1013.cpp	/^	string left_sum, right_sum; $/;"	kind:l	line:12	function:main	typeref:typename:string	file:
@@ -5415,6 +5648,7 @@ root	HIHOCODER/hihocoder_1440.cpp	/^void BuildAC(Node *root)$/;"	kind:z	line:84	
 root	HIHOCODER/hihocoder_1440.cpp	/^void Insert(Node *root, string &str)$/;"	kind:z	line:26	function:Insert	typeref:typename:Node *	file:
 root	HIHOCODER/hihocoder_1440.cpp	/^void Query(Node *root, string &str)$/;"	kind:z	line:49	function:Query	typeref:typename:Node *	file:
 root	HIHOCODER/hihocoder_1500.cpp	/^    int root;$/;"	kind:l	line:37	function:main	typeref:typename:int	file:
+root	HIHOCODER/hihocoder_1564.cpp	/^    int root = 1;$/;"	kind:l	line:45	function:main	typeref:typename:int	file:
 root	HIHOCODER/hihocoder_78week.cpp	/^	TrieNode *root = new TrieNode(), *p;$/;"	kind:l	line:30	function:main	typeref:typename:TrieNode *	file:
 root_node	HIHOCODER/hihocoder_294week.cpp	/^int root_node;$/;"	kind:v	line:18	typeref:typename:int
 rotate	HIHOCODER/hihocoder_68week.cpp	/^void rotate()$/;"	kind:f	line:11	typeref:typename:void	signature:()
@@ -5452,9 +5686,12 @@ s	HIHOCODER/hihocoder_1475.cpp	/^    int s = 0, total_s = 1;$/;"	kind:l	line:18	
 s	HIHOCODER/hihocoder_1520.cpp	/^std::string s;$/;"	kind:v	line:6	typeref:typename:std::string
 s	HIHOCODER/hihocoder_1525.cpp	/^std::set<std::pair<int, int>> s;$/;"	kind:v	line:6	typeref:typename:std::set<std::pair<int,int>>
 s	HIHOCODER/hihocoder_1531.cpp	/^		std::string s;$/;"	kind:l	line:46	function:main	typeref:typename:std::string	file:
+s	HIHOCODER/hihocoder_1562.cpp	/^    int T, h, m, s, t;$/;"	kind:l	line:6	function:main	typeref:typename:int	file:
+s	HIHOCODER/hihocoder_1572.cpp	/^    std::set<int> s;$/;"	kind:l	line:7	function:main	typeref:typename:std::set<int>	file:
 s	HIHOCODER/hihocoder_165week.cpp	/^	string s;$/;"	kind:l	line:23	function:main	typeref:typename:string	file:
 s	HIHOCODER/hihocoder_244week.cpp	/^            int s = 0;$/;"	kind:l	line:29	function:main	typeref:typename:int	file:
 s	HIHOCODER/hihocoder_285week.cpp	/^                int s = std::min(i, k + R + 1);\/\/$/;"	kind:l	line:44	function:main	typeref:typename:int	file:
+s	HIHOCODER/hihocoder_306week.cpp	/^std::set<int> s[200001];$/;"	kind:v	line:7	typeref:typename:std::set<int>[200001]
 s	HIHOCODER/hihocoder_59week.cpp	/^	int h, m, s;$/;"	kind:l	line:36	function:SecondsToTime	typeref:typename:int	file:
 s	HIHOCODER/hihocoder_62week.cpp	/^	int s = 0;$/;"	kind:l	line:10	function:main	typeref:typename:int	file:
 s	HIHOCODER/hihocoder_87week.cpp	/^		string s;$/;"	kind:l	line:136	function:main	typeref:typename:string	file:
@@ -5465,9 +5702,11 @@ s	HIHOCODER/hihocoder_99week.cpp	/^	string s;$/;"	kind:l	line:47	function:main	t
 s1	HIHOCODER/hihocoder_133week_Alpha.cpp	/^		string s1, s2;$/;"	kind:l	line:24	function:main	typeref:typename:string	file:
 s1	HIHOCODER/hihocoder_133week_Beta.cpp	/^		string s1, s2;$/;"	kind:l	line:94	function:main	typeref:typename:string	file:
 s1	HIHOCODER/hihocoder_1420.cpp	/^string s1, s2;$/;"	kind:v	line:7	typeref:typename:string
+s1	HIHOCODER/hihocoder_1562.cpp	/^        double s1 = (s \/ 60.0) * 0.5 + 1.0 * m * 0.5 + h * 60 * 0.5;$/;"	kind:l	line:39	function:main	typeref:typename:double	file:
 s2	HIHOCODER/hihocoder_133week_Alpha.cpp	/^		string s1, s2;$/;"	kind:l	line:24	function:main	typeref:typename:string	file:
 s2	HIHOCODER/hihocoder_133week_Beta.cpp	/^		string s1, s2;$/;"	kind:l	line:94	function:main	typeref:typename:string	file:
 s2	HIHOCODER/hihocoder_1420.cpp	/^string s1, s2;$/;"	kind:v	line:7	typeref:typename:string
+s2	HIHOCODER/hihocoder_1562.cpp	/^        double s2 = (s \/ 60.0) * 6.0 + m * 6.0;$/;"	kind:l	line:40	function:main	typeref:typename:double	file:
 sStr	HIHOCODER/hihocoder_127week.cpp	/^		set<string> sStr;$/;"	kind:l	line:68	function:main	typeref:typename:set<string>	file:
 sa	ACM/1004.cpp	/^	float sa;$/;"	kind:l	line:8	function:main	typeref:typename:float	file:
 sa	HIHOCODER/hihocoder_120week.cpp	/^	int sa[N + 1];\/\/cntAµƒ—œ∏Òµ›‘ˆ≈≈√˚”≥…‰:≈≈√˚->œ¬±Í$/;"	kind:l	line:17	function:solve	typeref:typename:int[]	file:
@@ -5520,6 +5759,7 @@ shape_count	HIHOCODER/hihocoder_156week.cpp	/^    int count = 0, area_count = 0,
 shortStr	HIHOCODER/hihocoder_127week.cpp	/^		string shortStr = *sStr.begin(), longStr = *sStr.begin();$/;"	kind:l	line:77	function:main	typeref:typename:string	file:
 shown	ACM/1002.cpp	/^	long int shown = 0;$/;"	kind:l	line:36	function:main	typeref:typename:long int	file:
 sign	ACM/1029.cpp	/^	bool sign[1001];$/;"	kind:l	line:11	function:main	typeref:typename:bool[1001]	file:
+sign	HIHOCODER/hihocoder_1566.cpp	/^            int sign = 1;$/;"	kind:l	line:17	function:Person::Init	typeref:typename:int	file:
 signalReceive	HIHOCODER/hihocoder_81week.cpp	/^vector<int> signalReceive[100001];$/;"	kind:v	line:10	typeref:typename:vector<int>[100001]
 signalSend	HIHOCODER/hihocoder_81week.cpp	/^vector<int> signalSend[100001];$/;"	kind:v	line:11	typeref:typename:vector<int>[100001]
 signalTemp	HIHOCODER/hihocoder_81week.cpp	/^	int nCase, signalTemp;$/;"	kind:l	line:17	function:main	typeref:typename:int	file:
@@ -6090,12 +6330,14 @@ sum	HIHOCODER/hihocoder_1499.cpp	/^long long a[3][100500], sum, goal, ans = 0;$/
 sum	HIHOCODER/hihocoder_1520.cpp	/^int x, y, sum;$/;"	kind:v	line:7	typeref:typename:int
 sum	HIHOCODER/hihocoder_1539.cpp	/^                int sum=0;$/;"	kind:l	line:41	function:bfs	typeref:typename:int	file:
 sum	HIHOCODER/hihocoder_1540_1.cpp	/^    int sum = 1;$/;"	kind:l	line:43	function:kangtuo	typeref:typename:int	file:
+sum	HIHOCODER/hihocoder_1563.cpp	/^long long sum[300010];$/;"	kind:v	line:4	typeref:typename:long long[300010]
 sum	HIHOCODER/hihocoder_169week.cpp	/^			long long sum = 0;$/;"	kind:l	line:39	function:main	typeref:typename:long long	file:
 sum	HIHOCODER/hihocoder_173week.cpp	/^	long long  A[N + 1], sum[N + 1];$/;"	kind:l	line:11	function:main	typeref:typename:long long[][]	file:
 sum	HIHOCODER/hihocoder_175week.cpp	/^                    int sum = i + j + k;$/;"	kind:l	line:37	function:main	typeref:typename:int	file:
 sum	HIHOCODER/hihocoder_260week.cpp	/^int sum[251][251];$/;"	kind:v	line:5	typeref:typename:int[251][251]
 sum	HIHOCODER/hihocoder_266week.cpp	/^        int sum = 0;$/;"	kind:l	line:85	function:main	typeref:typename:int	file:
 sum	HIHOCODER/hihocoder_276week.cpp	/^    int sum = 0, r = N;$/;"	kind:l	line:16	function:main	typeref:typename:int	file:
+sum	HIHOCODER/hihocoder_319week.cpp	/^    double sum = 0;$/;"	kind:l	line:13	function:main	typeref:typename:double	file:
 sum	HIHOCODER/hihocoder_48week.cpp	/^	int sum = 0;$/;"	kind:l	line:109	function:main	typeref:typename:int	file:
 sum	HIHOCODER/hihocoder_70week.cpp	/^void dfs(long long now, long long sum, long long multi)$/;"	kind:z	line:8	function:dfs	typeref:typename:long long	file:
 sum	HIHOCODER/hihocoder_78week.cpp	/^		int sum = 0;$/;"	kind:l	line:20	function:dfs	typeref:typename:int	file:
@@ -6119,6 +6361,7 @@ symbol	ACM/1179.cpp	/^int symbol[50], results[50];$/;"	kind:v	line:7	typeref:typ
 symbol	HIHOCODER/hihocoder_1223alpha.cpp	/^	double symbol, num;$/;"	kind:l	line:26	function:main	typeref:typename:double	file:
 symbol_equal	HIHOCODER/hihocoder_1223alpha.cpp	/^	bool symbol_equal, num_equal;$/;"	kind:l	line:27	function:main	typeref:typename:bool	file:
 symmetric	ACM/1022.cpp	/^bool symmetric()$/;"	kind:f	line:25	typeref:typename:bool	signature:()
+sz	HIHOCODER/hihocoder_306week.cpp	/^int parent[200001], sz[200001];$/;"	kind:v	line:6	typeref:typename:int[200001][200001]
 t	ACM/1021.cpp	/^	int t, W, H, n, x, y;$/;"	kind:l	line:7	function:main	typeref:typename:int	file:
 t	ACM/1208.cpp	/^vector<int> t[25];$/;"	kind:v	line:8	typeref:typename:vector<int>[25]
 t	ACM/1654.cpp	/^	int t, l;$/;"	kind:l	line:12	function:main	typeref:typename:int	file:
@@ -6138,6 +6381,7 @@ t	HIHOCODER/hihocoder_149week.cpp	/^trie t[3200010];$/;"	kind:v	line:20	typeref:
 t	HIHOCODER/hihocoder_1540_1.cpp	/^        int t = 0;$/;"	kind:l	line:47	function:kangtuo	typeref:typename:int	file:
 t	HIHOCODER/hihocoder_1548.cpp	/^    int t;$/;"	kind:l	line:93	function:main	typeref:typename:int	file:
 t	HIHOCODER/hihocoder_155week.cpp	/^    vector<pair<int, int> > t;$/;"	kind:l	line:11	function:main	typeref:typename:vector<pair<int,int>>	file:
+t	HIHOCODER/hihocoder_1562.cpp	/^    int T, h, m, s, t;$/;"	kind:l	line:6	function:main	typeref:typename:int	file:
 t	HIHOCODER/hihocoder_249week.cpp	/^    void set(int h, int a, char t)$/;"	kind:z	line:22	function:Monster::set	typeref:typename:char	file:
 t	HIHOCODER/hihocoder_266week.cpp	/^        int t = 0;$/;"	kind:l	line:50	function:main	typeref:typename:int	file:
 t	HIHOCODER/hihocoder_90week.cpp	/^		int t, l, n, d;$/;"	kind:l	line:36	function:main	typeref:typename:int	file:
@@ -6231,6 +6475,7 @@ temp	HIHOCODER/hihocoder_1434.cpp	/^		std::string temp;$/;"	kind:l	line:39	funct
 temp	HIHOCODER/hihocoder_1438.cpp	/^        int temp = k;$/;"	kind:l	line:22	function:main	typeref:typename:int	file:
 temp	HIHOCODER/hihocoder_1440.cpp	/^        Node *temp = p;$/;"	kind:l	line:63	function:Query	typeref:typename:Node *	file:
 temp	HIHOCODER/hihocoder_1440.cpp	/^        Node *temp = q.front();$/;"	kind:l	line:92	function:BuildAC	typeref:typename:Node *	file:
+temp	HIHOCODER/hihocoder_1562.cpp	/^        double temp = (s1 - s2) > 0?(s1 - s2): (s2 - s1);$/;"	kind:l	line:41	function:main	typeref:typename:double	file:
 temp	HIHOCODER/hihocoder_160week.cpp	/^        string temp = S.substr(0, i);$/;"	kind:l	line:23	function:dfs	typeref:typename:string	file:
 temp	HIHOCODER/hihocoder_164week.cpp	/^			int temp = 0;$/;"	kind:l	line:22	function:main	typeref:typename:int	file:
 temp	HIHOCODER/hihocoder_171week.cpp	/^		int temp;$/;"	kind:l	line:56	function:main	typeref:typename:int	file:
@@ -6292,6 +6537,7 @@ temp_now	HIHOCODER/hihocoder_106week.cpp	/^			node* temp_now = now;$/;"	kind:l	l
 temp_num	ACM/1012.cpp	/^int num, _mod, temp_num, temp, _even;$/;"	kind:v	line:6	typeref:typename:int
 temp_num	HIHOCODER/hihocoder_100week.cpp	/^	int temp_num, temp_similar, temp_depth;$/;"	kind:l	line:78	function:bfs	typeref:typename:int	file:
 temp_num	HIHOCODER/hihocoder_1540_1.cpp	/^        int temp_num = k \/ kangtuo_facts[n - i];$/;"	kind:l	line:20	function:reverse_kangtuo	typeref:typename:int	file:
+temp_num	HIHOCODER/hihocoder_312week.cpp	/^        int temp_num = dfs(y, x);$/;"	kind:l	line:20	function:dfs	typeref:typename:int	file:
 temp_nx	HIHOCODER/hihocoder_1519.cpp	/^            int temp_nx = temp_x + direction[i][0];$/;"	kind:l	line:28	function:bfs	typeref:typename:int	file:
 temp_ny	HIHOCODER/hihocoder_1519.cpp	/^            int temp_ny = temp_y + direction[i][1];$/;"	kind:l	line:29	function:bfs	typeref:typename:int	file:
 temp_operOr	HIHOCODER/hihocoder_169week.cpp	/^			char temp_operOr = operOr[-v_str[i] - 1];$/;"	kind:l	line:70	function:main	typeref:typename:char	file:
@@ -6385,11 +6631,13 @@ tmp1	HIHOCODER/hihocoder_1540.cpp	/^                    int tmp1, tmp2;$/;"	kind
 tmp2	HIHOCODER/hihocoder_1540.cpp	/^                    int tmp1, tmp2;$/;"	kind:l	line:48	function:main	typeref:typename:int	file:
 to	ACM/1208.cpp	/^	int from, to, location_from, location_to, layer_from, layer_to;$/;"	kind:l	line:29	function:main	typeref:typename:int	file:
 to	HIHOCODER/hihocoder_1520.cpp	/^				int to = ((j - k * base[i]) % x + x) % x;$/;"	kind:l	line:49	function:solve	typeref:typename:int	file:
+to	HIHOCODER/hihocoder_321week.cpp	/^    int to;$/;"	kind:m	line:6	struct:Edge	typeref:typename:int	file:	access:public
 to_node	HIHOCODER/hihocoder_1435.cpp	/^			int from_node, to_node;$/;"	kind:l	line:77	function:main	typeref:typename:int	file:
 total	ACM/1191.cpp	/^	int n, num, total;$/;"	kind:l	line:47	function:main	typeref:typename:int	file:
 total	HIHOCODER/hihocoder_112week.cpp	/^long long total;$/;"	kind:v	line:20	typeref:typename:long long
 total	HIHOCODER/hihocoder_124week.cpp	/^	int total = 0;$/;"	kind:l	line:80	function:QuadtreeNode::Query	typeref:typename:int	file:
 total	HIHOCODER/hihocoder_1367.cpp	/^                int total = 10 * j + str[i] - '0' - k;\/\/±æŒª ˝÷µΩ·Œ≤Œ™i, Ω¯ŒªŒ™j«“≥ˆ»•…œ“ªŒª(i/;"	kind:l	line:85	function:main	typeref:typename:int	file:
+total_edge_num	HIHOCODER/hihocoder_321week.cpp	/^int V[100005], head[100005], total_edge_num;$/;"	kind:v	line:17	typeref:typename:int[100005][100005]
 total_intre	HIHOCODER/hihocoder_105week.cpp	/^	long long total_intre;$/;"	kind:m	line:13	struct:node	typeref:typename:long long	file:	access:public
 total_s	HIHOCODER/hihocoder_1475.cpp	/^    int s = 0, total_s = 1;$/;"	kind:l	line:18	function:main	typeref:typename:int	file:
 tp	HIHOCODER/hihocoder_114week.cpp	/^	int tp[n][n];$/;"	kind:l	line:11	function:dfs	typeref:typename:int[][]	file:
@@ -6462,7 +6710,9 @@ u	HIHOCODER/hihocoder_1541.cpp	/^            int u = rmq[i-1][j];$/;"	kind:l	lin
 u	HIHOCODER/hihocoder_1541.cpp	/^void dfs(int u, int p,int dep)$/;"	kind:z	line:9	function:dfs	typeref:typename:int	file:
 u	HIHOCODER/hihocoder_1559.cpp	/^        int u = 0;$/;"	kind:l	line:17	function:main	typeref:typename:int	file:
 u	HIHOCODER/hihocoder_1559.cpp	/^        int u = 0;$/;"	kind:l	line:55	function:main	typeref:typename:int	file:
+u	HIHOCODER/hihocoder_1565.cpp	/^    int op, Y, u, v;$/;"	kind:l	line:24	function:main	typeref:typename:int	file:
 u	HIHOCODER/hihocoder_245week.cpp	/^int unit(int u, int v)$/;"	kind:z	line:15	function:unit	typeref:typename:int	file:
+u	HIHOCODER/hihocoder_321week.cpp	/^        int op, x, u;$/;"	kind:l	line:145	function:main	typeref:typename:int	file:
 u	HIHOCODER/hihocoder_42week.cpp	/^	int u = 1;$/;"	kind:l	line:14	function:main	typeref:typename:int	file:
 u	HIHOCODER/hihocoder_49week.cpp	/^	int N, M, u, v;$/;"	kind:l	line:18	function:main	typeref:typename:int	file:
 u	HIHOCODER/hihocoder_92week_Montgomery_algorithm.cpp	/^	long long u;$/;"	kind:l	line:40	function:isprime	typeref:typename:long long	file:
@@ -6527,6 +6777,7 @@ v	HIHOCODER/hihocoder_1540.cpp	/^                    for (int v = 0; v < 2; ++v)
 v	HIHOCODER/hihocoder_1540.cpp	/^                    for (int v = 0; v < 2; ++v)$/;"	kind:l	line:52	function:main	typeref:typename:int	file:
 v	HIHOCODER/hihocoder_1540.cpp	/^                for (int v = 0; v < 2; ++v)$/;"	kind:l	line:82	function:main	typeref:typename:int	file:
 v	HIHOCODER/hihocoder_1540_1.cpp	/^        std::vector<int> v(kangtuo_list[i].begin() + 1, kangtuo_list[i].end());$/;"	kind:l	line:70	function:prepare	typeref:typename:std::vector<int>	file:
+v	HIHOCODER/hihocoder_1565.cpp	/^    int op, Y, u, v;$/;"	kind:l	line:24	function:main	typeref:typename:int	file:
 v	HIHOCODER/hihocoder_228week.cpp	/^    std::vector<int> v;$/;"	kind:l	line:10	function:main	typeref:typename:std::vector<int>	file:
 v	HIHOCODER/hihocoder_245week.cpp	/^int unit(int u, int v)$/;"	kind:z	line:15	function:unit	typeref:typename:int	file:
 v	HIHOCODER/hihocoder_266week.cpp	/^    double v;$/;"	kind:m	line:24	struct:alpha	typeref:typename:double	file:	access:public
@@ -6550,6 +6801,7 @@ val	HIHOCODER/hihocoder_1358.cpp	/^        double val = 0;$/;"	kind:l	line:31	fu
 val	HIHOCODER/hihocoder_1439.cpp	/^    bool val;$/;"	kind:m	line:10	struct:Node	typeref:typename:bool	file:	access:public
 val	HIHOCODER/hihocoder_159week.cpp	/^void DFS(int x, int y,int preX, int preY, int val)$/;"	kind:z	line:10	function:DFS	typeref:typename:int	file:
 val	HIHOCODER/hihocoder_172week.cpp	/^        int x1, y1, x2, y2, val;$/;"	kind:l	line:55	function:main	typeref:typename:int	file:
+val	HIHOCODER/hihocoder_319week.cpp	/^    double num[K], val[K];$/;"	kind:l	line:9	function:main	typeref:typename:double[][]	file:
 val	HIHOCODER/hihocoder_79week.cpp	/^		int fi, se, val;$/;"	kind:l	line:63	function:main	typeref:typename:int	file:
 val	HIHOCODER/hihocoder_87week.cpp	/^		ans val = analysis_elements(begin + 4, next_end - 1);$/;"	kind:l	line:97	function:analysis_elements	typeref:typename:ans	file:
 value	ACM/1010.cpp	/^int value[100];$/;"	kind:v	line:7	typeref:typename:int[100]
@@ -6567,11 +6819,14 @@ value	HIHOCODER/hihocoder_119week.cpp	/^int value[500];$/;"	kind:v	line:10	typer
 value	HIHOCODER/hihocoder_126week.cpp	/^			double value = cos(x * PI \/ 180) * cos((iter->second)[j].x * PI \/ 180) * cos((y - (iter->se/;"	kind:l	line:95	function:caculate	typeref:typename:double	file:
 value	HIHOCODER/hihocoder_1416.cpp	/^	long long value;$/;"	kind:m	line:12	struct:Node	typeref:typename:long long	file:	access:public
 value	HIHOCODER/hihocoder_1479.cpp	/^long long value[100001];$/;"	kind:v	line:7	typeref:typename:long long[100001]
+value	HIHOCODER/hihocoder_1566.cpp	/^    int value;$/;"	kind:m	line:9	struct:Person	typeref:typename:int	file:	access:public
 value	HIHOCODER/hihocoder_18week.cpp	/^void UPDATE(int sub, int value, Segment_Tree* ST)$/;"	kind:z	line:69	function:UPDATE	typeref:typename:int	file:
 value	HIHOCODER/hihocoder_19week.cpp	/^void UPDATE(int sub, int value, int now)$/;"	kind:z	line:56	function:UPDATE	typeref:typename:int	file:
 value	HIHOCODER/hihocoder_20week.cpp	/^void UPDATE(int l, int r, int value, Segment_Tree* ST)$/;"	kind:z	line:78	function:UPDATE	typeref:typename:int	file:
 value	HIHOCODER/hihocoder_244week.cpp	/^            int value, num;$/;"	kind:l	line:26	function:main	typeref:typename:int	file:
 value	HIHOCODER/hihocoder_299week.cpp	/^    int value;$/;"	kind:l	line:19	function:main	typeref:typename:int	file:
+value	HIHOCODER/hihocoder_321week.cpp	/^    int value;$/;"	kind:m	line:14	struct:Data	typeref:typename:int	file:	access:public
+value	HIHOCODER/hihocoder_321week.cpp	/^void update(int left, int right, int index, int value)$/;"	kind:z	line:60	function:update	typeref:typename:int	file:
 value	HIHOCODER/hihocoder_47week.cpp	/^	int value;$/;"	kind:m	line:17	class:edge	typeref:typename:int	file:	access:public
 value	HIHOCODER/hihocoder_47week.cpp	/^	int value;$/;"	kind:m	line:24	class:q_node	typeref:typename:int	file:	access:public
 value	HIHOCODER/hihocoder_48week.cpp	/^	int value;$/;"	kind:m	line:18	class:edge	typeref:typename:int	file:	access:public
@@ -6592,6 +6847,7 @@ value_min	HIHOCODER/hihocoder_18week.cpp	/^	int value_min;$/;"	kind:m	line:15	cl
 value_min	HIHOCODER/hihocoder_19week.cpp	/^	int value_min;	$/;"	kind:m	line:16	class:Segment_Tree	typeref:typename:int	file:	access:public
 value_now	HIHOCODER/hihocoder_89week.cpp	/^void dfs(int primes_now_index, int primes_now_max_num, long long value_now, long long max_num_no/;"	kind:z	line:10	function:dfs	typeref:typename:long long	file:
 value_sum	HIHOCODER/hihocoder_20week.cpp	/^	long long value_sum;$/;"	kind:m	line:16	class:Segment_Tree	typeref:typename:long long	file:	access:public
+ve	HIHOCODER/hihocoder_312week.cpp	/^std::vector<int> ve[100001];$/;"	kind:v	line:4	typeref:typename:std::vector<int>[100001]
 vec	HIHOCODER/hihocoder_1535.cpp	/^        std::vector<char> vec;$/;"	kind:l	line:71	function:main	typeref:typename:std::vector<char>	file:
 vec1	HIHOCODER/hihocoder_138week.cpp	/^vector<int> vec1;$/;"	kind:v	line:23	typeref:typename:vector<int>
 vec1	HIHOCODER/hihocoder_225week.cpp	/^        Point vec1, vec2, vec3;$/;"	kind:l	line:28	function:main	typeref:typename:Point	file:
@@ -6755,6 +7011,7 @@ x	HIHOCODER/hihocoder_1549.cpp	/^long long C(long long x, long long y)$/;"	kind:
 x	HIHOCODER/hihocoder_1549.cpp	/^long long quick_mi(long long x, long long y)$/;"	kind:z	line:7	function:quick_mi	typeref:typename:long long	file:
 x	HIHOCODER/hihocoder_1549.cpp	/^long long slove(int x, int n)$/;"	kind:z	line:59	function:slove	typeref:typename:int	file:
 x	HIHOCODER/hihocoder_154week.cpp	/^int x[1024], y[1024], r[1024];$/;"	kind:v	line:7	typeref:typename:int[1024]
+x	HIHOCODER/hihocoder_1564.cpp	/^void dfs(int x)$/;"	kind:z	line:8	function:dfs	typeref:typename:int	file:
 x	HIHOCODER/hihocoder_156week.cpp	/^void dfs(int x, int y, int& area, string& shape)$/;"	kind:z	line:14	function:dfs	typeref:typename:int	file:
 x	HIHOCODER/hihocoder_157week.cpp	/^			    int x = (str[i] - '0') * 2 + carry;$/;"	kind:l	line:29	function:main	typeref:typename:int	file:
 x	HIHOCODER/hihocoder_159week.cpp	/^int N, M, x, y, ans = 2;$/;"	kind:v	line:6	typeref:typename:int
@@ -6774,6 +7031,16 @@ x	HIHOCODER/hihocoder_266week.cpp	/^    double x;$/;"	kind:m	line:13	struct:poin
 x	HIHOCODER/hihocoder_294week.cpp	/^            int x, y;$/;"	kind:l	line:62	function:main	typeref:typename:int	file:
 x	HIHOCODER/hihocoder_294week.cpp	/^int dfs(int x)$/;"	kind:z	line:21	function:dfs	typeref:typename:int	file:
 x	HIHOCODER/hihocoder_294week.cpp	/^int dfs2(int x)$/;"	kind:z	line:34	function:dfs2	typeref:typename:int	file:
+x	HIHOCODER/hihocoder_306week.cpp	/^        int x = e[i].x, y = e[i].y;$/;"	kind:l	line:77	function:main	typeref:typename:int	file:
+x	HIHOCODER/hihocoder_306week.cpp	/^    int x, y, z, id;$/;"	kind:m	line:13	struct:node	typeref:typename:int	file:	access:public
+x	HIHOCODER/hihocoder_306week.cpp	/^int getparent(int x)$/;"	kind:z	line:22	function:getparent	typeref:typename:int	file:
+x	HIHOCODER/hihocoder_306week.cpp	/^void update(int i, int x, int y)$/;"	kind:z	line:27	function:update	typeref:typename:int	file:
+x	HIHOCODER/hihocoder_312week.cpp	/^    int x, y;$/;"	kind:l	line:38	function:main	typeref:typename:int	file:
+x	HIHOCODER/hihocoder_312week.cpp	/^int dfs(int x, int p)$/;"	kind:z	line:7	function:dfs	typeref:typename:int	file:
+x	HIHOCODER/hihocoder_318week.cpp	/^        int x = i + j - 1;$/;"	kind:l	line:61	function:main	typeref:typename:int	file:
+x	HIHOCODER/hihocoder_318week.cpp	/^int check(int now, int x, int y)$/;"	kind:z	line:5	function:check	typeref:typename:int	file:
+x	HIHOCODER/hihocoder_321week.cpp	/^        int op, x, u;$/;"	kind:l	line:145	function:main	typeref:typename:int	file:
+x	HIHOCODER/hihocoder_321week.cpp	/^void dfs(int x, int &index)$/;"	kind:z	line:23	function:dfs	typeref:typename:int	file:
 x	HIHOCODER/hihocoder_52week.cpp	/^bool cmp(pair<int, int> x, pair<int, int> y)$/;"	kind:z	line:49	function:cmp	typeref:typename:pair<int,int>	file:
 x	HIHOCODER/hihocoder_57week.cpp	/^	int x, y;$/;"	kind:l	line:53	function:main	typeref:typename:int	file:
 x	HIHOCODER/hihocoder_64week.cpp	/^bool sortByDelta(section x, section y) $/;"	kind:z	line:58	function:sortByDelta	typeref:typename:section	file:
@@ -6829,6 +7096,8 @@ x2	HIHOCODER/hihocoder_172week.cpp	/^long long getsum(int x1, int y1, int x2, in
 x2	HIHOCODER/hihocoder_99week.cpp	/^	int x1, y1, x2, y2;$/;"	kind:l	line:24	function:bfs	typeref:typename:int	file:
 x_	HIHOCODER/hihocoder_1442.cpp	/^    long long x_;$/;"	kind:m	line:8	struct:Point	typeref:typename:long long	file:	access:public
 x_	HIHOCODER/hihocoder_234week.cpp	/^    int x_;$/;"	kind:m	line:10	struct:Point	typeref:typename:int	file:	access:public
+xl	HIHOCODER/hihocoder_318week.cpp	/^int solve(int now, int xl, int yl, int xr, int yr)$/;"	kind:z	line:15	function:solve	typeref:typename:int	file:
+xr	HIHOCODER/hihocoder_318week.cpp	/^int solve(int now, int xl, int yl, int xr, int yr)$/;"	kind:z	line:15	function:solve	typeref:typename:int	file:
 xx	ACM/1025.cpp	/^	int xx, yy;$/;"	kind:l	line:135	function:roomidint2string	typeref:typename:int	file:
 xx	ACM/1061.cpp	/^long long xx, yy, r;$/;"	kind:v	line:5	typeref:typename:long long
 xx	HIHOCODER/hihocoder_1474.cpp	/^                int xx = downt - upt + 1;$/;"	kind:l	line:70	function:main	typeref:typename:int	file:
@@ -6911,6 +7180,8 @@ y	HIHOCODER/hihocoder_1541.cpp	/^            int x, y;$/;"	kind:l	line:102	funct
 y	HIHOCODER/hihocoder_1549.cpp	/^long long C(long long x, long long y)$/;"	kind:z	line:25	function:C	typeref:typename:long long	file:
 y	HIHOCODER/hihocoder_1549.cpp	/^long long quick_mi(long long x, long long y)$/;"	kind:z	line:7	function:quick_mi	typeref:typename:long long	file:
 y	HIHOCODER/hihocoder_154week.cpp	/^int x[1024], y[1024], r[1024];$/;"	kind:v	line:7	typeref:typename:int[1024][1024]
+y	HIHOCODER/hihocoder_1564.cpp	/^        int y = g[x][i];$/;"	kind:l	line:12	function:dfs	typeref:typename:int	file:
+y	HIHOCODER/hihocoder_1564.cpp	/^        int y = g[x][i];$/;"	kind:l	line:19	function:dfs	typeref:typename:int	file:
 y	HIHOCODER/hihocoder_156week.cpp	/^void dfs(int x, int y, int& area, string& shape)$/;"	kind:z	line:14	function:dfs	typeref:typename:int	file:
 y	HIHOCODER/hihocoder_159week.cpp	/^int N, M, x, y, ans = 2;$/;"	kind:v	line:6	typeref:typename:int
 y	HIHOCODER/hihocoder_159week.cpp	/^void DFS(int x, int y,int preX, int preY, int val)$/;"	kind:z	line:10	function:DFS	typeref:typename:int	file:
@@ -6929,6 +7200,13 @@ y	HIHOCODER/hihocoder_294week.cpp	/^            int x, y;$/;"	kind:l	line:62	fun
 y	HIHOCODER/hihocoder_294week.cpp	/^        int y = edge[i].y;$/;"	kind:l	line:27	function:dfs	typeref:typename:int	file:
 y	HIHOCODER/hihocoder_294week.cpp	/^        int y = edge[i].y;$/;"	kind:l	line:40	function:dfs2	typeref:typename:int	file:
 y	HIHOCODER/hihocoder_294week.cpp	/^    int y;$/;"	kind:m	line:12	struct:Edge	typeref:typename:int	file:	access:public
+y	HIHOCODER/hihocoder_306week.cpp	/^        int x = e[i].x, y = e[i].y;$/;"	kind:l	line:77	function:main	typeref:typename:int	file:
+y	HIHOCODER/hihocoder_306week.cpp	/^    int x, y, z, id;$/;"	kind:m	line:13	struct:node	typeref:typename:int	file:	access:public
+y	HIHOCODER/hihocoder_306week.cpp	/^void update(int i, int x, int y)$/;"	kind:z	line:27	function:update	typeref:typename:int	file:
+y	HIHOCODER/hihocoder_312week.cpp	/^        int y = ve[x][i];$/;"	kind:l	line:13	function:dfs	typeref:typename:int	file:
+y	HIHOCODER/hihocoder_312week.cpp	/^    int x, y;$/;"	kind:l	line:38	function:main	typeref:typename:int	file:
+y	HIHOCODER/hihocoder_318week.cpp	/^        int y = N - i + j;$/;"	kind:l	line:62	function:main	typeref:typename:int	file:
+y	HIHOCODER/hihocoder_318week.cpp	/^int check(int now, int x, int y)$/;"	kind:z	line:5	function:check	typeref:typename:int	file:
 y	HIHOCODER/hihocoder_52week.cpp	/^bool cmp(pair<int, int> x, pair<int, int> y)$/;"	kind:z	line:49	function:cmp	typeref:typename:pair<int,int>	file:
 y	HIHOCODER/hihocoder_57week.cpp	/^	int x, y;$/;"	kind:l	line:53	function:main	typeref:typename:int	file:
 y	HIHOCODER/hihocoder_64week.cpp	/^bool sortByDelta(section x, section y) $/;"	kind:z	line:58	function:sortByDelta	typeref:typename:section	file:
@@ -6996,6 +7274,8 @@ year1	HIHOCODER/hihocoder_235week.cpp	/^    int year1 = 0, month1 = 0, day1 = 0,
 year2	HIHOCODER/hihocoder_235week.cpp	/^        year2 = 0, month2 = 0, day2 = 0, hour2 = 0, minute2 = 0, second2 = 0;$/;"	kind:l	line:111	function:main	typeref:typename:int	file:
 year_first	HIHOCODER/BeautyOfProgramming2015_1.cpp	/^	int day_first, year_first, day_second, year_second, month_first, month_second;$/;"	kind:l	line:16	function:main	typeref:typename:int	file:
 year_second	HIHOCODER/BeautyOfProgramming2015_1.cpp	/^	int day_first, year_first, day_second, year_second, month_first, month_second;$/;"	kind:l	line:16	function:main	typeref:typename:int	file:
+yl	HIHOCODER/hihocoder_318week.cpp	/^int solve(int now, int xl, int yl, int xr, int yr)$/;"	kind:z	line:15	function:solve	typeref:typename:int	file:
+yr	HIHOCODER/hihocoder_318week.cpp	/^int solve(int now, int xl, int yl, int xr, int yr)$/;"	kind:z	line:15	function:solve	typeref:typename:int	file:
 yuwang	HIHOCODER/hihocoder_1272.cpp	/^int yuwang;$/;"	kind:v	line:8	typeref:typename:int
 yuwang	HIHOCODER/hihocoder_139week.cpp	/^int yuwang;$/;"	kind:v	line:8	typeref:typename:int
 yuwang_temp	HIHOCODER/hihocoder_1272.cpp	/^		int yuwang_temp;$/;"	kind:l	line:30	function:main	typeref:typename:int	file:
@@ -7020,6 +7300,7 @@ z	HIHOCODER/hihocoder_151week.cpp	/^    int x, y, z;$/;"	kind:m	line:17	struct:S
 z	HIHOCODER/hihocoder_151week.cpp	/^bool adjacent(int x, int y, int z)$/;"	kind:z	line:22	function:adjacent	typeref:typename:int	file:
 z	HIHOCODER/hihocoder_151week.cpp	/^bool bfs(int x, int y, int z, int limit, int tag)$/;"	kind:z	line:42	function:bfs	typeref:typename:int	file:
 z	HIHOCODER/hihocoder_1534.cpp	/^            long long z = S[N] - x - y;$/;"	kind:l	line:30	function:main	typeref:typename:long long	file:
+z	HIHOCODER/hihocoder_306week.cpp	/^    int x, y, z, id;$/;"	kind:m	line:13	struct:node	typeref:typename:int	file:	access:public
 z1	HIHOCODER/hihocoder_1541.cpp	/^            int z1 = GetDepParent(y1, p1);$/;"	kind:l	line:130	function:main	typeref:typename:int	file:
 z2	HIHOCODER/hihocoder_1541.cpp	/^            int z2 = GetDepParent(y2, p1);$/;"	kind:l	line:131	function:main	typeref:typename:int	file:
 zero	HIHOCODER/hihocoder_1549.cpp	/^            int zero = 0;$/;"	kind:l	line:82	function:main	typeref:typename:int	file:
